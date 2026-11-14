@@ -620,11 +620,17 @@ Active Recall has not started.</pre>
   }
   function resumeEtclRecall():void {
     if(!isEtclLesson||!trainingActive||runtimeKind!=='active-recall'||!etclTransport.isPaused)return;
+    const runId = trainingRunId;
+    const resumeFailed = (error: unknown): void => {
+      if (!trainingActive || trainingRunId !== runId) return;
+      if (etclTransport.isPaused && error instanceof Error && error.name === 'AbortError') return;
+      stopTraining(error);
+    };
     const media=etclPausedMedia;etclPausedMedia='none';
-    if(media==='japanese')void japaneseMp3Player.resume().catch(()=>stopTraining());
+    if(media==='japanese')void japaneseMp3Player.resume().catch(resumeFailed);
     else if(media==='english'&&expectedPhraseEnd!==null){
       recordPlayRequest('active-recall','etcl-user-resume');
-      void audio.play().catch(error=>{if(!(etclTransport.isPaused&&error instanceof Error&&error.name==='AbortError'))stopTraining();});
+      void audio.play().catch(resumeFailed);
     }
     etclTransport.resume();setMediaSessionPlaybackState('playing');updateEtclPauseControl();
   }
@@ -858,15 +864,62 @@ Active Recall has not started.</pre>
     });
   }
 
-  function waitForAudioMetadata(): Promise<void> {
-    if (Number.isFinite(audio.duration) && audio.duration > 0) {
-      return Promise.resolve();
-    }
+  let cancelMetadataWait: (() => void) | null = null;
 
-    return new Promise((resolve) => {
-      audio.addEventListener('loadedmetadata', () => resolve(), {
-        once: true,
-      });
+  function playbackError(error: unknown): string {
+    const detail = error && typeof error === 'object' && 'message' in error
+      ? String(('name' in error ? error.name : 'Error')) + ': ' + String(error.message)
+      : String(error);
+    return 'Active Recall failed — ' + trainingStatus.textContent + ' — ' + detail;
+  }
+
+  // Invoke play directly from the click; retain activation on this English element.
+  function prepareEnglishPlayback(): Promise<void> {
+    const muted = audio.muted;
+    audio.muted = true;
+    return new Promise((resolve, reject) => {
+      let settled = false;
+      const finish = (error?: unknown): void => {
+        if (settled) return;
+        settled = true;
+        window.clearTimeout(timeout);
+        if (cancelActiveSegment === cancel) cancelActiveSegment = null;
+        audio.pause();
+        audio.muted = muted;
+        if (error !== undefined) reject(error); else resolve();
+      };
+      const cancel = (): void => finish();
+      const timeout = window.setTimeout(() => finish(new Error('English audio preparation timed out.')), 20000);
+      cancelActiveSegment = cancel;
+      try { void audio.play().then(() => finish(), error => finish(error)); }
+      catch (error) { finish(error); }
+    });
+  }
+
+  function waitForAudioMetadata(): Promise<void> {
+    if (audio.readyState >= 1 && Number.isFinite(audio.duration) && audio.duration > 0) return Promise.resolve();
+    return new Promise((resolve, reject) => {
+      const finish = (error?: Error): void => {
+        audio.removeEventListener('loadedmetadata', ready);
+        audio.removeEventListener('durationchange', ready);
+        audio.removeEventListener('error', failed);
+        window.clearTimeout(timeout);
+        if (cancelMetadataWait === cancel) cancelMetadataWait = null;
+        if (error) reject(error); else resolve();
+      };
+      const ready = (): void => {
+        if (audio.readyState >= 1 && Number.isFinite(audio.duration) && audio.duration > 0) finish();
+      };
+      const failed = (): void => finish(new Error('English metadata failed (media error ' + (audio.error?.code ?? 'unknown') + ').'));
+      const cancel = (): void => finish();
+      const timeout = window.setTimeout(() => finish(new Error('English metadata timed out.')), 20000);
+      cancelMetadataWait = cancel;
+      // load() can queue an abort for the previous source; it is not a failure
+      // of the new source. Error or timeout handles actual loading failures.
+      audio.addEventListener('loadedmetadata', ready);
+      audio.addEventListener('durationchange', ready);
+      audio.addEventListener('error', failed);
+      ready();
     });
   }
 
@@ -932,9 +985,13 @@ Active Recall has not started.</pre>
   ): Promise<void> {
     return new Promise((resolve, reject) => {
       let settled = false;
+      let playbackStarted = false;
 
       const cleanup = (): void => {
         audio.removeEventListener('timeupdate', handleTimeUpdate);
+        audio.removeEventListener('playing', handlePlaying);
+        audio.removeEventListener('ended', handleEnded);
+        audio.removeEventListener('error', handleError);
 
         if (cancelActiveSegment === cancel) {
           cancelActiveSegment = null;
@@ -955,6 +1012,20 @@ Active Recall has not started.</pre>
         resolve();
       };
 
+      const fail = (error: unknown): void => {
+        if (settled) return;
+        settled = true;
+        cleanup();
+        reject(error);
+      };
+      const handlePlaying = (): void => { playbackStarted = true; };
+      const handleError = (): void => fail(new Error('English playback failed (media error ' + (audio.error?.code ?? 'unknown') + ').'));
+      const handleEnded = (): void => {
+        if (isEtclLesson && etclTransport.isPaused) return;
+        if (playbackStarted && audio.currentTime >= segment.end - 0.05) finish();
+        else fail(new Error('English audio ended before the phrase completed.'));
+      };
+
       const cancel = (): void => {
         finish();
       };
@@ -966,12 +1037,16 @@ Active Recall has not started.</pre>
         }
 
         if(isEtclLesson&&runtimeKind==="active-recall"&&etclTransport.isPaused)return;
-        if (audio.currentTime >= segment.end) {
+        if (playbackStarted && !audio.seeking && !audio.paused && audio.currentTime >= segment.end) {
           audio.pause();
           finish();
         }
       };
 
+      if (!Number.isFinite(segment.start) || !Number.isFinite(segment.end) || segment.end <= segment.start) {
+        reject(new Error('Invalid English phrase boundaries.'));
+        return;
+      }
       cancelActiveSegment = cancel;
       audioPlayOwner = owner;
       audioTransitionDiagnostic.record('english owner-set', `owner=${owner}`);
@@ -982,12 +1057,16 @@ Active Recall has not started.</pre>
       audio.currentTime = Math.max(0, segment.start - trainingSeekLeadSeconds);
       audioTransitionDiagnostic.record('english seek-set');
       audio.addEventListener('timeupdate', handleTimeUpdate);
+      audio.addEventListener('playing', handlePlaying);
+      audio.addEventListener('ended', handleEnded);
+      audio.addEventListener('error', handleError);
       audioTransitionDiagnostic.record('english play-request', `owner=${owner}`);
       recordPlayRequest(owner, owner);
       updateResumeDiagnostic();
 
       const diagnosticPlayId = audioTransitionDiagnostic.record('english play-call', `run=${runId}`, 'English');
       void audio.play().then(() => {
+        playbackStarted = true;
         audioTransitionDiagnostic.record('english play-resolved', `request=${diagnosticPlayId}; run=${runId}`);
         updateResumeDiagnostic();
       }, (error: unknown) => {
@@ -1004,9 +1083,7 @@ Active Recall has not started.</pre>
           return;
         }
 
-        settled = true;
-        cleanup();
-        reject(error);
+        fail(error);
       });
     });
   }
@@ -1120,7 +1197,12 @@ Active Recall has not started.</pre>
     });
     activeButton.textContent = 'Stop Active Recall';
 
+    let failureMessage: string | null = null;
     try {
+      trainingStatus.textContent = 'Preparing English audio';
+      // Start preparation now, but do not await a media event before starting
+      // the first Japanese cue: that would lose its original activation timing.
+      const englishPreparation = prepareEnglishPlayback();
       const metadataPromisesByLessonId = new Map<
         string,
         Promise<LessonMetadata>
@@ -1174,7 +1256,7 @@ Active Recall has not started.</pre>
 
           trainingStatus.textContent = `${statusPrefix} — Phrase ${queueIndex + 1} / ${queue.length} — Meaning`;
 
-          await playJapaneseCue(
+          await Promise.all([englishPreparation, playJapaneseCue(
             japaneseCueMode,
             () => {
               const speechRequestId = speechDiagnostic.request({
@@ -1191,7 +1273,7 @@ Active Recall has not started.</pre>
               queueIndex,
               assetScope: diagnosticFresh ? 'diagnostic' : 'lesson',
             }, import.meta.env.BASE_URL),
-          );
+          )]);
 
           if (!trainingActive || trainingRunId !== runId) {
             break;
@@ -1276,9 +1358,7 @@ Active Recall has not started.</pre>
 
         if(isEtclLesson)await etclTransport.checkpoint();
         if(!trainingActive||trainingRunId!==runId)break;
-        sessionClearedThisRound = true;
-        updateResumeDiagnostic();
-        activeRecallSessionStore.clear();
+        // Replace the checkpoint directly; never delete progress between rounds.
 
         const nextRound = createNextActiveRecallRound(
           activeRecallLessons,
@@ -1312,6 +1392,7 @@ Active Recall has not started.</pre>
         updateResumeDiagnostic();
       }
     } catch (error) {
+      failureMessage = playbackError(error);
       audioTransitionDiagnostic.record('active-recall failed', error instanceof Error ? `${error.name}: ${error.message}` : String(error));
       console.error('Active Recall playback failed:', error);
     } finally {
@@ -1319,6 +1400,9 @@ Active Recall has not started.</pre>
         if (diagnosticFresh && diagnosticTestStatus.startsWith('running')) {
           diagnosticTestStatus = 'stopped before completion';
         }
+        cancelMetadataWait?.();
+        cancelPendingWait?.();
+        cancelActiveSegment?.();
         trainingActive = false;
         runtimeKind = 'none';
         if(isEtclLesson){etclTransport.stop();etclPausedMedia='none';updateEtclPauseControl();}
@@ -1336,7 +1420,7 @@ Active Recall has not started.</pre>
         resetActiveRecallButtons();
         trainingStatus.textContent = diagnosticFresh && diagnosticTestStatus === `completed (${diagnosticCueCount} cues)`
           ? `Diagnostic test completed — ${diagnosticCueCount} cues`
-          : 'Training stopped';
+          : failureMessage ?? 'Training stopped';
         updateResumeDiagnostic();
       }
     }
@@ -1450,7 +1534,9 @@ Active Recall has not started.</pre>
     }
   }
 
-  function stopTraining(): void {
+  function stopTraining(error?: unknown): void {
+    const failureMessage = error === undefined ? null : playbackError(error);
+    cancelMetadataWait?.();
     if (diagnosticTestStatus.startsWith('running')) {
       diagnosticTestStatus = 'stopped before completion';
     }
@@ -1480,7 +1566,7 @@ Active Recall has not started.</pre>
 
     resetActiveRecallButtons();
 
-    trainingStatus.textContent = 'Training stopped';
+    trainingStatus.textContent = failureMessage ?? 'Training stopped';
     updateResumeDiagnostic();
   }
 
