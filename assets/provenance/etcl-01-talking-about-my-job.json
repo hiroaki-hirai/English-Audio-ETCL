@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "kind": "etcl-v2-japanese-cues",
+  "lessonId": "etcl-01-talking-about-my-job",
+  "source": {
+    "zipSha256": "c4e76e4c9c3ede5da39545de2b7dcd537b0660818a0503dec15f32e53c40ed01",
+    "member": "training-scripts/etcl-01-talking-about-my-job.json"
+  },
+  "tts": {
+    "model": "gpt-4o-mini-tts",
+    "voice": "cedar",
+    "response_format": "mp3",
+    "instructions": "Read the Japanese text clearly and naturally in Japanese. Do not translate it."
+  },
+  "retryPolicy": {
+    "maxRetries": 0,
+    "maxRequests": 5
+  },
+  "expectedFormat": {
+    "codec": "mp3",
+    "sampleRate": 24000,
+    "channels": 1
+  },
+  "entries": [
+    {
+      "lessonId": "etcl-01-talking-about-my-job",
+      "phraseIndex": 0,
+      "phraseId": "etcl-01-talking-about-my-job:0",
+      "ja": "私は主に自分のアプリ開発に取り組んでいます。",
+      "sourceHash": "3d8b1e28ff511194c021c936a15a99f46a6c98c4ecd8e6b1e3165a0d3017c133",
+      "audioSha256": "6a124b5af6647812e06ad1eea614faab3c15ad0480a80f87502196be5044d56e",
+      "audioBytes": 64896,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 4.056
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-01-talking-about-my-job",
+      "phraseIndex": 1,
+      "phraseId": "etcl-01-talking-about-my-job:1",
+      "ja": "副業でフードデリバリーをしています。",
+      "sourceHash": "4d984184f3fe9226f7ddb2fc5b8730ee81d8b223d2e283040dd282b5b335498f",
+      "audioSha256": "6cbed6a385d507b81f6980e4f68f5bb228af850991948eec05c972e0cde3ee45",
+      "audioBytes": 48768,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 3.048
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-01-talking-about-my-job",
+      "phraseIndex": 2,
+      "phraseId": "etcl-01-talking-about-my-job:2",
+      "ja": "その自由度の高さが気に入っています。",
+      "sourceHash": "d96e6def3a02cc147b1f3f67cb487991db05e075c398074abd461203243b90f7",
+      "audioSha256": "40e72920d72c88c7d4cc2c9b03505ebb48e41f336bd666f89c0cdd619e96a795",
+      "audioBytes": 67200,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 4.2
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-01-talking-about-my-job",
+      "phraseIndex": 3,
+      "phraseId": "etcl-01-talking-about-my-job:3",
+      "ja": "そのおかげで、自分のプロジェクトに取り組む時間が増えます。",
+      "sourceHash": "d9cf198b9e42904af9157639d48f57cffdd01e6cb7d1a6a42a4221d113e63f2b",
+      "audioSha256": "9b239d3fe0bb56c77c7fc44a4d85d2da31c262f781a9aed1dccbc707eab56a81",
+      "audioBytes": 72960,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 4.56
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-01-talking-about-my-job",
+      "phraseIndex": 4,
+      "phraseId": "etcl-01-talking-about-my-job:4",
+      "ja": "いずれは自分のアプリで収入を得たいです。",
+      "sourceHash": "98f690751e0df105d2584ad3b1d57082978c5a414999c9809fe435a18a298629",
+      "audioSha256": "da7e025dd5ad901e4abe9cef015875888a154402fca29dbbbcd6cee29e0e93d7",
+      "audioBytes": 61824,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 3.864
+      },
+      "status": "verified"
+    }
+  ],
+  "planId": "21641b6205a47fb2eb5f3c3ae4b3d021c5824fcf321e0bd993d7a8e9c23e84a4",
+  "status": "verified",
+  "originalManifestSha256": "3ef3af0e3df76051477a5537d124c707299d31e833f276c51e94cb34f5d98aff"
+}

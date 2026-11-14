@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 2,
+  "kind": "etcl-v2-japanese-cues",
+  "planId": "d29bbe8818c8efd4c8f5d1b60fa6a91989efa9d16c6fbd176ca0a0b70e5985d0",
+  "lessonId": "etcl-03-recent-events",
+  "source": {
+    "zipSha256": "c4e76e4c9c3ede5da39545de2b7dcd537b0660818a0503dec15f32e53c40ed01",
+    "notesZipSha256": "5b565120d0a26b61d7d6ec6b1e32090d1557d60bc50c3a8a512187772b3b6c4a",
+    "member": "training-scripts/etcl-03-recent-events.json"
+  },
+  "tts": {
+    "model": "gpt-4o-mini-tts",
+    "voice": "cedar",
+    "response_format": "mp3",
+    "instructions": "Read the Japanese text clearly and naturally in Japanese. Do not translate it."
+  },
+  "expectedFormat": {
+    "codec": "mp3",
+    "sampleRate": 24000,
+    "channels": 1
+  },
+  "retryPolicy": {
+    "maxRetries": 0,
+    "maxRequests": 63,
+    "maxRequestsPerPhrase": 1,
+    "stopOnFirstFailure": true
+  },
+  "status": "verified",
+  "entries": [
+    {
+      "lessonId": "etcl-03-recent-events",
+      "phraseIndex": 0,
+      "phraseId": "03-01",
+      "cueId": "etcl-03-recent-events:0",
+      "en": "I ran into a bug the other day.",
+      "ja": "この前、バグに遭遇しました。",
+      "sourceHash": "434fc750e876bfd8438406524dc9b595a8cce0586406b748d75e6cc9f62409a1",
+      "audioSha256": "85227b3f0e31e9db860af17bbe5ef8cc7513f99d1abde8a265ab2215aa7092d4",
+      "audioBytes": 51456,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 3.216
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-03-recent-events",
+      "phraseIndex": 1,
+      "phraseId": "03-02",
+      "cueId": "etcl-03-recent-events:1",
+      "en": "I was working on a new feature when part of the app suddenly stopped working.",
+      "ja": "新しい機能を開発していたら、突然アプリの一部が動かなくなりました。",
+      "sourceHash": "cc2a5fd368f63e9ecdddde1143d2b20c8630ad486ac073be85633f358b21fea6",
+      "audioSha256": "0574c733d4faefc7928768980708738eecf1a0cc69741abe26cc28bbff2d76a4",
+      "audioBytes": 96000,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 6
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-03-recent-events",
+      "phraseIndex": 2,
+      "phraseId": "03-03",
+      "cueId": "etcl-03-recent-events:2",
+      "en": "I used AI to help me figure out what was causing the problem.",
+      "ja": "問題の原因を突き止めるためにAIを使いました。",
+      "sourceHash": "7dbc8f6a64f6e3e6bebfe0e7049529aa459690589550cdbfd29a71c1a4465639",
+      "audioSha256": "0ebde3d9d892158cdb2c19ba39a4f398d3c8ca9dce2e747750dd07448270210d",
+      "audioBytes": 78720,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 4.92
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-03-recent-events",
+      "phraseIndex": 3,
+      "phraseId": "03-04",
+      "cueId": "etcl-03-recent-events:3",
+      "en": "It helped me narrow down the cause.",
+      "ja": "そのおかげで原因を絞り込むことができました。",
+      "sourceHash": "2cb11e214f2d736dad8fb36b923e57de7649ba99379795239ac37c880791727d",
+      "audioSha256": "0276c84818b813291314c86c39dcf1cc9fb2eb07a17394e2e624d03774a45172",
+      "audioBytes": 70656,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 4.416
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-03-recent-events",
+      "phraseIndex": 4,
+      "phraseId": "03-05",
+      "cueId": "etcl-03-recent-events:4",
+      "en": "I was able to fix it.",
+      "ja": "それを修正することができました。",
+      "sourceHash": "3f5a589e76d48cd0d9792d16dd54c180e3f98a5a5f9060abe4b6c8e59a55ecba",
+      "audioSha256": "7420df21a0998dbd1a9685cc937c9f9316106804892d94cb57c112f8f65f6eaf",
+      "audioBytes": 50688,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 3.168
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-03-recent-events",
+      "phraseIndex": 5,
+      "phraseId": "03-06",
+      "cueId": "etcl-03-recent-events:5",
+      "en": "It took longer than I expected, but I learned a lot from it.",
+      "ja": "予想以上に時間がかかりましたが、そこから多くのことを学びました。",
+      "sourceHash": "d633e4be97d8336880c2a13faaf127b2df3d2bc9cac652eb211ff3ef16ce5388",
+      "audioSha256": "ebd38a152a62f71ef1b59a54376b12876f0154eaa58eb7e24938878a2ce3032f",
+      "audioBytes": 88320,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 5.52
+      },
+      "status": "verified"
+    }
+  ],
+  "originalManifestSha256": "f05c69642047bc0461955d47fa4a5c4a9a0a2c83cf8faad5fc51120ad262c1cc"
+}

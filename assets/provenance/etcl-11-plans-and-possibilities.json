@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 2,
+  "kind": "etcl-v2-japanese-cues",
+  "planId": "d29bbe8818c8efd4c8f5d1b60fa6a91989efa9d16c6fbd176ca0a0b70e5985d0",
+  "lessonId": "etcl-11-plans-and-possibilities",
+  "source": {
+    "zipSha256": "c4e76e4c9c3ede5da39545de2b7dcd537b0660818a0503dec15f32e53c40ed01",
+    "notesZipSha256": "5b565120d0a26b61d7d6ec6b1e32090d1557d60bc50c3a8a512187772b3b6c4a",
+    "member": "training-scripts/etcl-11-plans-and-possibilities.json"
+  },
+  "tts": {
+    "model": "gpt-4o-mini-tts",
+    "voice": "cedar",
+    "response_format": "mp3",
+    "instructions": "Read the Japanese text clearly and naturally in Japanese. Do not translate it."
+  },
+  "expectedFormat": {
+    "codec": "mp3",
+    "sampleRate": 24000,
+    "channels": 1
+  },
+  "retryPolicy": {
+    "maxRetries": 0,
+    "maxRequests": 63,
+    "maxRequestsPerPhrase": 1,
+    "stopOnFirstFailure": true
+  },
+  "status": "verified",
+  "entries": [
+    {
+      "lessonId": "etcl-11-plans-and-possibilities",
+      "phraseIndex": 0,
+      "phraseId": "11-01",
+      "cueId": "etcl-11-plans-and-possibilities:0",
+      "en": "I'm planning to spend more time working on my own projects.",
+      "ja": "自分のプロジェクトに取り組む時間をもっと増やす予定です。",
+      "sourceHash": "eacde0138603997f48e6f4d49bddcf32ba8c5bba65e1ef7d37391bc68bba46cc",
+      "audioSha256": "f6d00961574a3e6e9bd3a7ac43db83119ba070e9c524ea8917baecfbe1c7e406",
+      "audioBytes": 74496,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 4.656
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-11-plans-and-possibilities",
+      "phraseIndex": 1,
+      "phraseId": "11-02",
+      "cueId": "etcl-11-plans-and-possibilities:1",
+      "en": "I'm thinking about trying something new.",
+      "ja": "何か新しいことを試してみようかと考えています。",
+      "sourceHash": "26712d4338327e9a89a65125ffa2d74bb55beb821597685a7e379d45fcc5f430",
+      "audioSha256": "9efabd820268c602412336d6abe7d0c126faad5910b4aa4d3829aed95415d322",
+      "audioBytes": 67968,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 4.248
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-11-plans-and-possibilities",
+      "phraseIndex": 2,
+      "phraseId": "11-03",
+      "cueId": "etcl-11-plans-and-possibilities:2",
+      "en": "I haven't decided yet.",
+      "ja": "まだ決めていません。",
+      "sourceHash": "8596f1afc2fce393498bc4db91b444dedc29cbd2880af05fa4ffc12e5b626e1c",
+      "audioSha256": "299deb092fc6ebc7e096ae5876527526b416c10f887f320e29a51e5059a227c0",
+      "audioBytes": 33792,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 2.112
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-11-plans-and-possibilities",
+      "phraseIndex": 3,
+      "phraseId": "11-04",
+      "cueId": "etcl-11-plans-and-possibilities:3",
+      "en": "I'm hoping to make some progress on a few things I've been putting off.",
+      "ja": "先延ばしにしていたいくつかのことを、少しでも進められたらと思っています。",
+      "sourceHash": "f5aff8cab0b258842a106727f0ffcb4e4d24a69f934800ff3f9985325eb6e27c",
+      "audioSha256": "224582e7856e6c2285a9e540124d50dad3b10d9974d176cc9fbd20d9ad7aba9b",
+      "audioBytes": 78720,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 4.92
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-11-plans-and-possibilities",
+      "phraseIndex": 4,
+      "phraseId": "11-05",
+      "cueId": "etcl-11-plans-and-possibilities:4",
+      "en": "I'll see how things go before making any decisions.",
+      "ja": "何か決める前に、しばらく様子を見ます。",
+      "sourceHash": "0df3391cfe167bbbc6167f944ee3a8a5d85ada9c76beece860a783e90a1b7011",
+      "audioSha256": "1d75ef00cb4a38bfe473ea2d1275569ec238adcce7a752a90630544c723c655c",
+      "audioBytes": 57600,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 3.6
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-11-plans-and-possibilities",
+      "phraseIndex": 5,
+      "phraseId": "11-06",
+      "cueId": "etcl-11-plans-and-possibilities:5",
+      "en": "It depends on how things work out.",
+      "ja": "物事がどう進むかによります。",
+      "sourceHash": "5d1bef43f91bf442aeacdfbcd0e38807e5d6c16e826b814fbcb6a17aab2318a3",
+      "audioSha256": "9648e55ec6f24e17f166d3f0f8ec02f310a593d6c69aebc2f712b16905df73bf",
+      "audioBytes": 56832,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 3.552
+      },
+      "status": "verified"
+    }
+  ],
+  "originalManifestSha256": "98b724808cb06fc8513a972843b53750484cae989bd7422392d4c3d1ee00cce2"
+}

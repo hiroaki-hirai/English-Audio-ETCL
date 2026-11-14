@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 2,
+  "kind": "etcl-v2-japanese-cues",
+  "planId": "d29bbe8818c8efd4c8f5d1b60fa6a91989efa9d16c6fbd176ca0a0b70e5985d0",
+  "lessonId": "etcl-12-expressing-opinions",
+  "source": {
+    "zipSha256": "c4e76e4c9c3ede5da39545de2b7dcd537b0660818a0503dec15f32e53c40ed01",
+    "notesZipSha256": "5b565120d0a26b61d7d6ec6b1e32090d1557d60bc50c3a8a512187772b3b6c4a",
+    "member": "training-scripts/etcl-12-expressing-opinions.json"
+  },
+  "tts": {
+    "model": "gpt-4o-mini-tts",
+    "voice": "cedar",
+    "response_format": "mp3",
+    "instructions": "Read the Japanese text clearly and naturally in Japanese. Do not translate it."
+  },
+  "expectedFormat": {
+    "codec": "mp3",
+    "sampleRate": 24000,
+    "channels": 1
+  },
+  "retryPolicy": {
+    "maxRetries": 0,
+    "maxRequests": 63,
+    "maxRequestsPerPhrase": 1,
+    "stopOnFirstFailure": true
+  },
+  "status": "verified",
+  "entries": [
+    {
+      "lessonId": "etcl-12-expressing-opinions",
+      "phraseIndex": 0,
+      "phraseId": "12-01",
+      "cueId": "etcl-12-expressing-opinions:0",
+      "en": "I think AI is a really useful tool for learning.",
+      "ja": "AIは学習にとても役立つツールだと思います。",
+      "sourceHash": "543154f76a85dbd03c4f905e093a5d79a577451d0e2c4b8deace1d893b36a25a",
+      "audioSha256": "1921dff0c5d060d388d1f34a8b4af7663ba6a033bcf7c169c943a55edb5b4c91",
+      "audioBytes": 73728,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 4.608
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-12-expressing-opinions",
+      "phraseIndex": 1,
+      "phraseId": "12-02",
+      "cueId": "etcl-12-expressing-opinions:1",
+      "en": "The main reason is that I can get explanations whenever I need them.",
+      "ja": "一番の理由は、必要なときにいつでも説明を受けられることです。",
+      "sourceHash": "904baf0cd53af0aa1b5b5cc9c316dfe469b0377709f0ae0f40153fd47eee2f1e",
+      "audioSha256": "31b22e400fe0ff35adf0d0db899c36d3da4e597c6115551a45f61efd96dad1f5",
+      "audioBytes": 90624,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 5.664
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-12-expressing-opinions",
+      "phraseIndex": 2,
+      "phraseId": "12-03",
+      "cueId": "etcl-12-expressing-opinions:2",
+      "en": "I think relying too much on AI can be a problem.",
+      "ja": "AIに頼りすぎるのは問題になり得ると思います。",
+      "sourceHash": "857e8251be259ede3e3104d73e3122d94fffe46260b09d546336bc215011f165",
+      "audioSha256": "f131d3fcaa14c6e6c813065524192c410f7bcc8402842f39cfb5bad898776321",
+      "audioBytes": 72960,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 4.56
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-12-expressing-opinions",
+      "phraseIndex": 3,
+      "phraseId": "12-04",
+      "cueId": "etcl-12-expressing-opinions:3",
+      "en": "Not necessarily. It depends on how you use it.",
+      "ja": "必ずしもそうではありません。使い方次第です。",
+      "sourceHash": "c6c2decd608e61547b821699b9dfa8b9fdfd7c1ac2d476e717c6eb7d3fd3eca2",
+      "audioSha256": "75006adfbcc335873877c99d7647c9f1c4898907b4f21d5bd89f110b0e52b4ef",
+      "audioBytes": 79488,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 4.968
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-12-expressing-opinions",
+      "phraseIndex": 4,
+      "phraseId": "12-05",
+      "cueId": "etcl-12-expressing-opinions:4",
+      "en": "It's important to think for yourself instead of just accepting what AI tells you.",
+      "ja": "AIが言うことをそのまま受け入れるのではなく、自分で考えることが大切です。",
+      "sourceHash": "a71322a698fd50f749c5e34c917d3e4e2ee6a10d81aea5e0770f80a11b5c6788",
+      "audioSha256": "8298dc6119cd46aee9b8ae19fc6e42d499ce5b56af4924bc038d36dfb7e90b3b",
+      "audioBytes": 104064,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 6.504
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-12-expressing-opinions",
+      "phraseIndex": 5,
+      "phraseId": "12-06",
+      "cueId": "etcl-12-expressing-opinions:5",
+      "en": "AI works best when it supports your learning rather than replacing your own thinking.",
+      "ja": "AIは、自分で考えることの代わりにするのではなく、学習を支えるために使うと最も効果的です。",
+      "sourceHash": "9926bb4650990e24a43e24c10af20bd8b9144b0391c9a99f57b7acdaa685073a",
+      "audioSha256": "d29030086bb630ffef7cc48460cedebd3ebb5e79fa33754ddb3b6447fd76994c",
+      "audioBytes": 128256,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 8.016
+      },
+      "status": "verified"
+    }
+  ],
+  "originalManifestSha256": "2e226d5ee82af0ce6c1c64041a5e4b4e4ffc522b6e00105db1759760f08b4b97"
+}

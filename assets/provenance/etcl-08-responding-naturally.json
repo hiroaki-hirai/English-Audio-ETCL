@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 2,
+  "kind": "etcl-v2-japanese-cues",
+  "planId": "d29bbe8818c8efd4c8f5d1b60fa6a91989efa9d16c6fbd176ca0a0b70e5985d0",
+  "lessonId": "etcl-08-responding-naturally",
+  "source": {
+    "zipSha256": "c4e76e4c9c3ede5da39545de2b7dcd537b0660818a0503dec15f32e53c40ed01",
+    "notesZipSha256": "5b565120d0a26b61d7d6ec6b1e32090d1557d60bc50c3a8a512187772b3b6c4a",
+    "member": "training-scripts/etcl-08-responding-naturally.json"
+  },
+  "tts": {
+    "model": "gpt-4o-mini-tts",
+    "voice": "cedar",
+    "response_format": "mp3",
+    "instructions": "Read the Japanese text clearly and naturally in Japanese. Do not translate it."
+  },
+  "expectedFormat": {
+    "codec": "mp3",
+    "sampleRate": 24000,
+    "channels": 1
+  },
+  "retryPolicy": {
+    "maxRetries": 0,
+    "maxRequests": 63,
+    "maxRequestsPerPhrase": 1,
+    "stopOnFirstFailure": true
+  },
+  "status": "verified",
+  "entries": [
+    {
+      "lessonId": "etcl-08-responding-naturally",
+      "phraseIndex": 0,
+      "phraseId": "08-01",
+      "cueId": "etcl-08-responding-naturally:0",
+      "en": "I see.",
+      "ja": "なるほど。",
+      "sourceHash": "fec62ee345d223835d0bcdd0a2ec8424d04235ddc62d87f6af0dddd53720deac",
+      "audioSha256": "687696256b8d561d509f95a95ff8d49a93050d55929873e210808f63ac60a6aa",
+      "audioBytes": 31488,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 1.968
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-08-responding-naturally",
+      "phraseIndex": 1,
+      "phraseId": "08-02",
+      "cueId": "etcl-08-responding-naturally:1",
+      "en": "That makes sense.",
+      "ja": "それなら納得です。",
+      "sourceHash": "404d082c7bf842e65b59f735c8cb8681556a3fa13c26cb22a578543d63596532",
+      "audioSha256": "4aaee83b2c29276b3d1a71bab35e1582739f6a4a80a8042bf4644d66fa3961fc",
+      "audioBytes": 35328,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 2.208
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-08-responding-naturally",
+      "phraseIndex": 2,
+      "phraseId": "08-03",
+      "cueId": "etcl-08-responding-naturally:2",
+      "en": "I know what you mean.",
+      "ja": "言いたいことは分かります。",
+      "sourceHash": "b15a7efe49d8919dba3e8778d1b0d579e0a5804f9ca2324ead7d6fe0af8d75c9",
+      "audioSha256": "6f3646e1957217ba232b101504cd206b00cecdacccc731a6a1b35617f111ec70",
+      "audioBytes": 35328,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 2.208
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-08-responding-naturally",
+      "phraseIndex": 3,
+      "phraseId": "08-04",
+      "cueId": "etcl-08-responding-naturally:3",
+      "en": "I can imagine.",
+      "ja": "想像できます。",
+      "sourceHash": "39a1b48cc8666049bdd67a3b086b7b4bdf17cf36a6ee0bd79884e9b22d3810a5",
+      "audioSha256": "4a47870fff3529f2834e79fff0fc8dcddb10e928abba3ad14cee743f26414851",
+      "audioBytes": 35328,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 2.208
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-08-responding-naturally",
+      "phraseIndex": 4,
+      "phraseId": "08-05",
+      "cueId": "etcl-08-responding-naturally:4",
+      "en": "That's good to hear.",
+      "ja": "それはよかったです。",
+      "sourceHash": "b62e5b794874527b7c7fb7a3c9df2aac5e9ba552911155eaf3006cf2c5c54fcc",
+      "audioSha256": "15899ab4fa250dac1211469f84e4fbb2516e260b43ccbf8e1b82af7d1b5cdea7",
+      "audioBytes": 38400,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 2.4
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-08-responding-naturally",
+      "phraseIndex": 5,
+      "phraseId": "08-06",
+      "cueId": "etcl-08-responding-naturally:5",
+      "en": "Exactly.",
+      "ja": "まさにそのとおりです。",
+      "sourceHash": "02f030f6799b6a9d244f23e87e06d4c4ff4509919c3a5f2a0c9a61926235d078",
+      "audioSha256": "0a5183f25d9f0ea2c0457fe9cb8fcda844bd95a4b6d8a9bb3bf6849afebbff56",
+      "audioBytes": 33792,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 2.112
+      },
+      "status": "verified"
+    }
+  ],
+  "originalManifestSha256": "694be1861111fd12554559e889450648c51be61238bb38754780059db1e28b6d"
+}

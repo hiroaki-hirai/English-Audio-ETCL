@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 2,
+  "kind": "etcl-v2-japanese-cues",
+  "planId": "d29bbe8818c8efd4c8f5d1b60fa6a91989efa9d16c6fbd176ca0a0b70e5985d0",
+  "lessonId": "etcl-02-daily-routine",
+  "source": {
+    "zipSha256": "c4e76e4c9c3ede5da39545de2b7dcd537b0660818a0503dec15f32e53c40ed01",
+    "notesZipSha256": "5b565120d0a26b61d7d6ec6b1e32090d1557d60bc50c3a8a512187772b3b6c4a",
+    "member": "training-scripts/etcl-02-daily-routine.json"
+  },
+  "tts": {
+    "model": "gpt-4o-mini-tts",
+    "voice": "cedar",
+    "response_format": "mp3",
+    "instructions": "Read the Japanese text clearly and naturally in Japanese. Do not translate it."
+  },
+  "expectedFormat": {
+    "codec": "mp3",
+    "sampleRate": 24000,
+    "channels": 1
+  },
+  "retryPolicy": {
+    "maxRetries": 0,
+    "maxRequests": 63,
+    "maxRequestsPerPhrase": 1,
+    "stopOnFirstFailure": true
+  },
+  "status": "verified",
+  "entries": [
+    {
+      "lessonId": "etcl-02-daily-routine",
+      "phraseIndex": 0,
+      "phraseId": "02-01",
+      "cueId": "etcl-02-daily-routine:0",
+      "en": "My schedule changes from day to day.",
+      "ja": "私のスケジュールは日によって変わります。",
+      "sourceHash": "1cc03f7cf497f8df5709bee68b51e7ac62838e71467491064d1da7703e94d9fa",
+      "audioSha256": "14290dbf683fd38af61c557c8f249919afd831fafffad6c91fea28d335ed34c8",
+      "audioBytes": 56832,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 3.552
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-02-daily-routine",
+      "phraseIndex": 1,
+      "phraseId": "02-02",
+      "cueId": "etcl-02-daily-routine:1",
+      "en": "I work on my apps between deliveries.",
+      "ja": "配達の合間に自分のアプリを開発しています。",
+      "sourceHash": "b97fc9b32cad8640d4c17c35973af71676017f046f4ef971893e54f493c548f7",
+      "audioSha256": "bd349316bce5c23c41d8924411e9058a758e52c486e5f08668d8039742182ccb",
+      "audioBytes": 74496,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 4.656
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-02-daily-routine",
+      "phraseIndex": 2,
+      "phraseId": "02-03",
+      "cueId": "etcl-02-daily-routine:2",
+      "en": "I try to make the most of my downtime.",
+      "ja": "空き時間をできるだけ有効に使うようにしています。",
+      "sourceHash": "0436f24055f448fe43476e2f5a876e4188958a0351ff06161da3a57d65763ed1",
+      "audioSha256": "da5620f63fdb34e84ecc76dd33f5f546734a83323655d5110b5df341f149dbd4",
+      "audioBytes": 72960,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 4.56
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-02-daily-routine",
+      "phraseIndex": 3,
+      "phraseId": "02-04",
+      "cueId": "etcl-02-daily-routine:3",
+      "en": "I practice English while making deliveries.",
+      "ja": "配達をしながら英語を練習しています。",
+      "sourceHash": "394bc4a050d1a4e36c442bdcc01a3ef7ef6e358934fa4b6be574b13197871f1b",
+      "audioSha256": "7ba829157036efbf6d63f4b8f580ea4d384333f4818a3f3f84124c6ed6ee676e",
+      "audioBytes": 57600,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 3.6
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-02-daily-routine",
+      "phraseIndex": 4,
+      "phraseId": "02-05",
+      "cueId": "etcl-02-daily-routine:4",
+      "en": "I try to make time for exercise as well.",
+      "ja": "運動する時間も確保するようにしています。",
+      "sourceHash": "f8dccfa2b78f9ea61e1b2934d3bd87b64973de74f9f66382bbf3a48620c47adc",
+      "audioSha256": "a299c0ae7de3b6cafb5cb1d556f32f323f9bd04ba14c06fa817b1be82911f970",
+      "audioBytes": 59520,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 3.72
+      },
+      "status": "verified"
+    }
+  ],
+  "originalManifestSha256": "ba9848f4027fc1369bdc4a28200ee612e6d9ddefb244743b0547205d48bbe777"
+}

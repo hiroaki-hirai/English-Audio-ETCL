@@ -1,0 +1,322 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  color: #111827;
+  background: #f3f4f6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.app-shell {
+  width: min(100%, 720px);
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+header {
+  margin-bottom: 24px;
+}
+
+.eyebrow {
+  margin: 0 0 4px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.lesson-selector {
+  margin-bottom: 24px;
+}
+
+.lesson-buttons {
+  display: grid;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.lesson-button {
+  width: 100%;
+  min-height: 64px;
+  padding: 12px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  background: #ffffff;
+  color: #111827;
+  text-align: left;
+  cursor: pointer;
+}
+
+.lesson-button strong,
+.lesson-button span {
+  display: block;
+}
+
+.lesson-button strong {
+  font-size: 17px;
+}
+
+.lesson-button span {
+  margin-top: 3px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.lesson-button[aria-pressed='true'] {
+  border-color: #111827;
+  background: #e5e7eb;
+}
+
+.lesson-card {
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 16px;
+}
+
+.lesson-label {
+  margin: 0 0 4px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.scenario-ja {
+  margin: 4px 0 20px;
+  color: #6b7280;
+}
+
+.player audio {
+  width: 100%;
+}
+
+.player {
+  display: grid;
+  gap: 12px;
+}
+
+.training-button {
+  width: 100%;
+  min-height: 48px;
+  padding: 10px 16px;
+  border: 1px solid #111827;
+  border-radius: 10px;
+  background: #111827;
+  color: #ffffff;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.active-recall-button {
+  min-height: 60px;
+  padding-block: 14px;
+}
+
+.training-button:focus-visible {
+  outline: 2px solid #111827;
+  outline-offset: 3px;
+}
+
+.training-status {
+  margin: 0;
+  color: #4b5563;
+  font-size: 14px;
+}
+
+.resume-diagnostic {
+  margin: 0;
+  padding: 8px;
+  border: 1px dashed #9ca3af;
+  border-radius: 8px;
+  background: #f9fafb;
+  color: #374151;
+  font-size: 12px;
+  white-space: pre-wrap;
+}
+
+.phrases {
+  margin: 24px 0 0;
+  padding-left: 24px;
+}
+
+.phrases li {
+  margin-bottom: 20px;
+}
+
+.phrases strong,
+.phrases span {
+  display: block;
+}
+
+.phrases strong {
+  font-size: 20px;
+  line-height: 1.45;
+}
+
+.phrases span {
+  margin-top: 6px;
+  color: #4b5563;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.phrase-button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.phrase-button strong {
+  display: block;
+}
+
+.phrase-button:focus-visible {
+  outline: 2px solid #111827;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+.weak-button {
+  margin-top: 8px;
+  padding: 6px 10px;
+  border: 1px solid #9ca3af;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #374151;
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.weak-button[aria-pressed='true'] {
+  border-color: #111827;
+  background: #111827;
+  color: #ffffff;
+}
+
+.weak-button:focus-visible {
+  outline: 2px solid #111827;
+  outline-offset: 2px;
+}
+
+/* Keep controls and long diagnostic URLs inside narrow phone viewports. */
+.player, .control-group, .cue-mode-setting, .diagnostic-details {
+  min-width: 0;
+}
+.control-group {
+  display: grid;
+  gap: 10px;
+  margin-top: 8px;
+  padding-top: 16px;
+  border-top: 1px solid #e5e7eb;
+}
+.control-group h3 {
+  margin: 0;
+  font-size: 18px;
+}
+.cue-mode-setting {
+  display: grid;
+  gap: 8px;
+  font-weight: 700;
+}
+.player small {
+  color: #4b5563;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.japanese-cue-mode {
+  width: 100%;
+  min-width: 0;
+  min-height: 48px;
+  padding: 10px;
+  border: 1px solid #9ca3af;
+  border-radius: 8px;
+  background: #fff;
+  color: #111827;
+  font: inherit;
+  font-size: 16px;
+}
+.training-button {
+  overflow-wrap: anywhere;
+  line-height: 1.4;
+}
+.active-recall-button {
+  min-height: 48px;
+  padding-block: 10px;
+}
+.training-button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+/* Existing runtime disables the other recall buttons while keeping Stop enabled. */
+.player:has(.active-recall-button:disabled) .active-recall-button:not(:disabled) {
+  background: #fff;
+  color: #111827;
+  border-style: dashed;
+}
+.diagnostic-controls .training-button {
+  background: #f3f4f6;
+  color: #111827;
+  border-color: #9ca3af;
+  font-weight: 600;
+}
+.diagnostic-details summary {
+  min-height: 44px;
+  padding: 12px 0;
+  cursor: pointer;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+.resume-diagnostic {
+  overflow-wrap: anywhere;
+  max-width: 100%;
+}
+.lesson-button, .phrase-button, .scenario-ja {
+  overflow-wrap: anywhere;
+}
+@media (max-width: 480px) {
+  .app-shell { padding: 20px 12px 32px; }
+  .lesson-card { padding: 16px; }
+  h1 { font-size: 25px; }
+  h2 { font-size: 22px; }
+}
+@media (min-width: 600px) {
+  .lesson-buttons { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* Explanation UI only: no playback events or session mutation. */
+.etcl-explanation {margin:12px 0;border:1px solid #d1d5db;border-radius:8px;text-align:left;width:100%}
+.etcl-explanation summary {cursor:pointer;min-height:44px;padding:12px;font-weight:600}
+.explanation-body {padding:0 12px 12px;overflow-wrap:anywhere;line-height:1.7}
+.explanation-body h4 {margin:12px 0 4px}.explanation-body p {margin:0}
+.cue-unavailable {padding:12px;background:#fff7df;border-left:3px solid #946900;line-height:1.6}
+
+/* Two explicit learning modes; only the active group's panel is rendered. */
+.learning-mode-tabs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:20px 0}
+.learning-mode-tabs button{min-height:76px;padding:12px 10px;border:2px solid #cbd5e1;border-radius:10px;background:white;color:#23384a;font:inherit;font-weight:700;cursor:pointer;overflow-wrap:anywhere}
+.learning-mode-tabs button span{display:block;font-size:.75rem;font-weight:400;line-height:1.5;margin-top:5px}
+.learning-mode-tabs button[aria-selected="true"]{background:#173c44;color:white;border-color:#173c44}
+.learning-mode-tabs button:focus-visible{outline:3px solid #008b9d;outline-offset:3px}
+.mode-count,.mode-description{margin:8px 0}.mode-description{font-weight:600}
+.mode-progress{padding:12px;background:#eef3f7;border-radius:8px;font-size:.85rem;line-height:1.7;overflow-wrap:anywhere}
+.mode-availability{padding:12px;background:#fff7df;border-left:3px solid #946900}
+
+.lesson-recall-support{display:block;font-size:.78rem;font-weight:500;line-height:1.5;margin-top:5px;color:#526575}.etcl-library-scopes{margin:18px 0;padding:12px;border:1px solid #d1d5db;border-radius:8px}.etcl-library-scopes p,.lesson-target{font-size:.9rem;line-height:1.6}

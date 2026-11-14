@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 2,
+  "kind": "etcl-v2-japanese-cues",
+  "planId": "d29bbe8818c8efd4c8f5d1b60fa6a91989efa9d16c6fbd176ca0a0b70e5985d0",
+  "lessonId": "etcl-05-reasons-and-decisions",
+  "source": {
+    "zipSha256": "c4e76e4c9c3ede5da39545de2b7dcd537b0660818a0503dec15f32e53c40ed01",
+    "notesZipSha256": "5b565120d0a26b61d7d6ec6b1e32090d1557d60bc50c3a8a512187772b3b6c4a",
+    "member": "training-scripts/etcl-05-reasons-and-decisions.json"
+  },
+  "tts": {
+    "model": "gpt-4o-mini-tts",
+    "voice": "cedar",
+    "response_format": "mp3",
+    "instructions": "Read the Japanese text clearly and naturally in Japanese. Do not translate it."
+  },
+  "expectedFormat": {
+    "codec": "mp3",
+    "sampleRate": 24000,
+    "channels": 1
+  },
+  "retryPolicy": {
+    "maxRetries": 0,
+    "maxRequests": 63,
+    "maxRequestsPerPhrase": 1,
+    "stopOnFirstFailure": true
+  },
+  "status": "verified",
+  "entries": [
+    {
+      "lessonId": "etcl-05-reasons-and-decisions",
+      "phraseIndex": 0,
+      "phraseId": "05-01",
+      "cueId": "etcl-05-reasons-and-decisions:0",
+      "en": "I wanted an app that fit the way I like to learn.",
+      "ja": "自分の好きな学び方に合うアプリが欲しかったんです。",
+      "sourceHash": "0d90981231dff147543cb851d2274900f20d4aadf44a4b7c38b72dd35e3a3bb5",
+      "audioSha256": "df341182cbdf43bad7e1a72cdb2e0da9d89e155c1f079ddfad92e58da8a37243",
+      "audioBytes": 70656,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 4.416
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-05-reasons-and-decisions",
+      "phraseIndex": 1,
+      "phraseId": "05-02",
+      "cueId": "etcl-05-reasons-and-decisions:1",
+      "en": "I couldn't find one that worked exactly the way I wanted, so I decided to build my own.",
+      "ja": "自分の希望どおりに動くものが見つからなかったので、自分で作ることにしました。",
+      "sourceHash": "4efb7b1dd80774e7a4dc008554ddf49cc7da51eab49a84dcad1b84f305f99394",
+      "audioSha256": "b024a1ccc647ca93e8c8111ba74fdb6c309c8ee883e808c806f44e380cb46f3b",
+      "audioBytes": 101760,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 6.36
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-05-reasons-and-decisions",
+      "phraseIndex": 2,
+      "phraseId": "05-03",
+      "cueId": "etcl-05-reasons-and-decisions:2",
+      "en": "I wanted to practice phrases based on situations I'm likely to encounter in real life.",
+      "ja": "実生活で遭遇しそうな状況に基づいたフレーズを練習したかったんです。",
+      "sourceHash": "52aef4c3bf4c188d689cb5483f7b2daab7449507985ede59cf3c259d82d7cfc4",
+      "audioSha256": "28248116794eec8df18db149370ce100517cc36cc7730cd0763f74927c8b740d",
+      "audioBytes": 91392,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 5.712
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-05-reasons-and-decisions",
+      "phraseIndex": 3,
+      "phraseId": "05-04",
+      "cueId": "etcl-05-reasons-and-decisions:3",
+      "en": "I also thought it would be a good opportunity to improve my programming skills.",
+      "ja": "プログラミングのスキルを伸ばす良い機会にもなると思いました。",
+      "sourceHash": "27fcf3ff4faec98b73019fe39ac8ea05c484cf590d10a7983258921061f928fc",
+      "audioSha256": "ea16e969a3a9e4b0c7613c722ab181a94b1eab2b1c0d28b82a85edb83f5d5d96",
+      "audioBytes": 89856,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 5.616
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-05-reasons-and-decisions",
+      "phraseIndex": 4,
+      "phraseId": "05-05",
+      "cueId": "etcl-05-reasons-and-decisions:4",
+      "en": "It fits naturally into my daily routine.",
+      "ja": "それは私の日常生活に無理なく取り入れられます。",
+      "sourceHash": "878f2fd045960bae28ca8ba0e40478aed3001897f20631d42fc25a0ffe6d0101",
+      "audioSha256": "ade2bc177fe4ef960666b22f71467cdf62889f3b0ef1e71a7c8417f6e6687e1b",
+      "audioBytes": 89856,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 5.616
+      },
+      "status": "verified"
+    }
+  ],
+  "originalManifestSha256": "e72684b71f23320a88d79263c03f123296149b56dacba9bef6feb600300cb8a9"
+}

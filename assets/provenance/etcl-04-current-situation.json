@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 2,
+  "kind": "etcl-v2-japanese-cues",
+  "planId": "d29bbe8818c8efd4c8f5d1b60fa6a91989efa9d16c6fbd176ca0a0b70e5985d0",
+  "lessonId": "etcl-04-current-situation",
+  "source": {
+    "zipSha256": "c4e76e4c9c3ede5da39545de2b7dcd537b0660818a0503dec15f32e53c40ed01",
+    "notesZipSha256": "5b565120d0a26b61d7d6ec6b1e32090d1557d60bc50c3a8a512187772b3b6c4a",
+    "member": "training-scripts/etcl-04-current-situation.json"
+  },
+  "tts": {
+    "model": "gpt-4o-mini-tts",
+    "voice": "cedar",
+    "response_format": "mp3",
+    "instructions": "Read the Japanese text clearly and naturally in Japanese. Do not translate it."
+  },
+  "expectedFormat": {
+    "codec": "mp3",
+    "sampleRate": 24000,
+    "channels": 1
+  },
+  "retryPolicy": {
+    "maxRetries": 0,
+    "maxRequests": 63,
+    "maxRequestsPerPhrase": 1,
+    "stopOnFirstFailure": true
+  },
+  "status": "verified",
+  "entries": [
+    {
+      "lessonId": "etcl-04-current-situation",
+      "phraseIndex": 0,
+      "phraseId": "04-01",
+      "cueId": "etcl-04-current-situation:0",
+      "en": "I've been practicing English regularly with an app I built.",
+      "ja": "自分で作ったアプリを使って、定期的に英語を練習しています。",
+      "sourceHash": "e47c149c4df53f1ff45d37b6403a394245d2a91b132c180cf5d0920e5409f1e3",
+      "audioSha256": "968e3808b96a3bdd55f60e84ad077bb060e07e7b0965fc4b65f78f841cd77a0d",
+      "audioBytes": 82560,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 5.16
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-04-current-situation",
+      "phraseIndex": 1,
+      "phraseId": "04-02",
+      "cueId": "etcl-04-current-situation:1",
+      "en": "I can come up with phrases I've practiced much more quickly now.",
+      "ja": "練習したフレーズが、今では以前よりずっと早く思い浮かびます。",
+      "sourceHash": "33226a8eb533a02a73d96998598fa23501e6e629c9ba7c6dabe6ed734d19b8b1",
+      "audioSha256": "45f121e9a1e7e6ff70b2d37d94b0d01486c3dc79f68b301a9eb8a07ff8a6def2",
+      "audioBytes": 84096,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 5.256
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-04-current-situation",
+      "phraseIndex": 2,
+      "phraseId": "04-03",
+      "cueId": "etcl-04-current-situation:2",
+      "en": "I'm starting to understand more spoken English than before.",
+      "ja": "以前よりも、話されている英語を理解できるようになってきました。",
+      "sourceHash": "e269feebb4090c127fd9d8b0440939d2af0fa2d3dec7b5964ab1cae5602e4260",
+      "audioSha256": "14e6386fc3c0e0b4e770400bcb0a4602127c0e0dbe129a28493ceccf8e03a343",
+      "audioBytes": 74496,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 4.656
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-04-current-situation",
+      "phraseIndex": 3,
+      "phraseId": "04-04",
+      "cueId": "etcl-04-current-situation:3",
+      "en": "I still find it difficult to speak freely without relying on memorized phrases.",
+      "ja": "暗記したフレーズに頼らずに自由に話すのは、まだ難しいと感じます。",
+      "sourceHash": "0c871d27e8903fda7aa65195904951f7c473150dcc0d0b13ee3060157b94fc74",
+      "audioSha256": "b101ea507d304de7b77068e7c123655a59bdfe417509d51d7f92e7505627adff",
+      "audioBytes": 99456,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 6.216
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-04-current-situation",
+      "phraseIndex": 4,
+      "phraseId": "04-05",
+      "cueId": "etcl-04-current-situation:4",
+      "en": "I still have a long way to go.",
+      "ja": "まだまだ先は長いです。",
+      "sourceHash": "0796dfca2530fd3d5e6a30983179d8da5fc5a9c25a5288ce308404b6672da046",
+      "audioSha256": "67fd751f48bf7760b064d20576fe6f4e15b21ae8a086e69633e82671632c1bc3",
+      "audioBytes": 39168,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 2.448
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-04-current-situation",
+      "phraseIndex": 5,
+      "phraseId": "04-06",
+      "cueId": "etcl-04-current-situation:5",
+      "en": "I feel like I'm making progress.",
+      "ja": "上達していると感じます。",
+      "sourceHash": "925e070190e02b6b4bb2e5ce9e8edc4e608c80ec7a9db264152db81cb587ad9b",
+      "audioSha256": "45fc93dd03c01f8db73b56a60bc2147d7ef6fe7df75be34e966581ffa8094fba",
+      "audioBytes": 54528,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 3.408
+      },
+      "status": "verified"
+    }
+  ],
+  "originalManifestSha256": "afed8ce2ba4d1cf36689ea49193e3ca236fbba5e83dd5a1cde7e84f355af8ee6"
+}

@@ -1,0 +1,41 @@
+{
+  "lessonId": "etcl-01-talking-about-my-job",
+  "manifestSha256": "3ef3af0e3df76051477a5537d124c707299d31e833f276c51e94cb34f5d98aff",
+  "entries": [
+    {
+      "phraseIndex": 0,
+      "ja": "私は主に自分のアプリ開発に取り組んでいます。",
+      "path": "lessons/etcl-01-talking-about-my-job/japanese-cues-v2/phrase-001.mp3",
+      "size": 64896,
+      "sha256": "6a124b5af6647812e06ad1eea614faab3c15ad0480a80f87502196be5044d56e"
+    },
+    {
+      "phraseIndex": 1,
+      "ja": "副業でフードデリバリーをしています。",
+      "path": "lessons/etcl-01-talking-about-my-job/japanese-cues-v2/phrase-002.mp3",
+      "size": 48768,
+      "sha256": "6cbed6a385d507b81f6980e4f68f5bb228af850991948eec05c972e0cde3ee45"
+    },
+    {
+      "phraseIndex": 2,
+      "ja": "その自由度の高さが気に入っています。",
+      "path": "lessons/etcl-01-talking-about-my-job/japanese-cues-v2/phrase-003.mp3",
+      "size": 67200,
+      "sha256": "40e72920d72c88c7d4cc2c9b03505ebb48e41f336bd666f89c0cdd619e96a795"
+    },
+    {
+      "phraseIndex": 3,
+      "ja": "そのおかげで、自分のプロジェクトに取り組む時間が増えます。",
+      "path": "lessons/etcl-01-talking-about-my-job/japanese-cues-v2/phrase-004.mp3",
+      "size": 72960,
+      "sha256": "9b239d3fe0bb56c77c7fc44a4d85d2da31c262f781a9aed1dccbc707eab56a81"
+    },
+    {
+      "phraseIndex": 4,
+      "ja": "いずれは自分のアプリで収入を得たいです。",
+      "path": "lessons/etcl-01-talking-about-my-job/japanese-cues-v2/phrase-005.mp3",
+      "size": 61824,
+      "sha256": "da7e025dd5ad901e4abe9cef015875888a154402fca29dbbbcd6cee29e0e93d7"
+    }
+  ]
+}

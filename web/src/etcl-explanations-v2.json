@@ -1,0 +1,614 @@
+[
+  {
+    "phraseId": "01-01",
+    "lessonId": "etcl-01-talking-about-my-job",
+    "phraseIndex": 0,
+    "en": "I'm mainly focused on developing my own apps.",
+    "ja": "私は主に自分のアプリ開発に取り組んでいます。",
+    "grammar": "be focused on + 動名詞：〜に集中している。onの後はdeveloping。",
+    "chunks": "mainly＝主に／my own apps＝自分自身のアプリ"
+  },
+  {
+    "phraseId": "01-02",
+    "lessonId": "etcl-01-talking-about-my-job",
+    "phraseIndex": 1,
+    "en": "I do food delivery on the side.",
+    "ja": "副業でフードデリバリーをしています。",
+    "grammar": "do food delivery＝配達の仕事をする。",
+    "chunks": "on the side＝本業とは別に、副業として"
+  },
+  {
+    "phraseId": "01-03",
+    "lessonId": "etcl-01-talking-about-my-job",
+    "phraseIndex": 2,
+    "en": "I like the flexibility.",
+    "ja": "その自由度の高さが気に入っています。",
+    "grammar": "the flexibilityは、前に話題になった働き方の自由度を指す。",
+    "chunks": "flexibility＝柔軟性、自由度"
+  },
+  {
+    "phraseId": "01-04",
+    "lessonId": "etcl-01-talking-about-my-job",
+    "phraseIndex": 3,
+    "en": "It gives me more time to work on my own projects.",
+    "ja": "そのおかげで、自分のプロジェクトに取り組む時間が増えます。",
+    "grammar": "give + 人 + 物：人に物を与える。ここでは時間を確保できるという意味。",
+    "chunks": "more time to work on ...＝〜に取り組むためのより多くの時間"
+  },
+  {
+    "phraseId": "01-05",
+    "lessonId": "etcl-01-talking-about-my-job",
+    "phraseIndex": 4,
+    "en": "Eventually, I'd like to make money from my apps.",
+    "ja": "いずれは自分のアプリで収入を得たいです。",
+    "grammar": "I'd like to ...＝〜したい（控えめな希望）。",
+    "chunks": "eventually＝いずれは／make money from ...＝〜から収入を得る"
+  },
+  {
+    "phraseId": "02-01",
+    "lessonId": "etcl-02-daily-routine",
+    "phraseIndex": 0,
+    "en": "My schedule changes from day to day.",
+    "ja": "私のスケジュールは日によって変わります。",
+    "grammar": "主語My scheduleは単数なのでchanges。",
+    "chunks": "from day to day＝日によって、日々"
+  },
+  {
+    "phraseId": "02-02",
+    "lessonId": "etcl-02-daily-routine",
+    "phraseIndex": 1,
+    "en": "I work on my apps between deliveries.",
+    "ja": "配達の合間に自分のアプリを開発しています。",
+    "grammar": "work on ...＝〜に取り組む。",
+    "chunks": "between deliveries＝配達と配達の合間に"
+  },
+  {
+    "phraseId": "02-03",
+    "lessonId": "etcl-02-daily-routine",
+    "phraseIndex": 2,
+    "en": "I try to make the most of my downtime.",
+    "ja": "空き時間をできるだけ有効に使うようにしています。",
+    "grammar": "try to ...＝〜するよう努める。",
+    "chunks": "make the most of ...＝〜を最大限活用する／downtime＝空き時間"
+  },
+  {
+    "phraseId": "02-04",
+    "lessonId": "etcl-02-daily-routine",
+    "phraseIndex": 3,
+    "en": "I practice English while making deliveries.",
+    "ja": "配達をしながら英語を練習しています。",
+    "grammar": "while + 動名詞で「〜している間に」。while I'm making deliveriesの省略形。",
+    "chunks": "make deliveries＝配達をする"
+  },
+  {
+    "phraseId": "02-05",
+    "lessonId": "etcl-02-daily-routine",
+    "phraseIndex": 4,
+    "en": "I try to make time for exercise as well.",
+    "ja": "運動する時間も確保するようにしています。",
+    "grammar": "make time for ...＝〜のために時間を作る。",
+    "chunks": "as well＝〜もまた（文末で使う）"
+  },
+  {
+    "phraseId": "03-01",
+    "lessonId": "etcl-03-recent-events",
+    "phraseIndex": 0,
+    "en": "I ran into a bug the other day.",
+    "ja": "この前、バグに遭遇しました。",
+    "grammar": "run into ...＝予期せず〜に遭遇する。過去形ran。",
+    "chunks": "the other day＝この前、先日"
+  },
+  {
+    "phraseId": "03-02",
+    "lessonId": "etcl-03-recent-events",
+    "phraseIndex": 1,
+    "en": "I was working on a new feature when part of the app suddenly stopped working.",
+    "ja": "新しい機能を開発していたら、突然アプリの一部が動かなくなりました。",
+    "grammar": "was workingは過去進行形。when以下は途中で起きた出来事。",
+    "chunks": "part of the app＝アプリの一部／stop working＝動かなくなる"
+  },
+  {
+    "phraseId": "03-03",
+    "lessonId": "etcl-03-recent-events",
+    "phraseIndex": 2,
+    "en": "I used AI to help me figure out what was causing the problem.",
+    "ja": "問題の原因を突き止めるためにAIを使いました。",
+    "grammar": "use A to do B＝BするためにAを使う。what was causing ... は間接疑問文。",
+    "chunks": "figure out＝解明する／what was causing the problem＝何が問題を引き起こしていたか"
+  },
+  {
+    "phraseId": "03-04",
+    "lessonId": "etcl-03-recent-events",
+    "phraseIndex": 3,
+    "en": "It helped me narrow down the cause.",
+    "ja": "そのおかげで原因を絞り込むことができました。",
+    "grammar": "help + 人 + 動詞原形：人が〜するのを助ける。",
+    "chunks": "narrow down＝候補を絞り込む／the cause＝原因"
+  },
+  {
+    "phraseId": "03-05",
+    "lessonId": "etcl-03-recent-events",
+    "phraseIndex": 4,
+    "en": "I was able to fix it.",
+    "ja": "それを修正することができました。",
+    "grammar": "was able to ...＝（その場で）〜することができた。",
+    "chunks": "fix it＝それを修正する"
+  },
+  {
+    "phraseId": "03-06",
+    "lessonId": "etcl-03-recent-events",
+    "phraseIndex": 5,
+    "en": "It took longer than I expected, but I learned a lot from it.",
+    "ja": "予想以上に時間がかかりましたが、そこから多くのことを学びました。",
+    "grammar": "took longer than ...＝〜より長くかかった。butで対比。",
+    "chunks": "than I expected＝予想していたより／learn a lot from ...＝〜から多くを学ぶ"
+  },
+  {
+    "phraseId": "04-01",
+    "lessonId": "etcl-04-current-situation",
+    "phraseIndex": 0,
+    "en": "I've been practicing English regularly with an app I built.",
+    "ja": "自分で作ったアプリを使って、定期的に英語を練習しています。",
+    "grammar": "have been practicingは現在完了進行形で、以前から続けている練習を表す。",
+    "chunks": "regularly＝定期的に／an app I built＝自分が作ったアプリ（関係代名詞の省略）"
+  },
+  {
+    "phraseId": "04-02",
+    "lessonId": "etcl-04-current-situation",
+    "phraseIndex": 1,
+    "en": "I can come up with phrases I've practiced much more quickly now.",
+    "ja": "練習したフレーズが、今では以前よりずっと早く思い浮かびます。",
+    "grammar": "can come up with ...＝〜を思いつける。I've practicedがphrasesを修飾。",
+    "chunks": "come up with＝思いつく／much more quickly＝ずっと素早く"
+  },
+  {
+    "phraseId": "04-03",
+    "lessonId": "etcl-04-current-situation",
+    "phraseIndex": 2,
+    "en": "I'm starting to understand more spoken English than before.",
+    "ja": "以前よりも、話されている英語を理解できるようになってきました。",
+    "grammar": "be starting to ...＝〜し始めている。",
+    "chunks": "spoken English＝話される英語／than before＝以前より"
+  },
+  {
+    "phraseId": "04-04",
+    "lessonId": "etcl-04-current-situation",
+    "phraseIndex": 3,
+    "en": "I still find it difficult to speak freely without relying on memorized phrases.",
+    "ja": "暗記したフレーズに頼らずに自由に話すのは、まだ難しいと感じます。",
+    "grammar": "find it + 形容詞 + to ...＝〜することを…だと感じる。itは形式目的語。",
+    "chunks": "speak freely＝自由に話す／rely on ...＝〜に頼る／memorized phrases＝暗記したフレーズ"
+  },
+  {
+    "phraseId": "04-05",
+    "lessonId": "etcl-04-current-situation",
+    "phraseIndex": 4,
+    "en": "I still have a long way to go.",
+    "ja": "まだまだ先は長いです。",
+    "grammar": "have a long way to goは慣用表現。文字どおりの距離とは限らない。",
+    "chunks": "still have a long way to go＝目標までまだ道のりが長い"
+  },
+  {
+    "phraseId": "04-06",
+    "lessonId": "etcl-04-current-situation",
+    "phraseIndex": 5,
+    "en": "I feel like I'm making progress.",
+    "ja": "上達していると感じます。",
+    "grammar": "feel like + 文＝〜という気がする。",
+    "chunks": "make progress＝進歩する（progressは通常不可算）"
+  },
+  {
+    "phraseId": "05-01",
+    "lessonId": "etcl-05-reasons-and-decisions",
+    "phraseIndex": 0,
+    "en": "I wanted an app that fit the way I like to learn.",
+    "ja": "自分の好きな学び方に合うアプリが欲しかったんです。",
+    "grammar": "wanted an app that ...：that以下がappを修飾。",
+    "chunks": "fit the way I like to learn＝自分の好む学び方に合う"
+  },
+  {
+    "phraseId": "05-02",
+    "lessonId": "etcl-05-reasons-and-decisions",
+    "phraseIndex": 1,
+    "en": "I couldn't find one that worked exactly the way I wanted, so I decided to build my own.",
+    "ja": "自分の希望どおりに動くものが見つからなかったので、自分で作ることにしました。",
+    "grammar": "couldn't find one that ...：oneはappを指す。soは結果。",
+    "chunks": "exactly the way I wanted＝まさに自分の望むとおりに／build my own＝自分のものを作る"
+  },
+  {
+    "phraseId": "05-03",
+    "lessonId": "etcl-05-reasons-and-decisions",
+    "phraseIndex": 2,
+    "en": "I wanted to practice phrases based on situations I'm likely to encounter in real life.",
+    "ja": "実生活で遭遇しそうな状況に基づいたフレーズを練習したかったんです。",
+    "grammar": "based on ...はphrasesを修飾。I'm likely to ...はsituationsを修飾。",
+    "chunks": "be likely to ...＝〜しそうだ／encounter＝遭遇する／in real life＝実生活で"
+  },
+  {
+    "phraseId": "05-04",
+    "lessonId": "etcl-05-reasons-and-decisions",
+    "phraseIndex": 3,
+    "en": "I also thought it would be a good opportunity to improve my programming skills.",
+    "ja": "プログラミングのスキルを伸ばす良い機会にもなると思いました。",
+    "grammar": "thought (that) ...＝〜だと思った。wouldは過去時点から見た見込み。",
+    "chunks": "a good opportunity to ...＝〜するよい機会／improve my skills＝能力を高める"
+  },
+  {
+    "phraseId": "05-05",
+    "lessonId": "etcl-05-reasons-and-decisions",
+    "phraseIndex": 4,
+    "en": "It fits naturally into my daily routine.",
+    "ja": "それは私の日常生活に無理なく取り入れられます。",
+    "grammar": "fit into ...＝〜にうまく組み込める。主語Itは話題の学習方法。",
+    "chunks": "naturally＝無理なく／daily routine＝日課"
+  },
+  {
+    "phraseId": "06-01",
+    "lessonId": "etcl-06-preferences-and-priorities",
+    "phraseIndex": 0,
+    "en": "I prefer working on my own schedule.",
+    "ja": "私は自分のスケジュールで働く方が好きです。",
+    "grammar": "prefer + 動名詞＝〜する方を好む。",
+    "chunks": "on my own schedule＝自分の都合に合わせたスケジュールで"
+  },
+  {
+    "phraseId": "06-02",
+    "lessonId": "etcl-06-preferences-and-priorities",
+    "phraseIndex": 1,
+    "en": "I want to earn enough money while still having time to work on my own apps.",
+    "ja": "自分のアプリに取り組む時間を確保しながら、十分な収入も得たいです。",
+    "grammar": "while + 動名詞＝〜しながら。want to ...が文全体の骨格。",
+    "chunks": "earn enough money＝十分な収入を得る／still having time＝時間も確保しながら"
+  },
+  {
+    "phraseId": "06-03",
+    "lessonId": "etcl-06-preferences-and-priorities",
+    "phraseIndex": 2,
+    "en": "I'm trying to find a balance between work and my own projects.",
+    "ja": "仕事と自分のプロジェクトのバランスを取ろうとしています。",
+    "grammar": "try to ...＝〜しようとする。現在進行形で取り組みの最中。",
+    "chunks": "find a balance between A and B＝AとBのバランスを見つける"
+  },
+  {
+    "phraseId": "06-04",
+    "lessonId": "etcl-06-preferences-and-priorities",
+    "phraseIndex": 3,
+    "en": "What matters most to me is having enough time to work on my own projects.",
+    "ja": "私にとって最も大切なのは、自分のプロジェクトに取り組む時間を十分に確保することです。",
+    "grammar": "What matters most to meが主語節。is以下がその内容。",
+    "chunks": "what matters most＝最も重要なこと／having enough time to ...＝〜する十分な時間があること"
+  },
+  {
+    "phraseId": "06-05",
+    "lessonId": "etcl-06-preferences-and-priorities",
+    "phraseIndex": 4,
+    "en": "My long-term goal is to make app development my main source of income.",
+    "ja": "長期的な目標は、アプリ開発を主な収入源にすることです。",
+    "grammar": "My long-term goal is to ...：目標の内容を不定詞で示す。",
+    "chunks": "make A B＝AをBにする／main source of income＝主な収入源"
+  },
+  {
+    "phraseId": "07-01",
+    "lessonId": "etcl-07-asking-questions",
+    "phraseIndex": 0,
+    "en": "What do you mean by that?",
+    "ja": "それはどういう意味ですか？",
+    "grammar": "What do you mean by ...? は意味を確認する定型疑問文。",
+    "chunks": "mean by that＝それで何を意味するのか"
+  },
+  {
+    "phraseId": "07-02",
+    "lessonId": "etcl-07-asking-questions",
+    "phraseIndex": 1,
+    "en": "How did you get into that?",
+    "ja": "どういうきっかけでそれを始めたんですか？",
+    "grammar": "get into ...＝趣味・活動などを始める／興味を持つ。",
+    "chunks": "How did you get into ...?＝何がきっかけで〜を始めたの？"
+  },
+  {
+    "phraseId": "07-03",
+    "lessonId": "etcl-07-asking-questions",
+    "phraseIndex": 2,
+    "en": "How's it going so far?",
+    "ja": "今のところ、どんな調子ですか？",
+    "grammar": "How is it going? の短縮形How's it going?",
+    "chunks": "so far＝今のところ、これまでのところ"
+  },
+  {
+    "phraseId": "07-04",
+    "lessonId": "etcl-07-asking-questions",
+    "phraseIndex": 3,
+    "en": "What do you find most challenging?",
+    "ja": "何が一番難しいと感じますか？",
+    "grammar": "find + 目的語 + 形容詞＝〜を…だと感じる。",
+    "chunks": "most challenging＝最も難しい、手ごわい"
+  },
+  {
+    "phraseId": "07-05",
+    "lessonId": "etcl-07-asking-questions",
+    "phraseIndex": 4,
+    "en": "Could you tell me a bit more about that?",
+    "ja": "それについてもう少し詳しく教えてもらえますか？",
+    "grammar": "Could you ...? は丁寧な依頼。",
+    "chunks": "a bit more about that＝そのことについてもう少し詳しく"
+  },
+  {
+    "phraseId": "07-06",
+    "lessonId": "etcl-07-asking-questions",
+    "phraseIndex": 5,
+    "en": "Are you enjoying it?",
+    "ja": "それを楽しんでいますか？",
+    "grammar": "現在進行形Are you enjoying ...? で現在の体験を楽しんでいるか尋ねる。",
+    "chunks": "enjoy it＝それを楽しむ"
+  },
+  {
+    "phraseId": "08-01",
+    "lessonId": "etcl-08-responding-naturally",
+    "phraseIndex": 0,
+    "en": "I see.",
+    "ja": "なるほど。",
+    "grammar": "I see. は理解を示す短い相づち。",
+    "chunks": "I see＝なるほど、分かりました"
+  },
+  {
+    "phraseId": "08-02",
+    "lessonId": "etcl-08-responding-naturally",
+    "phraseIndex": 1,
+    "en": "That makes sense.",
+    "ja": "それなら納得です。",
+    "grammar": "make sense＝筋が通る、納得できる。",
+    "chunks": "That makes sense＝それなら納得です"
+  },
+  {
+    "phraseId": "08-03",
+    "lessonId": "etcl-08-responding-naturally",
+    "phraseIndex": 2,
+    "en": "I know what you mean.",
+    "ja": "言いたいことは分かります。",
+    "grammar": "what you meanは「あなたの言いたいこと」という名詞節。",
+    "chunks": "I know what you mean＝言いたいことが分かります"
+  },
+  {
+    "phraseId": "08-04",
+    "lessonId": "etcl-08-responding-naturally",
+    "phraseIndex": 3,
+    "en": "I can imagine.",
+    "ja": "想像できます。",
+    "grammar": "can + 動詞原形。imagineの目的語は文脈から補われる。",
+    "chunks": "I can imagine＝想像できます、大変さが分かります"
+  },
+  {
+    "phraseId": "08-05",
+    "lessonId": "etcl-08-responding-naturally",
+    "phraseIndex": 4,
+    "en": "That's good to hear.",
+    "ja": "それはよかったです。",
+    "grammar": "That's ... to hear＝聞いて〜だ、という形。",
+    "chunks": "good to hear＝それを聞けてうれしい、よかった"
+  },
+  {
+    "phraseId": "08-06",
+    "lessonId": "etcl-08-responding-naturally",
+    "phraseIndex": 5,
+    "en": "Exactly.",
+    "ja": "まさにそのとおりです。",
+    "grammar": "Exactly. は強い同意を示す一語の返答。",
+    "chunks": "Exactly＝まさにそのとおり"
+  },
+  {
+    "phraseId": "09-01",
+    "lessonId": "etcl-09-past-experiences",
+    "phraseIndex": 0,
+    "en": "I got into programming because I wanted to build my own apps and services.",
+    "ja": "自分のアプリやサービスを作りたかったので、プログラミングを始めました。",
+    "grammar": "got intoはget intoの過去形。becauseで理由を続ける。",
+    "chunks": "get into programming＝プログラミングを始める／build my own ...＝自分の〜を作る"
+  },
+  {
+    "phraseId": "09-02",
+    "lessonId": "etcl-09-past-experiences",
+    "phraseIndex": 1,
+    "en": "I had to learn almost everything from scratch.",
+    "ja": "ほとんどすべてをゼロから学ばなければなりませんでした。",
+    "grammar": "had to ...＝〜しなければならなかった。",
+    "chunks": "from scratch＝ゼロから、最初から"
+  },
+  {
+    "phraseId": "09-03",
+    "lessonId": "etcl-09-past-experiences",
+    "phraseIndex": 2,
+    "en": "I couldn't figure out why my code wasn't working.",
+    "ja": "なぜ自分のコードが動かないのか分かりませんでした。",
+    "grammar": "couldn't figure out ...＝〜を解明できなかった。why以下は間接疑問文。",
+    "chunks": "figure out why ...＝なぜ〜なのか理解する"
+  },
+  {
+    "phraseId": "09-04",
+    "lessonId": "etcl-09-past-experiences",
+    "phraseIndex": 3,
+    "en": "I kept practicing, and things gradually started to make more sense.",
+    "ja": "練習を続けるうちに、少しずつ理解できるようになりました。",
+    "grammar": "kept + 動名詞＝〜し続けた。started to ...で変化を表す。",
+    "chunks": "make more sense＝より理解できるようになる／gradually＝徐々に"
+  },
+  {
+    "phraseId": "09-05",
+    "lessonId": "etcl-09-past-experiences",
+    "phraseIndex": 4,
+    "en": "Looking back, I've come a long way.",
+    "ja": "振り返ると、ずいぶん成長しました。",
+    "grammar": "Looking backは文頭の分詞句で「振り返ると」。I've comeは現在完了。",
+    "chunks": "come a long way＝大きく進歩する、ずいぶん成長する"
+  },
+  {
+    "phraseId": "09-06",
+    "lessonId": "etcl-09-past-experiences",
+    "phraseIndex": 5,
+    "en": "There's still a lot I want to learn.",
+    "ja": "まだまだ学びたいことがたくさんあります。",
+    "grammar": "There's ... I want to learn：I want to learnがa lotを修飾。",
+    "chunks": "there's still a lot ...＝まだたくさん〜がある"
+  },
+  {
+    "phraseId": "10-01",
+    "lessonId": "etcl-10-explaining-problems",
+    "phraseIndex": 0,
+    "en": "I've been having a problem with it lately.",
+    "ja": "最近、それに問題が起きています。",
+    "grammar": "have been havingは現在完了進行形。最近から今まで続く問題を示す。",
+    "chunks": "have a problem with ...＝〜に問題がある／lately＝最近"
+  },
+  {
+    "phraseId": "10-02",
+    "lessonId": "etcl-10-explaining-problems",
+    "phraseIndex": 1,
+    "en": "It sometimes stops working for no apparent reason.",
+    "ja": "明らかな理由もなく、ときどき動かなくなります。",
+    "grammar": "stop + 動名詞＝〜するのをやめる。ここでは作動停止。",
+    "chunks": "for no apparent reason＝見たところ理由がない、原因が分からない"
+  },
+  {
+    "phraseId": "10-03",
+    "lessonId": "etcl-10-explaining-problems",
+    "phraseIndex": 2,
+    "en": "It only happens under certain conditions.",
+    "ja": "それは特定の条件下でしか起こりません。",
+    "grammar": "onlyが起こる条件を限定する。",
+    "chunks": "under certain conditions＝特定の条件下で"
+  },
+  {
+    "phraseId": "10-04",
+    "lessonId": "etcl-10-explaining-problems",
+    "phraseIndex": 3,
+    "en": "I've tried a few things, but nothing has worked so far.",
+    "ja": "いくつか試しましたが、今のところ何もうまくいっていません。",
+    "grammar": "have triedは現在完了。nothing has workedも現在までの結果。",
+    "chunks": "a few things＝いくつかのこと／so far＝今のところ"
+  },
+  {
+    "phraseId": "10-05",
+    "lessonId": "etcl-10-explaining-problems",
+    "phraseIndex": 4,
+    "en": "I'm still trying to figure out what's causing the problem.",
+    "ja": "まだ何が問題の原因なのか突き止めようとしているところです。",
+    "grammar": "be trying to ...＝〜しようとしている最中。what's causing ... は間接疑問文。",
+    "chunks": "figure out what's causing ...＝何が〜を引き起こしているか突き止める"
+  },
+  {
+    "phraseId": "10-06",
+    "lessonId": "etcl-10-explaining-problems",
+    "phraseIndex": 5,
+    "en": "I'm not sure what to do next.",
+    "ja": "次にどうすればいいのか分かりません。",
+    "grammar": "I'm not sure + 疑問詞 + to不定詞＝何を〜すべきか分からない。",
+    "chunks": "what to do next＝次に何をするか"
+  },
+  {
+    "phraseId": "11-01",
+    "lessonId": "etcl-11-plans-and-possibilities",
+    "phraseIndex": 0,
+    "en": "I'm planning to spend more time working on my own projects.",
+    "ja": "自分のプロジェクトに取り組む時間をもっと増やす予定です。",
+    "grammar": "be planning to ...＝〜する予定でいる。",
+    "chunks": "spend time + 動名詞＝〜することに時間を使う"
+  },
+  {
+    "phraseId": "11-02",
+    "lessonId": "etcl-11-plans-and-possibilities",
+    "phraseIndex": 1,
+    "en": "I'm thinking about trying something new.",
+    "ja": "何か新しいことを試してみようかと考えています。",
+    "grammar": "be thinking about + 動名詞＝〜しようか考えている。",
+    "chunks": "try something new＝何か新しいことを試す"
+  },
+  {
+    "phraseId": "11-03",
+    "lessonId": "etcl-11-plans-and-possibilities",
+    "phraseIndex": 2,
+    "en": "I haven't decided yet.",
+    "ja": "まだ決めていません。",
+    "grammar": "haven't decidedは現在完了で、今も決定していないことを示す。",
+    "chunks": "not ... yet＝まだ〜していない"
+  },
+  {
+    "phraseId": "11-04",
+    "lessonId": "etcl-11-plans-and-possibilities",
+    "phraseIndex": 3,
+    "en": "I'm hoping to make some progress on a few things I've been putting off.",
+    "ja": "先延ばしにしていたいくつかのことを、少しでも進められたらと思っています。",
+    "grammar": "be hoping to ...＝〜したいと思っている。I've been putting offがthingsを修飾。",
+    "chunks": "make progress on ...＝〜を進める／put off＝先延ばしにする"
+  },
+  {
+    "phraseId": "11-05",
+    "lessonId": "etcl-11-plans-and-possibilities",
+    "phraseIndex": 4,
+    "en": "I'll see how things go before making any decisions.",
+    "ja": "何か決める前に、しばらく様子を見ます。",
+    "grammar": "I'll ... はその場で述べる今後の方針。before + 動名詞。",
+    "chunks": "see how things go＝様子を見る／make decisions＝判断する"
+  },
+  {
+    "phraseId": "11-06",
+    "lessonId": "etcl-11-plans-and-possibilities",
+    "phraseIndex": 5,
+    "en": "It depends on how things work out.",
+    "ja": "物事がどう進むかによります。",
+    "grammar": "depend on ...＝〜次第である。how以下は名詞節。",
+    "chunks": "work out＝物事がうまく進む、結果が出る"
+  },
+  {
+    "phraseId": "12-01",
+    "lessonId": "etcl-12-expressing-opinions",
+    "phraseIndex": 0,
+    "en": "I think AI is a really useful tool for learning.",
+    "ja": "AIは学習にとても役立つツールだと思います。",
+    "grammar": "I think + 文で意見を述べる。",
+    "chunks": "a useful tool for learning＝学習に役立つ道具"
+  },
+  {
+    "phraseId": "12-02",
+    "lessonId": "etcl-12-expressing-opinions",
+    "phraseIndex": 1,
+    "en": "The main reason is that I can get explanations whenever I need them.",
+    "ja": "一番の理由は、必要なときにいつでも説明を受けられることです。",
+    "grammar": "The main reason is that ...：that以下が理由の内容。",
+    "chunks": "whenever I need them＝必要なときはいつでも／explanations＝説明"
+  },
+  {
+    "phraseId": "12-03",
+    "lessonId": "etcl-12-expressing-opinions",
+    "phraseIndex": 2,
+    "en": "I think relying too much on AI can be a problem.",
+    "ja": "AIに頼りすぎるのは問題になり得ると思います。",
+    "grammar": "動名詞relyingがthat節の主語。",
+    "chunks": "rely too much on ...＝〜に頼りすぎる／can be a problem＝問題になり得る"
+  },
+  {
+    "phraseId": "12-04",
+    "lessonId": "etcl-12-expressing-opinions",
+    "phraseIndex": 3,
+    "en": "Not necessarily. It depends on how you use it.",
+    "ja": "必ずしもそうではありません。使い方次第です。",
+    "grammar": "Not necessarily. は前の発言を全面的には認めない返答。",
+    "chunks": "not necessarily＝必ずしもそうではない／depend on how ...＝どう〜するか次第"
+  },
+  {
+    "phraseId": "12-05",
+    "lessonId": "etcl-12-expressing-opinions",
+    "phraseIndex": 4,
+    "en": "It's important to think for yourself instead of just accepting what AI tells you.",
+    "ja": "AIが言うことをそのまま受け入れるのではなく、自分で考えることが大切です。",
+    "grammar": "It's important to ... は形式主語構文。instead ofの後は動名詞。",
+    "chunks": "think for yourself＝自分の頭で考える／instead of ...＝〜する代わりに"
+  },
+  {
+    "phraseId": "12-06",
+    "lessonId": "etcl-12-expressing-opinions",
+    "phraseIndex": 5,
+    "en": "AI works best when it supports your learning rather than replacing your own thinking.",
+    "ja": "AIは、自分で考えることの代わりにするのではなく、学習を支えるために使うと最も効果的です。",
+    "grammar": "when以下は条件・状況。rather thanの後は動名詞replacing。",
+    "chunks": "work best＝最もうまく機能する／rather than ...＝〜するのではなく"
+  }
+]

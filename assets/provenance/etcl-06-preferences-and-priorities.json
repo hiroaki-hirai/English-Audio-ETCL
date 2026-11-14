@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 2,
+  "kind": "etcl-v2-japanese-cues",
+  "planId": "d29bbe8818c8efd4c8f5d1b60fa6a91989efa9d16c6fbd176ca0a0b70e5985d0",
+  "lessonId": "etcl-06-preferences-and-priorities",
+  "source": {
+    "zipSha256": "c4e76e4c9c3ede5da39545de2b7dcd537b0660818a0503dec15f32e53c40ed01",
+    "notesZipSha256": "5b565120d0a26b61d7d6ec6b1e32090d1557d60bc50c3a8a512187772b3b6c4a",
+    "member": "training-scripts/etcl-06-preferences-and-priorities.json"
+  },
+  "tts": {
+    "model": "gpt-4o-mini-tts",
+    "voice": "cedar",
+    "response_format": "mp3",
+    "instructions": "Read the Japanese text clearly and naturally in Japanese. Do not translate it."
+  },
+  "expectedFormat": {
+    "codec": "mp3",
+    "sampleRate": 24000,
+    "channels": 1
+  },
+  "retryPolicy": {
+    "maxRetries": 0,
+    "maxRequests": 63,
+    "maxRequestsPerPhrase": 1,
+    "stopOnFirstFailure": true
+  },
+  "status": "verified",
+  "entries": [
+    {
+      "lessonId": "etcl-06-preferences-and-priorities",
+      "phraseIndex": 0,
+      "phraseId": "06-01",
+      "cueId": "etcl-06-preferences-and-priorities:0",
+      "en": "I prefer working on my own schedule.",
+      "ja": "私は自分のスケジュールで働く方が好きです。",
+      "sourceHash": "c5bec3a0bee413fb33c2429ec11eae0cec7181ba2f53ac0bd7e50aeac9c78bfe",
+      "audioSha256": "3c34743d6e0e2f9aeac19efe056880c9268af298ad724eeeeb6696de9fd0f911",
+      "audioBytes": 67968,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 4.248
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-06-preferences-and-priorities",
+      "phraseIndex": 1,
+      "phraseId": "06-02",
+      "cueId": "etcl-06-preferences-and-priorities:1",
+      "en": "I want to earn enough money while still having time to work on my own apps.",
+      "ja": "自分のアプリに取り組む時間を確保しながら、十分な収入も得たいです。",
+      "sourceHash": "0594ac8565a526f31beced531dabb9d392ae542e343f63e000a68e9d12f3ad43",
+      "audioSha256": "8c0c9b3e64a6d276e97d239d928a09676764b15831e37ac9e94fa0e94065ae22",
+      "audioBytes": 97920,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 6.12
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-06-preferences-and-priorities",
+      "phraseIndex": 2,
+      "phraseId": "06-03",
+      "cueId": "etcl-06-preferences-and-priorities:2",
+      "en": "I'm trying to find a balance between work and my own projects.",
+      "ja": "仕事と自分のプロジェクトのバランスを取ろうとしています。",
+      "sourceHash": "68447049041f40ffbd07e5a9ffc1040077112618b251f500d6ee3da14a1b98e1",
+      "audioSha256": "84efd0b8a4c3319e9b80ebfcd2e744500bb4efc95dab770ce56c05f18f0f1d34",
+      "audioBytes": 69888,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 4.368
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-06-preferences-and-priorities",
+      "phraseIndex": 3,
+      "phraseId": "06-04",
+      "cueId": "etcl-06-preferences-and-priorities:3",
+      "en": "What matters most to me is having enough time to work on my own projects.",
+      "ja": "私にとって最も大切なのは、自分のプロジェクトに取り組む時間を十分に確保することです。",
+      "sourceHash": "49e256352546274e093724577a0771c89ea771d7abf52a334e2b62c0e84b621a",
+      "audioSha256": "ecb92b213b461f3bd48dd6008c4a1f8bd2178010d269a6c53fcee975a2260299",
+      "audioBytes": 140160,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 8.76
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-06-preferences-and-priorities",
+      "phraseIndex": 4,
+      "phraseId": "06-05",
+      "cueId": "etcl-06-preferences-and-priorities:4",
+      "en": "My long-term goal is to make app development my main source of income.",
+      "ja": "長期的な目標は、アプリ開発を主な収入源にすることです。",
+      "sourceHash": "19aca830ba6b2eda6ff1762cea7abdecd9c84de0d1a8f79fe69b78b8bd49e41b",
+      "audioSha256": "9883f61c3bbf8991b14aeb435821c230b62948feaf2394ccf594c974b72d98fb",
+      "audioBytes": 83328,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 5.208
+      },
+      "status": "verified"
+    }
+  ],
+  "originalManifestSha256": "f6d02049e73bf930466299d1ca91638499348260237152cae4e4d40b4fbf79ff"
+}

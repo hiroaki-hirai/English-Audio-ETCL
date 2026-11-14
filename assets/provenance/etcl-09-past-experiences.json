@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 2,
+  "kind": "etcl-v2-japanese-cues",
+  "planId": "d29bbe8818c8efd4c8f5d1b60fa6a91989efa9d16c6fbd176ca0a0b70e5985d0",
+  "lessonId": "etcl-09-past-experiences",
+  "source": {
+    "zipSha256": "c4e76e4c9c3ede5da39545de2b7dcd537b0660818a0503dec15f32e53c40ed01",
+    "notesZipSha256": "5b565120d0a26b61d7d6ec6b1e32090d1557d60bc50c3a8a512187772b3b6c4a",
+    "member": "training-scripts/etcl-09-past-experiences.json"
+  },
+  "tts": {
+    "model": "gpt-4o-mini-tts",
+    "voice": "cedar",
+    "response_format": "mp3",
+    "instructions": "Read the Japanese text clearly and naturally in Japanese. Do not translate it."
+  },
+  "expectedFormat": {
+    "codec": "mp3",
+    "sampleRate": 24000,
+    "channels": 1
+  },
+  "retryPolicy": {
+    "maxRetries": 0,
+    "maxRequests": 63,
+    "maxRequestsPerPhrase": 1,
+    "stopOnFirstFailure": true
+  },
+  "status": "verified",
+  "entries": [
+    {
+      "lessonId": "etcl-09-past-experiences",
+      "phraseIndex": 0,
+      "phraseId": "09-01",
+      "cueId": "etcl-09-past-experiences:0",
+      "en": "I got into programming because I wanted to build my own apps and services.",
+      "ja": "自分のアプリやサービスを作りたかったので、プログラミングを始めました。",
+      "sourceHash": "bc4706e928bc7c0c3c09ecbc8ae0721f5cf78f9c1acdd5d395c0db024e5cb74c",
+      "audioSha256": "7026b684b763e3c969e36733a6dbd0b50b13673a0250408aedce52c08ace86ff",
+      "audioBytes": 100224,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 6.264
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-09-past-experiences",
+      "phraseIndex": 1,
+      "phraseId": "09-02",
+      "cueId": "etcl-09-past-experiences:1",
+      "en": "I had to learn almost everything from scratch.",
+      "ja": "ほとんどすべてをゼロから学ばなければなりませんでした。",
+      "sourceHash": "105b41b2159722b2f8242cce6db10aeb0266a57de588e2f5a8c17b0785da8f4b",
+      "audioSha256": "7b43003de20bef798da295fc93bd491a9f1ec871373fbcc25dd4e37eaff4b144",
+      "audioBytes": 81792,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 5.112
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-09-past-experiences",
+      "phraseIndex": 2,
+      "phraseId": "09-03",
+      "cueId": "etcl-09-past-experiences:2",
+      "en": "I couldn't figure out why my code wasn't working.",
+      "ja": "なぜ自分のコードが動かないのか分かりませんでした。",
+      "sourceHash": "664503d336c2c91ed24615b95ef02a3b8c4cd56f6a0c737ede8ecbee9e95c6b7",
+      "audioSha256": "c8b469b9380d6b8c85538db958377ae293babdf6309525e33383249ad904c6f3",
+      "audioBytes": 77568,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 4.848
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-09-past-experiences",
+      "phraseIndex": 3,
+      "phraseId": "09-04",
+      "cueId": "etcl-09-past-experiences:3",
+      "en": "I kept practicing, and things gradually started to make more sense.",
+      "ja": "練習を続けるうちに、少しずつ理解できるようになりました。",
+      "sourceHash": "6e5b75552a6deaf67335d371373a2379645fe8ba11d6850e141070d666b4d681",
+      "audioSha256": "d432aa34723dd9559c91b479a4bafa53a2993b4edbb63eea56ca20e8b1791242",
+      "audioBytes": 75264,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 4.704
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-09-past-experiences",
+      "phraseIndex": 4,
+      "phraseId": "09-05",
+      "cueId": "etcl-09-past-experiences:4",
+      "en": "Looking back, I've come a long way.",
+      "ja": "振り返ると、ずいぶん成長しました。",
+      "sourceHash": "5d4ab538f8d35278d3f4da4a17f32f7171df89ebb3757b0f1e498a136a32e789",
+      "audioSha256": "d417ee3e10a9bec49f545f8b27dab8cbf8c1f225b032f7d2385fa5d0d6220383",
+      "audioBytes": 61824,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 3.864
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-09-past-experiences",
+      "phraseIndex": 5,
+      "phraseId": "09-06",
+      "cueId": "etcl-09-past-experiences:5",
+      "en": "There's still a lot I want to learn.",
+      "ja": "まだまだ学びたいことがたくさんあります。",
+      "sourceHash": "7e0c007677168c02aa32c299635f410ca885abb4d60de401fef5afe8f9eb7969",
+      "audioSha256": "9e4bfa8b47a4edd75c4197b3aa4af24f7640fc21112f8d0820af4e1914467cf4",
+      "audioBytes": 61056,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 3.816
+      },
+      "status": "verified"
+    }
+  ],
+  "originalManifestSha256": "df36f0e9dbfa21bef8a17751e9a3ddc7fe6b4ca51caf694b4de878325128ee0b"
+}

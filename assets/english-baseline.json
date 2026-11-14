@@ -1,0 +1,146 @@
+{
+  "web/public/lessons/etcl-01-talking-about-my-job/continuous-training.mp3": {
+    "size": 232557,
+    "sha256": "84240dfa5bf7c04dfdcb6d4718e2e8db65d3a01de7224705650dfb90a81c8c9b"
+  },
+  "web/public/lessons/etcl-01-talking-about-my-job/lesson.mp3": {
+    "size": 292557,
+    "sha256": "b103f0476e18e965fa213e5bdf7583798bd5cd7972acb10ba5639adbbb9ee388"
+  },
+  "web/public/lessons/etcl-01-talking-about-my-job/metadata.json": {
+    "size": 275,
+    "sha256": "04f746172dd63e132355945c6487d901dd8e4d2c6ecc1d306122fe5747dc509a"
+  },
+  "web/public/lessons/etcl-02-daily-routine/continuous-training.mp3": {
+    "size": 240813,
+    "sha256": "de7c61e3c16ccc779feecf717f9eccceb6d5974f5543533090d9805852b8b568"
+  },
+  "web/public/lessons/etcl-02-daily-routine/lesson.mp3": {
+    "size": 300813,
+    "sha256": "5cb656b2bd27635a327e389b922edbea117b105f3f5d64e65b773cb628125adc"
+  },
+  "web/public/lessons/etcl-02-daily-routine/metadata.json": {
+    "size": 280,
+    "sha256": "a344021d0d20314f64e10e4ebb99991c3d9c834d8ed8d46935a27b75ddd898f4"
+  },
+  "web/public/lessons/etcl-03-recent-events/continuous-training.mp3": {
+    "size": 309357,
+    "sha256": "a96df33756f55c62eef1df1f2e1549d8ffc2f8cbabee7c618999724058dcb22d"
+  },
+  "web/public/lessons/etcl-03-recent-events/lesson.mp3": {
+    "size": 385389,
+    "sha256": "f7bdb3b6ec34a1b7041794f519631a2c3168e84098c63d51f39dd3557ad5de89"
+  },
+  "web/public/lessons/etcl-03-recent-events/metadata.json": {
+    "size": 335,
+    "sha256": "72a67b9fab073d263388974dbbd26ba81a91ca563e2afdc8df2646d20fc7b505"
+  },
+  "web/public/lessons/etcl-04-current-situation/continuous-training.mp3": {
+    "size": 332013,
+    "sha256": "0339840c845971d791acfafce674651c798e17bbbc9d1bf5cf28c510ec394404"
+  },
+  "web/public/lessons/etcl-04-current-situation/lesson.mp3": {
+    "size": 408045,
+    "sha256": "6226b6eabba8a455ec6e2db03a29c10e87b5eb793eb0e03980a8670acbe779f1"
+  },
+  "web/public/lessons/etcl-04-current-situation/metadata.json": {
+    "size": 335,
+    "sha256": "cff928f706454c8efb1cda0fede4ddb8e245d877d4a210b8030d3026f5bce991"
+  },
+  "web/public/lessons/etcl-05-reasons-and-decisions/continuous-training.mp3": {
+    "size": 290349,
+    "sha256": "17a9dc5614fe6cd305ad99189ee66d3080f09040dc00badb512d91a8ab3eb172"
+  },
+  "web/public/lessons/etcl-05-reasons-and-decisions/lesson.mp3": {
+    "size": 350349,
+    "sha256": "ff4c3bb33901e5f6fb458572be3295c79849be5cb412e5bf05f088c56851f1dd"
+  },
+  "web/public/lessons/etcl-05-reasons-and-decisions/metadata.json": {
+    "size": 281,
+    "sha256": "84c9ea5e4c6618fe76fd7c2d85b6fc127fa847825579070052282614fd85461b"
+  },
+  "web/public/lessons/etcl-06-preferences-and-priorities/continuous-training.mp3": {
+    "size": 283245,
+    "sha256": "269f04c8883d14186dff32eb5c8fe5e53a7f634cabce9679ad1c66a5f5ccd278"
+  },
+  "web/public/lessons/etcl-06-preferences-and-priorities/lesson.mp3": {
+    "size": 343245,
+    "sha256": "4ba638601cc404bdd47001fa533da5adaf3657a62c4fcfbb343db025878ddf3d"
+  },
+  "web/public/lessons/etcl-06-preferences-and-priorities/metadata.json": {
+    "size": 281,
+    "sha256": "7833e16634553258cfbb574653fd316cdcd08bcb4e0482141437e001a2b7e9ee"
+  },
+  "web/public/lessons/etcl-07-asking-questions/continuous-training.mp3": {
+    "size": 252525,
+    "sha256": "b123fd8b06cdba4c32db3b91aa484dd0f666532d6405762e3976afde6c3e8522"
+  },
+  "web/public/lessons/etcl-07-asking-questions/lesson.mp3": {
+    "size": 328557,
+    "sha256": "172fde896f6f20d9028f701baaf96fd0338df91b446afade2375c6f8466e9c7a"
+  },
+  "web/public/lessons/etcl-07-asking-questions/metadata.json": {
+    "size": 333,
+    "sha256": "7069d679185d9ece5c8f551cd0bea53ad0dd4f55769c4ff6006910030edf7c77"
+  },
+  "web/public/lessons/etcl-08-responding-naturally/continuous-training.mp3": {
+    "size": 229101,
+    "sha256": "cf7b4b19b72d7eda9eb5401da85e1bc16a04b886b006c222fe19937078ec77fa"
+  },
+  "web/public/lessons/etcl-08-responding-naturally/lesson.mp3": {
+    "size": 305133,
+    "sha256": "17486e4de1019a3bad8671032054824e3b292244f12829d25ed882cba68abec9"
+  },
+  "web/public/lessons/etcl-08-responding-naturally/metadata.json": {
+    "size": 335,
+    "sha256": "1603e1a2eeddabe748fd6fa35ad3a3a95532e810ee87dd4a877f8989830723c3"
+  },
+  "web/public/lessons/etcl-09-past-experiences/continuous-training.mp3": {
+    "size": 306477,
+    "sha256": "c123f1583d548f4588e3e636ffbf224f1d0fb9fa6d06756eb7ed96fd39f3e9f7"
+  },
+  "web/public/lessons/etcl-09-past-experiences/lesson.mp3": {
+    "size": 382509,
+    "sha256": "6aab97dea5ffd1485e96bb3a401d166251e42072a5ebf616a9d42f1469836fe0"
+  },
+  "web/public/lessons/etcl-09-past-experiences/metadata.json": {
+    "size": 335,
+    "sha256": "c6f4e723e0cfea5c5297a5f554e85cc5db51c851cff9f2e358c40ba48896ddd1"
+  },
+  "web/public/lessons/etcl-10-explaining-problems/continuous-training.mp3": {
+    "size": 302061,
+    "sha256": "2f0c86caf19c5f7b9678b38056be1f58d37f9837470ce64d4d4ee64426b593fa"
+  },
+  "web/public/lessons/etcl-10-explaining-problems/lesson.mp3": {
+    "size": 378093,
+    "sha256": "14f04b5878313f1a56603d17895b0660342b4adc95835eed33784ed8b95821a0"
+  },
+  "web/public/lessons/etcl-10-explaining-problems/metadata.json": {
+    "size": 335,
+    "sha256": "f91b70fb9265387034accd23c89eace2cc4b406fb502e00c071a6bfa26399bdf"
+  },
+  "web/public/lessons/etcl-11-plans-and-possibilities/continuous-training.mp3": {
+    "size": 289197,
+    "sha256": "977a3a7dd7704215c2c7380aadb9e01370ae1160942edbcacf352e02581c39a5"
+  },
+  "web/public/lessons/etcl-11-plans-and-possibilities/lesson.mp3": {
+    "size": 365229,
+    "sha256": "90c529297bfbdcc23bf50cfba95dac7e76efa79b84dd613e1c1ff758ae04f86c"
+  },
+  "web/public/lessons/etcl-11-plans-and-possibilities/metadata.json": {
+    "size": 334,
+    "sha256": "6119273f5473e44ca9d0112fdb9d9c5698789795a50cdb5cd7395effc5af971d"
+  },
+  "web/public/lessons/etcl-12-expressing-opinions/continuous-training.mp3": {
+    "size": 337581,
+    "sha256": "5ee8df12e98893e7a9fb2b26c56ea6c9869049f5840984c9246a7a714156c7a7"
+  },
+  "web/public/lessons/etcl-12-expressing-opinions/lesson.mp3": {
+    "size": 413613,
+    "sha256": "6c6e56f9f2f73c1738cf8d801f50abc9fef1e806ec0846f38fd25a1c72445bda"
+  },
+  "web/public/lessons/etcl-12-expressing-opinions/metadata.json": {
+    "size": 334,
+    "sha256": "845c137848b5d22a8b03a1064c6f0e50f49a8479fd7edc3693ecd1e9b7ceb767"
+  }
+}

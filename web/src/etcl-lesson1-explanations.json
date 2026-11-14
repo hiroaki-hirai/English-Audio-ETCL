@@ -1,0 +1,47 @@
+[
+  {
+    "phraseId": "01-01",
+    "lessonId": "etcl-01-talking-about-my-job",
+    "phraseIndex": 0,
+    "en": "I'm mainly focused on developing my own apps.",
+    "ja": "私は主に自分のアプリ開発に取り組んでいます。",
+    "grammar": "be focused on + 動名詞：〜に集中している。onの後はdeveloping。",
+    "chunks": "mainly＝主に／my own apps＝自分自身のアプリ"
+  },
+  {
+    "phraseId": "01-02",
+    "lessonId": "etcl-01-talking-about-my-job",
+    "phraseIndex": 1,
+    "en": "I do food delivery on the side.",
+    "ja": "副業でフードデリバリーをしています。",
+    "grammar": "do food delivery＝配達の仕事をする。",
+    "chunks": "on the side＝本業とは別に、副業として"
+  },
+  {
+    "phraseId": "01-03",
+    "lessonId": "etcl-01-talking-about-my-job",
+    "phraseIndex": 2,
+    "en": "I like the flexibility.",
+    "ja": "その自由度の高さが気に入っています。",
+    "grammar": "the flexibilityは、前に話題になった働き方の自由度を指す。",
+    "chunks": "flexibility＝柔軟性、自由度"
+  },
+  {
+    "phraseId": "01-04",
+    "lessonId": "etcl-01-talking-about-my-job",
+    "phraseIndex": 3,
+    "en": "It gives me more time to work on my own projects.",
+    "ja": "そのおかげで、自分のプロジェクトに取り組む時間が増えます。",
+    "grammar": "give + 人 + 物：人に物を与える。ここでは時間を確保できるという意味。",
+    "chunks": "more time to work on ...＝〜に取り組むためのより多くの時間"
+  },
+  {
+    "phraseId": "01-05",
+    "lessonId": "etcl-01-talking-about-my-job",
+    "phraseIndex": 4,
+    "en": "Eventually, I'd like to make money from my apps.",
+    "ja": "いずれは自分のアプリで収入を得たいです。",
+    "grammar": "I'd like to ...＝〜したい（控えめな希望）。",
+    "chunks": "eventually＝いずれは／make money from ...＝〜から収入を得る"
+  }
+]

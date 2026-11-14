@@ -1,0 +1,370 @@
+[
+  {
+    "id": "etcl-01-talking-about-my-job",
+    "domain": "etcl",
+    "scenario": "Talking About My Job",
+    "scenarioJa": "仕事について話す",
+    "phrases": [
+      {
+        "en": "I'm mainly focused on developing my own apps.",
+        "ja": "私は主に自分のアプリ開発に取り組んでいます。"
+      },
+      {
+        "en": "I do food delivery on the side.",
+        "ja": "副業でフードデリバリーをしています。"
+      },
+      {
+        "en": "I like the flexibility.",
+        "ja": "その自由度の高さが気に入っています。"
+      },
+      {
+        "en": "It gives me more time to work on my own projects.",
+        "ja": "そのおかげで、自分のプロジェクトに取り組む時間が増えます。"
+      },
+      {
+        "en": "Eventually, I'd like to make money from my apps.",
+        "ja": "いずれは自分のアプリで収入を得たいです。"
+      }
+    ]
+  },
+  {
+    "id": "etcl-02-daily-routine",
+    "domain": "etcl",
+    "scenario": "Daily Routine",
+    "scenarioJa": "日々の生活",
+    "phrases": [
+      {
+        "en": "My schedule changes from day to day.",
+        "ja": "私のスケジュールは日によって変わります。"
+      },
+      {
+        "en": "I work on my apps between deliveries.",
+        "ja": "配達の合間に自分のアプリを開発しています。"
+      },
+      {
+        "en": "I try to make the most of my downtime.",
+        "ja": "空き時間をできるだけ有効に使うようにしています。"
+      },
+      {
+        "en": "I practice English while making deliveries.",
+        "ja": "配達をしながら英語を練習しています。"
+      },
+      {
+        "en": "I try to make time for exercise as well.",
+        "ja": "運動する時間も確保するようにしています。"
+      }
+    ]
+  },
+  {
+    "id": "etcl-03-recent-events",
+    "domain": "etcl",
+    "scenario": "Recent Events",
+    "scenarioJa": "最近の出来事",
+    "phrases": [
+      {
+        "en": "I ran into a bug the other day.",
+        "ja": "この前、バグに遭遇しました。"
+      },
+      {
+        "en": "I was working on a new feature when part of the app suddenly stopped working.",
+        "ja": "新しい機能を開発していたら、突然アプリの一部が動かなくなりました。"
+      },
+      {
+        "en": "I used AI to help me figure out what was causing the problem.",
+        "ja": "問題の原因を突き止めるためにAIを使いました。"
+      },
+      {
+        "en": "It helped me narrow down the cause.",
+        "ja": "そのおかげで原因を絞り込むことができました。"
+      },
+      {
+        "en": "I was able to fix it.",
+        "ja": "それを修正することができました。"
+      },
+      {
+        "en": "It took longer than I expected, but I learned a lot from it.",
+        "ja": "予想以上に時間がかかりましたが、そこから多くのことを学びました。"
+      }
+    ]
+  },
+  {
+    "id": "etcl-04-current-situation",
+    "domain": "etcl",
+    "scenario": "Current Situation",
+    "scenarioJa": "現在の状況",
+    "phrases": [
+      {
+        "en": "I've been practicing English regularly with an app I built.",
+        "ja": "自分で作ったアプリを使って、定期的に英語を練習しています。"
+      },
+      {
+        "en": "I can come up with phrases I've practiced much more quickly now.",
+        "ja": "練習したフレーズが、今では以前よりずっと早く思い浮かびます。"
+      },
+      {
+        "en": "I'm starting to understand more spoken English than before.",
+        "ja": "以前よりも、話されている英語を理解できるようになってきました。"
+      },
+      {
+        "en": "I still find it difficult to speak freely without relying on memorized phrases.",
+        "ja": "暗記したフレーズに頼らずに自由に話すのは、まだ難しいと感じます。"
+      },
+      {
+        "en": "I still have a long way to go.",
+        "ja": "まだまだ先は長いです。"
+      },
+      {
+        "en": "I feel like I'm making progress.",
+        "ja": "上達していると感じます。"
+      }
+    ]
+  },
+  {
+    "id": "etcl-05-reasons-and-decisions",
+    "domain": "etcl",
+    "scenario": "Reasons & Decisions",
+    "scenarioJa": "理由と決断",
+    "phrases": [
+      {
+        "en": "I wanted an app that fit the way I like to learn.",
+        "ja": "自分の好きな学び方に合うアプリが欲しかったんです。"
+      },
+      {
+        "en": "I couldn't find one that worked exactly the way I wanted, so I decided to build my own.",
+        "ja": "自分の希望どおりに動くものが見つからなかったので、自分で作ることにしました。"
+      },
+      {
+        "en": "I wanted to practice phrases based on situations I'm likely to encounter in real life.",
+        "ja": "実生活で遭遇しそうな状況に基づいたフレーズを練習したかったんです。"
+      },
+      {
+        "en": "I also thought it would be a good opportunity to improve my programming skills.",
+        "ja": "プログラミングのスキルを伸ばす良い機会にもなると思いました。"
+      },
+      {
+        "en": "It fits naturally into my daily routine.",
+        "ja": "それは私の日常生活に無理なく取り入れられます。"
+      }
+    ]
+  },
+  {
+    "id": "etcl-06-preferences-and-priorities",
+    "domain": "etcl",
+    "scenario": "Preferences & Priorities",
+    "scenarioJa": "好みと優先順位",
+    "phrases": [
+      {
+        "en": "I prefer working on my own schedule.",
+        "ja": "私は自分のスケジュールで働く方が好きです。"
+      },
+      {
+        "en": "I want to earn enough money while still having time to work on my own apps.",
+        "ja": "自分のアプリに取り組む時間を確保しながら、十分な収入も得たいです。"
+      },
+      {
+        "en": "I'm trying to find a balance between work and my own projects.",
+        "ja": "仕事と自分のプロジェクトのバランスを取ろうとしています。"
+      },
+      {
+        "en": "What matters most to me is having enough time to work on my own projects.",
+        "ja": "私にとって最も大切なのは、自分のプロジェクトに取り組む時間を十分に確保することです。"
+      },
+      {
+        "en": "My long-term goal is to make app development my main source of income.",
+        "ja": "長期的な目標は、アプリ開発を主な収入源にすることです。"
+      }
+    ]
+  },
+  {
+    "id": "etcl-07-asking-questions",
+    "domain": "etcl",
+    "scenario": "Asking Questions",
+    "scenarioJa": "質問する",
+    "phrases": [
+      {
+        "en": "What do you mean by that?",
+        "ja": "それはどういう意味ですか？"
+      },
+      {
+        "en": "How did you get into that?",
+        "ja": "どういうきっかけでそれを始めたんですか？"
+      },
+      {
+        "en": "How's it going so far?",
+        "ja": "今のところ、どんな調子ですか？"
+      },
+      {
+        "en": "What do you find most challenging?",
+        "ja": "何が一番難しいと感じますか？"
+      },
+      {
+        "en": "Could you tell me a bit more about that?",
+        "ja": "それについてもう少し詳しく教えてもらえますか？"
+      },
+      {
+        "en": "Are you enjoying it?",
+        "ja": "それを楽しんでいますか？"
+      }
+    ]
+  },
+  {
+    "id": "etcl-08-responding-naturally",
+    "domain": "etcl",
+    "scenario": "Responding Naturally",
+    "scenarioJa": "自然に応答する",
+    "phrases": [
+      {
+        "en": "I see.",
+        "ja": "なるほど。"
+      },
+      {
+        "en": "That makes sense.",
+        "ja": "それなら納得です。"
+      },
+      {
+        "en": "I know what you mean.",
+        "ja": "言いたいことは分かります。"
+      },
+      {
+        "en": "I can imagine.",
+        "ja": "想像できます。"
+      },
+      {
+        "en": "That's good to hear.",
+        "ja": "それはよかったです。"
+      },
+      {
+        "en": "Exactly.",
+        "ja": "まさにそのとおりです。"
+      }
+    ]
+  },
+  {
+    "id": "etcl-09-past-experiences",
+    "domain": "etcl",
+    "scenario": "Past Experiences",
+    "scenarioJa": "過去の経験",
+    "phrases": [
+      {
+        "en": "I got into programming because I wanted to build my own apps and services.",
+        "ja": "自分のアプリやサービスを作りたかったので、プログラミングを始めました。"
+      },
+      {
+        "en": "I had to learn almost everything from scratch.",
+        "ja": "ほとんどすべてをゼロから学ばなければなりませんでした。"
+      },
+      {
+        "en": "I couldn't figure out why my code wasn't working.",
+        "ja": "なぜ自分のコードが動かないのか分かりませんでした。"
+      },
+      {
+        "en": "I kept practicing, and things gradually started to make more sense.",
+        "ja": "練習を続けるうちに、少しずつ理解できるようになりました。"
+      },
+      {
+        "en": "Looking back, I've come a long way.",
+        "ja": "振り返ると、ずいぶん成長しました。"
+      },
+      {
+        "en": "There's still a lot I want to learn.",
+        "ja": "まだまだ学びたいことがたくさんあります。"
+      }
+    ]
+  },
+  {
+    "id": "etcl-10-explaining-problems",
+    "domain": "etcl",
+    "scenario": "Explaining Problems",
+    "scenarioJa": "問題を説明する",
+    "phrases": [
+      {
+        "en": "I've been having a problem with it lately.",
+        "ja": "最近、それに問題が起きています。"
+      },
+      {
+        "en": "It sometimes stops working for no apparent reason.",
+        "ja": "明らかな理由もなく、ときどき動かなくなります。"
+      },
+      {
+        "en": "It only happens under certain conditions.",
+        "ja": "それは特定の条件下でしか起こりません。"
+      },
+      {
+        "en": "I've tried a few things, but nothing has worked so far.",
+        "ja": "いくつか試しましたが、今のところ何もうまくいっていません。"
+      },
+      {
+        "en": "I'm still trying to figure out what's causing the problem.",
+        "ja": "まだ何が問題の原因なのか突き止めようとしているところです。"
+      },
+      {
+        "en": "I'm not sure what to do next.",
+        "ja": "次にどうすればいいのか分かりません。"
+      }
+    ]
+  },
+  {
+    "id": "etcl-11-plans-and-possibilities",
+    "domain": "etcl",
+    "scenario": "Plans & Possibilities",
+    "scenarioJa": "予定と可能性",
+    "phrases": [
+      {
+        "en": "I'm planning to spend more time working on my own projects.",
+        "ja": "自分のプロジェクトに取り組む時間をもっと増やす予定です。"
+      },
+      {
+        "en": "I'm thinking about trying something new.",
+        "ja": "何か新しいことを試してみようかと考えています。"
+      },
+      {
+        "en": "I haven't decided yet.",
+        "ja": "まだ決めていません。"
+      },
+      {
+        "en": "I'm hoping to make some progress on a few things I've been putting off.",
+        "ja": "先延ばしにしていたいくつかのことを、少しでも進められたらと思っています。"
+      },
+      {
+        "en": "I'll see how things go before making any decisions.",
+        "ja": "何か決める前に、しばらく様子を見ます。"
+      },
+      {
+        "en": "It depends on how things work out.",
+        "ja": "物事がどう進むかによります。"
+      }
+    ]
+  },
+  {
+    "id": "etcl-12-expressing-opinions",
+    "domain": "etcl",
+    "scenario": "Expressing Opinions",
+    "scenarioJa": "意見を述べる",
+    "phrases": [
+      {
+        "en": "I think AI is a really useful tool for learning.",
+        "ja": "AIは学習にとても役立つツールだと思います。"
+      },
+      {
+        "en": "The main reason is that I can get explanations whenever I need them.",
+        "ja": "一番の理由は、必要なときにいつでも説明を受けられることです。"
+      },
+      {
+        "en": "I think relying too much on AI can be a problem.",
+        "ja": "AIに頼りすぎるのは問題になり得ると思います。"
+      },
+      {
+        "en": "Not necessarily. It depends on how you use it.",
+        "ja": "必ずしもそうではありません。使い方次第です。"
+      },
+      {
+        "en": "It's important to think for yourself instead of just accepting what AI tells you.",
+        "ja": "AIが言うことをそのまま受け入れるのではなく、自分で考えることが大切です。"
+      },
+      {
+        "en": "AI works best when it supports your learning rather than replacing your own thinking.",
+        "ja": "AIは、自分で考えることの代わりにするのではなく、学習を支えるために使うと最も効果的です。"
+      }
+    ]
+  }
+]

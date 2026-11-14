@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 2,
+  "kind": "etcl-v2-japanese-cues",
+  "planId": "d29bbe8818c8efd4c8f5d1b60fa6a91989efa9d16c6fbd176ca0a0b70e5985d0",
+  "lessonId": "etcl-10-explaining-problems",
+  "source": {
+    "zipSha256": "c4e76e4c9c3ede5da39545de2b7dcd537b0660818a0503dec15f32e53c40ed01",
+    "notesZipSha256": "5b565120d0a26b61d7d6ec6b1e32090d1557d60bc50c3a8a512187772b3b6c4a",
+    "member": "training-scripts/etcl-10-explaining-problems.json"
+  },
+  "tts": {
+    "model": "gpt-4o-mini-tts",
+    "voice": "cedar",
+    "response_format": "mp3",
+    "instructions": "Read the Japanese text clearly and naturally in Japanese. Do not translate it."
+  },
+  "expectedFormat": {
+    "codec": "mp3",
+    "sampleRate": 24000,
+    "channels": 1
+  },
+  "retryPolicy": {
+    "maxRetries": 0,
+    "maxRequests": 63,
+    "maxRequestsPerPhrase": 1,
+    "stopOnFirstFailure": true
+  },
+  "status": "verified",
+  "entries": [
+    {
+      "lessonId": "etcl-10-explaining-problems",
+      "phraseIndex": 0,
+      "phraseId": "10-01",
+      "cueId": "etcl-10-explaining-problems:0",
+      "en": "I've been having a problem with it lately.",
+      "ja": "最近、それに問題が起きています。",
+      "sourceHash": "c8b86af06675b5d3f83df4f4803f14061625fcb8f4b3702eceb5e985562a2c64",
+      "audioSha256": "ee12ecfdf31d1d94678b3b46a0a9cb53c3ba2b4385406e104327871ff055d51b",
+      "audioBytes": 54528,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 3.408
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-10-explaining-problems",
+      "phraseIndex": 1,
+      "phraseId": "10-02",
+      "cueId": "etcl-10-explaining-problems:1",
+      "en": "It sometimes stops working for no apparent reason.",
+      "ja": "明らかな理由もなく、ときどき動かなくなります。",
+      "sourceHash": "1135f470ae7634a6d9dd4a72c0ae0711bb06a04e81d79f760a010806b95dc9c1",
+      "audioSha256": "8613a7d8abd17bda2a978465418b54c01a33a3a90a89e3aba3b3cb49f9132fc3",
+      "audioBytes": 71424,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 4.464
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-10-explaining-problems",
+      "phraseIndex": 2,
+      "phraseId": "10-03",
+      "cueId": "etcl-10-explaining-problems:2",
+      "en": "It only happens under certain conditions.",
+      "ja": "それは特定の条件下でしか起こりません。",
+      "sourceHash": "c87e86327e9b51e848df6f5b17f2a7b2b14702055b545426d0e81eb38dc60d59",
+      "audioSha256": "dff179af7203a04c1c0fcd8d62664d1a66b867412460e1adb7dd4984057ee576",
+      "audioBytes": 59520,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 3.72
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-10-explaining-problems",
+      "phraseIndex": 3,
+      "phraseId": "10-04",
+      "cueId": "etcl-10-explaining-problems:3",
+      "en": "I've tried a few things, but nothing has worked so far.",
+      "ja": "いくつか試しましたが、今のところ何もうまくいっていません。",
+      "sourceHash": "ba375c76c355fc9e781a40b4a5f2e263669a716001e37310c364de5d16b6425c",
+      "audioSha256": "b969dd5d7be14dde40776ed0d35b0c9791d6cb4b602ed3e4df6f34dc4b657ba5",
+      "audioBytes": 76800,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 4.8
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-10-explaining-problems",
+      "phraseIndex": 4,
+      "phraseId": "10-05",
+      "cueId": "etcl-10-explaining-problems:4",
+      "en": "I'm still trying to figure out what's causing the problem.",
+      "ja": "まだ何が問題の原因なのか突き止めようとしているところです。",
+      "sourceHash": "edb2ec244af414b313d456331a32b31136463ed07f2aea4b5517f8ba672db881",
+      "audioSha256": "30d01899297c9d5f91bf87db3b4383d7ab6c70fc27b0872ce9180de764a4bbf9",
+      "audioBytes": 92160,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 5.76
+      },
+      "status": "verified"
+    },
+    {
+      "lessonId": "etcl-10-explaining-problems",
+      "phraseIndex": 5,
+      "phraseId": "10-06",
+      "cueId": "etcl-10-explaining-problems:5",
+      "en": "I'm not sure what to do next.",
+      "ja": "次にどうすればいいのか分かりません。",
+      "sourceHash": "9314d6e0630f10387945722c396255a7463d7315c41c774c089cbd61d3a9e1e1",
+      "audioSha256": "fd33df2c0bc8331bcf88ede8b5e5ab1d16d402b09d719cb18d9a9ea330245d12",
+      "audioBytes": 51456,
+      "actualFormat": {
+        "codec": "mp3",
+        "sampleRate": 24000,
+        "channels": 1,
+        "durationSeconds": 3.216
+      },
+      "status": "verified"
+    }
+  ],
+  "originalManifestSha256": "2b9b9467b7cd692ffbefdc153559d4046163a4a540e4566cd41935b2f5b54e82"
+}

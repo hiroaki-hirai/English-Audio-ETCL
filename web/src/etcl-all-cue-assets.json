@@ -1,0 +1,632 @@
+{
+  "lessons": [
+    {
+      "lessonId": "etcl-01-talking-about-my-job",
+      "manifestSha256": "ba874340d1437b32b93a2ca754bc4490c86d2ac18bcfce9987f76578ec877763",
+      "entries": [
+        {
+          "phraseIndex": 0,
+          "en": "I'm mainly focused on developing my own apps.",
+          "ja": "私は主に自分のアプリ開発に取り組んでいます。",
+          "path": "lessons/etcl-01-talking-about-my-job/japanese-cues-v2/phrase-001.mp3",
+          "size": 64896,
+          "sha256": "6a124b5af6647812e06ad1eea614faab3c15ad0480a80f87502196be5044d56e"
+        },
+        {
+          "phraseIndex": 1,
+          "en": "I do food delivery on the side.",
+          "ja": "副業でフードデリバリーをしています。",
+          "path": "lessons/etcl-01-talking-about-my-job/japanese-cues-v2/phrase-002.mp3",
+          "size": 48768,
+          "sha256": "6cbed6a385d507b81f6980e4f68f5bb228af850991948eec05c972e0cde3ee45"
+        },
+        {
+          "phraseIndex": 2,
+          "en": "I like the flexibility.",
+          "ja": "その自由度の高さが気に入っています。",
+          "path": "lessons/etcl-01-talking-about-my-job/japanese-cues-v2/phrase-003.mp3",
+          "size": 67200,
+          "sha256": "40e72920d72c88c7d4cc2c9b03505ebb48e41f336bd666f89c0cdd619e96a795"
+        },
+        {
+          "phraseIndex": 3,
+          "en": "It gives me more time to work on my own projects.",
+          "ja": "そのおかげで、自分のプロジェクトに取り組む時間が増えます。",
+          "path": "lessons/etcl-01-talking-about-my-job/japanese-cues-v2/phrase-004.mp3",
+          "size": 72960,
+          "sha256": "9b239d3fe0bb56c77c7fc44a4d85d2da31c262f781a9aed1dccbc707eab56a81"
+        },
+        {
+          "phraseIndex": 4,
+          "en": "Eventually, I'd like to make money from my apps.",
+          "ja": "いずれは自分のアプリで収入を得たいです。",
+          "path": "lessons/etcl-01-talking-about-my-job/japanese-cues-v2/phrase-005.mp3",
+          "size": 61824,
+          "sha256": "da7e025dd5ad901e4abe9cef015875888a154402fca29dbbbcd6cee29e0e93d7"
+        }
+      ],
+      "originalManifestSha256": "3ef3af0e3df76051477a5537d124c707299d31e833f276c51e94cb34f5d98aff"
+    },
+    {
+      "lessonId": "etcl-02-daily-routine",
+      "manifestSha256": "4bc80cd75907715b32b3ba1a4e3419ca48c446a1e958bb45c77fe292e5c96ba4",
+      "entries": [
+        {
+          "phraseIndex": 0,
+          "en": "My schedule changes from day to day.",
+          "ja": "私のスケジュールは日によって変わります。",
+          "path": "lessons/etcl-02-daily-routine/japanese-cues-v2/phrase-001.mp3",
+          "size": 56832,
+          "sha256": "14290dbf683fd38af61c557c8f249919afd831fafffad6c91fea28d335ed34c8"
+        },
+        {
+          "phraseIndex": 1,
+          "en": "I work on my apps between deliveries.",
+          "ja": "配達の合間に自分のアプリを開発しています。",
+          "path": "lessons/etcl-02-daily-routine/japanese-cues-v2/phrase-002.mp3",
+          "size": 74496,
+          "sha256": "bd349316bce5c23c41d8924411e9058a758e52c486e5f08668d8039742182ccb"
+        },
+        {
+          "phraseIndex": 2,
+          "en": "I try to make the most of my downtime.",
+          "ja": "空き時間をできるだけ有効に使うようにしています。",
+          "path": "lessons/etcl-02-daily-routine/japanese-cues-v2/phrase-003.mp3",
+          "size": 72960,
+          "sha256": "da5620f63fdb34e84ecc76dd33f5f546734a83323655d5110b5df341f149dbd4"
+        },
+        {
+          "phraseIndex": 3,
+          "en": "I practice English while making deliveries.",
+          "ja": "配達をしながら英語を練習しています。",
+          "path": "lessons/etcl-02-daily-routine/japanese-cues-v2/phrase-004.mp3",
+          "size": 57600,
+          "sha256": "7ba829157036efbf6d63f4b8f580ea4d384333f4818a3f3f84124c6ed6ee676e"
+        },
+        {
+          "phraseIndex": 4,
+          "en": "I try to make time for exercise as well.",
+          "ja": "運動する時間も確保するようにしています。",
+          "path": "lessons/etcl-02-daily-routine/japanese-cues-v2/phrase-005.mp3",
+          "size": 59520,
+          "sha256": "a299c0ae7de3b6cafb5cb1d556f32f323f9bd04ba14c06fa817b1be82911f970"
+        }
+      ],
+      "originalManifestSha256": "ba9848f4027fc1369bdc4a28200ee612e6d9ddefb244743b0547205d48bbe777"
+    },
+    {
+      "lessonId": "etcl-03-recent-events",
+      "manifestSha256": "ca64126138555994be733e57a150ce39b821f78e8029ebf176e39eb677101903",
+      "entries": [
+        {
+          "phraseIndex": 0,
+          "en": "I ran into a bug the other day.",
+          "ja": "この前、バグに遭遇しました。",
+          "path": "lessons/etcl-03-recent-events/japanese-cues-v2/phrase-001.mp3",
+          "size": 51456,
+          "sha256": "85227b3f0e31e9db860af17bbe5ef8cc7513f99d1abde8a265ab2215aa7092d4"
+        },
+        {
+          "phraseIndex": 1,
+          "en": "I was working on a new feature when part of the app suddenly stopped working.",
+          "ja": "新しい機能を開発していたら、突然アプリの一部が動かなくなりました。",
+          "path": "lessons/etcl-03-recent-events/japanese-cues-v2/phrase-002.mp3",
+          "size": 96000,
+          "sha256": "0574c733d4faefc7928768980708738eecf1a0cc69741abe26cc28bbff2d76a4"
+        },
+        {
+          "phraseIndex": 2,
+          "en": "I used AI to help me figure out what was causing the problem.",
+          "ja": "問題の原因を突き止めるためにAIを使いました。",
+          "path": "lessons/etcl-03-recent-events/japanese-cues-v2/phrase-003.mp3",
+          "size": 78720,
+          "sha256": "0ebde3d9d892158cdb2c19ba39a4f398d3c8ca9dce2e747750dd07448270210d"
+        },
+        {
+          "phraseIndex": 3,
+          "en": "It helped me narrow down the cause.",
+          "ja": "そのおかげで原因を絞り込むことができました。",
+          "path": "lessons/etcl-03-recent-events/japanese-cues-v2/phrase-004.mp3",
+          "size": 70656,
+          "sha256": "0276c84818b813291314c86c39dcf1cc9fb2eb07a17394e2e624d03774a45172"
+        },
+        {
+          "phraseIndex": 4,
+          "en": "I was able to fix it.",
+          "ja": "それを修正することができました。",
+          "path": "lessons/etcl-03-recent-events/japanese-cues-v2/phrase-005.mp3",
+          "size": 50688,
+          "sha256": "7420df21a0998dbd1a9685cc937c9f9316106804892d94cb57c112f8f65f6eaf"
+        },
+        {
+          "phraseIndex": 5,
+          "en": "It took longer than I expected, but I learned a lot from it.",
+          "ja": "予想以上に時間がかかりましたが、そこから多くのことを学びました。",
+          "path": "lessons/etcl-03-recent-events/japanese-cues-v2/phrase-006.mp3",
+          "size": 88320,
+          "sha256": "ebd38a152a62f71ef1b59a54376b12876f0154eaa58eb7e24938878a2ce3032f"
+        }
+      ],
+      "originalManifestSha256": "f05c69642047bc0461955d47fa4a5c4a9a0a2c83cf8faad5fc51120ad262c1cc"
+    },
+    {
+      "lessonId": "etcl-04-current-situation",
+      "manifestSha256": "e1ddd520755b118de37588857ff8153b0ea4dde17780eeb5e9c1dd0a79f56d4a",
+      "entries": [
+        {
+          "phraseIndex": 0,
+          "en": "I've been practicing English regularly with an app I built.",
+          "ja": "自分で作ったアプリを使って、定期的に英語を練習しています。",
+          "path": "lessons/etcl-04-current-situation/japanese-cues-v2/phrase-001.mp3",
+          "size": 82560,
+          "sha256": "968e3808b96a3bdd55f60e84ad077bb060e07e7b0965fc4b65f78f841cd77a0d"
+        },
+        {
+          "phraseIndex": 1,
+          "en": "I can come up with phrases I've practiced much more quickly now.",
+          "ja": "練習したフレーズが、今では以前よりずっと早く思い浮かびます。",
+          "path": "lessons/etcl-04-current-situation/japanese-cues-v2/phrase-002.mp3",
+          "size": 84096,
+          "sha256": "45f121e9a1e7e6ff70b2d37d94b0d01486c3dc79f68b301a9eb8a07ff8a6def2"
+        },
+        {
+          "phraseIndex": 2,
+          "en": "I'm starting to understand more spoken English than before.",
+          "ja": "以前よりも、話されている英語を理解できるようになってきました。",
+          "path": "lessons/etcl-04-current-situation/japanese-cues-v2/phrase-003.mp3",
+          "size": 74496,
+          "sha256": "14e6386fc3c0e0b4e770400bcb0a4602127c0e0dbe129a28493ceccf8e03a343"
+        },
+        {
+          "phraseIndex": 3,
+          "en": "I still find it difficult to speak freely without relying on memorized phrases.",
+          "ja": "暗記したフレーズに頼らずに自由に話すのは、まだ難しいと感じます。",
+          "path": "lessons/etcl-04-current-situation/japanese-cues-v2/phrase-004.mp3",
+          "size": 99456,
+          "sha256": "b101ea507d304de7b77068e7c123655a59bdfe417509d51d7f92e7505627adff"
+        },
+        {
+          "phraseIndex": 4,
+          "en": "I still have a long way to go.",
+          "ja": "まだまだ先は長いです。",
+          "path": "lessons/etcl-04-current-situation/japanese-cues-v2/phrase-005.mp3",
+          "size": 39168,
+          "sha256": "67fd751f48bf7760b064d20576fe6f4e15b21ae8a086e69633e82671632c1bc3"
+        },
+        {
+          "phraseIndex": 5,
+          "en": "I feel like I'm making progress.",
+          "ja": "上達していると感じます。",
+          "path": "lessons/etcl-04-current-situation/japanese-cues-v2/phrase-006.mp3",
+          "size": 54528,
+          "sha256": "45fc93dd03c01f8db73b56a60bc2147d7ef6fe7df75be34e966581ffa8094fba"
+        }
+      ],
+      "originalManifestSha256": "afed8ce2ba4d1cf36689ea49193e3ca236fbba5e83dd5a1cde7e84f355af8ee6"
+    },
+    {
+      "lessonId": "etcl-05-reasons-and-decisions",
+      "manifestSha256": "4572f9c750337501c7cb4a3ee9e60a0aaa4d9e7a2a9058fda04c78d9710360cf",
+      "entries": [
+        {
+          "phraseIndex": 0,
+          "en": "I wanted an app that fit the way I like to learn.",
+          "ja": "自分の好きな学び方に合うアプリが欲しかったんです。",
+          "path": "lessons/etcl-05-reasons-and-decisions/japanese-cues-v2/phrase-001.mp3",
+          "size": 70656,
+          "sha256": "df341182cbdf43bad7e1a72cdb2e0da9d89e155c1f079ddfad92e58da8a37243"
+        },
+        {
+          "phraseIndex": 1,
+          "en": "I couldn't find one that worked exactly the way I wanted, so I decided to build my own.",
+          "ja": "自分の希望どおりに動くものが見つからなかったので、自分で作ることにしました。",
+          "path": "lessons/etcl-05-reasons-and-decisions/japanese-cues-v2/phrase-002.mp3",
+          "size": 101760,
+          "sha256": "b024a1ccc647ca93e8c8111ba74fdb6c309c8ee883e808c806f44e380cb46f3b"
+        },
+        {
+          "phraseIndex": 2,
+          "en": "I wanted to practice phrases based on situations I'm likely to encounter in real life.",
+          "ja": "実生活で遭遇しそうな状況に基づいたフレーズを練習したかったんです。",
+          "path": "lessons/etcl-05-reasons-and-decisions/japanese-cues-v2/phrase-003.mp3",
+          "size": 91392,
+          "sha256": "28248116794eec8df18db149370ce100517cc36cc7730cd0763f74927c8b740d"
+        },
+        {
+          "phraseIndex": 3,
+          "en": "I also thought it would be a good opportunity to improve my programming skills.",
+          "ja": "プログラミングのスキルを伸ばす良い機会にもなると思いました。",
+          "path": "lessons/etcl-05-reasons-and-decisions/japanese-cues-v2/phrase-004.mp3",
+          "size": 89856,
+          "sha256": "ea16e969a3a9e4b0c7613c722ab181a94b1eab2b1c0d28b82a85edb83f5d5d96"
+        },
+        {
+          "phraseIndex": 4,
+          "en": "It fits naturally into my daily routine.",
+          "ja": "それは私の日常生活に無理なく取り入れられます。",
+          "path": "lessons/etcl-05-reasons-and-decisions/japanese-cues-v2/phrase-005.mp3",
+          "size": 89856,
+          "sha256": "ade2bc177fe4ef960666b22f71467cdf62889f3b0ef1e71a7c8417f6e6687e1b"
+        }
+      ],
+      "originalManifestSha256": "e72684b71f23320a88d79263c03f123296149b56dacba9bef6feb600300cb8a9"
+    },
+    {
+      "lessonId": "etcl-06-preferences-and-priorities",
+      "manifestSha256": "7ef2e2548d3a2e0a2a601d530564555e22a3315e9399581061f2f3a0aa7b81a3",
+      "entries": [
+        {
+          "phraseIndex": 0,
+          "en": "I prefer working on my own schedule.",
+          "ja": "私は自分のスケジュールで働く方が好きです。",
+          "path": "lessons/etcl-06-preferences-and-priorities/japanese-cues-v2/phrase-001.mp3",
+          "size": 67968,
+          "sha256": "3c34743d6e0e2f9aeac19efe056880c9268af298ad724eeeeb6696de9fd0f911"
+        },
+        {
+          "phraseIndex": 1,
+          "en": "I want to earn enough money while still having time to work on my own apps.",
+          "ja": "自分のアプリに取り組む時間を確保しながら、十分な収入も得たいです。",
+          "path": "lessons/etcl-06-preferences-and-priorities/japanese-cues-v2/phrase-002.mp3",
+          "size": 97920,
+          "sha256": "8c0c9b3e64a6d276e97d239d928a09676764b15831e37ac9e94fa0e94065ae22"
+        },
+        {
+          "phraseIndex": 2,
+          "en": "I'm trying to find a balance between work and my own projects.",
+          "ja": "仕事と自分のプロジェクトのバランスを取ろうとしています。",
+          "path": "lessons/etcl-06-preferences-and-priorities/japanese-cues-v2/phrase-003.mp3",
+          "size": 69888,
+          "sha256": "84efd0b8a4c3319e9b80ebfcd2e744500bb4efc95dab770ce56c05f18f0f1d34"
+        },
+        {
+          "phraseIndex": 3,
+          "en": "What matters most to me is having enough time to work on my own projects.",
+          "ja": "私にとって最も大切なのは、自分のプロジェクトに取り組む時間を十分に確保することです。",
+          "path": "lessons/etcl-06-preferences-and-priorities/japanese-cues-v2/phrase-004.mp3",
+          "size": 140160,
+          "sha256": "ecb92b213b461f3bd48dd6008c4a1f8bd2178010d269a6c53fcee975a2260299"
+        },
+        {
+          "phraseIndex": 4,
+          "en": "My long-term goal is to make app development my main source of income.",
+          "ja": "長期的な目標は、アプリ開発を主な収入源にすることです。",
+          "path": "lessons/etcl-06-preferences-and-priorities/japanese-cues-v2/phrase-005.mp3",
+          "size": 83328,
+          "sha256": "9883f61c3bbf8991b14aeb435821c230b62948feaf2394ccf594c974b72d98fb"
+        }
+      ],
+      "originalManifestSha256": "f6d02049e73bf930466299d1ca91638499348260237152cae4e4d40b4fbf79ff"
+    },
+    {
+      "lessonId": "etcl-07-asking-questions",
+      "manifestSha256": "faf709e4f6d3ea46b4c2d58e0168e3ba540825df13ae45fdf5faca355bb63d4f",
+      "entries": [
+        {
+          "phraseIndex": 0,
+          "en": "What do you mean by that?",
+          "ja": "それはどういう意味ですか？",
+          "path": "lessons/etcl-07-asking-questions/japanese-cues-v2/phrase-001.mp3",
+          "size": 41856,
+          "sha256": "b7d67053e756629b74c752be32b648a146869db9d641b80353e1dfc23bb9a54f"
+        },
+        {
+          "phraseIndex": 1,
+          "en": "How did you get into that?",
+          "ja": "どういうきっかけでそれを始めたんですか？",
+          "path": "lessons/etcl-07-asking-questions/japanese-cues-v2/phrase-002.mp3",
+          "size": 64128,
+          "sha256": "97438cdc85bbcdcdb827f90d2ca0f5b5fd9aec914f95e1ab4151d0f2d19394cb"
+        },
+        {
+          "phraseIndex": 2,
+          "en": "How's it going so far?",
+          "ja": "今のところ、どんな調子ですか？",
+          "path": "lessons/etcl-07-asking-questions/japanese-cues-v2/phrase-003.mp3",
+          "size": 44928,
+          "sha256": "b6a75ec6e296ba406a25897772e87d1149d5ecef13ea72e819737a8cc5e48795"
+        },
+        {
+          "phraseIndex": 3,
+          "en": "What do you find most challenging?",
+          "ja": "何が一番難しいと感じますか？",
+          "path": "lessons/etcl-07-asking-questions/japanese-cues-v2/phrase-004.mp3",
+          "size": 64896,
+          "sha256": "7ceaecc8b0ef101985915e64b8176078c3bfa0b83ee0ca471b1c5eb432ba0964"
+        },
+        {
+          "phraseIndex": 4,
+          "en": "Could you tell me a bit more about that?",
+          "ja": "それについてもう少し詳しく教えてもらえますか？",
+          "path": "lessons/etcl-07-asking-questions/japanese-cues-v2/phrase-005.mp3",
+          "size": 76800,
+          "sha256": "8f9200fd38b9b969e77e986f8239eb9e530f012a3a7b3625e3d83b6d85ac87f7"
+        },
+        {
+          "phraseIndex": 5,
+          "en": "Are you enjoying it?",
+          "ja": "それを楽しんでいますか？",
+          "path": "lessons/etcl-07-asking-questions/japanese-cues-v2/phrase-006.mp3",
+          "size": 38400,
+          "sha256": "d831c86cdbcba8c4b8220c3cb9da4ac30ea8f1498d29a49b2607b8f10bc413da"
+        }
+      ],
+      "originalManifestSha256": "59a761f750a1d407743c69be005df03f693552c32ba49a32baf2eaf760b68a74"
+    },
+    {
+      "lessonId": "etcl-08-responding-naturally",
+      "manifestSha256": "5371218e367a0fe58b712764dd14e73f5ec89082e1aab92ea737aa5f4e9c0bb3",
+      "entries": [
+        {
+          "phraseIndex": 0,
+          "en": "I see.",
+          "ja": "なるほど。",
+          "path": "lessons/etcl-08-responding-naturally/japanese-cues-v2/phrase-001.mp3",
+          "size": 31488,
+          "sha256": "687696256b8d561d509f95a95ff8d49a93050d55929873e210808f63ac60a6aa"
+        },
+        {
+          "phraseIndex": 1,
+          "en": "That makes sense.",
+          "ja": "それなら納得です。",
+          "path": "lessons/etcl-08-responding-naturally/japanese-cues-v2/phrase-002.mp3",
+          "size": 35328,
+          "sha256": "4aaee83b2c29276b3d1a71bab35e1582739f6a4a80a8042bf4644d66fa3961fc"
+        },
+        {
+          "phraseIndex": 2,
+          "en": "I know what you mean.",
+          "ja": "言いたいことは分かります。",
+          "path": "lessons/etcl-08-responding-naturally/japanese-cues-v2/phrase-003.mp3",
+          "size": 35328,
+          "sha256": "6f3646e1957217ba232b101504cd206b00cecdacccc731a6a1b35617f111ec70"
+        },
+        {
+          "phraseIndex": 3,
+          "en": "I can imagine.",
+          "ja": "想像できます。",
+          "path": "lessons/etcl-08-responding-naturally/japanese-cues-v2/phrase-004.mp3",
+          "size": 35328,
+          "sha256": "4a47870fff3529f2834e79fff0fc8dcddb10e928abba3ad14cee743f26414851"
+        },
+        {
+          "phraseIndex": 4,
+          "en": "That's good to hear.",
+          "ja": "それはよかったです。",
+          "path": "lessons/etcl-08-responding-naturally/japanese-cues-v2/phrase-005.mp3",
+          "size": 38400,
+          "sha256": "15899ab4fa250dac1211469f84e4fbb2516e260b43ccbf8e1b82af7d1b5cdea7"
+        },
+        {
+          "phraseIndex": 5,
+          "en": "Exactly.",
+          "ja": "まさにそのとおりです。",
+          "path": "lessons/etcl-08-responding-naturally/japanese-cues-v2/phrase-006.mp3",
+          "size": 33792,
+          "sha256": "0a5183f25d9f0ea2c0457fe9cb8fcda844bd95a4b6d8a9bb3bf6849afebbff56"
+        }
+      ],
+      "originalManifestSha256": "694be1861111fd12554559e889450648c51be61238bb38754780059db1e28b6d"
+    },
+    {
+      "lessonId": "etcl-09-past-experiences",
+      "manifestSha256": "286e958323a316bcb127fd7416b435be7b5647c20c08686b823bc6722dfe4d20",
+      "entries": [
+        {
+          "phraseIndex": 0,
+          "en": "I got into programming because I wanted to build my own apps and services.",
+          "ja": "自分のアプリやサービスを作りたかったので、プログラミングを始めました。",
+          "path": "lessons/etcl-09-past-experiences/japanese-cues-v2/phrase-001.mp3",
+          "size": 100224,
+          "sha256": "7026b684b763e3c969e36733a6dbd0b50b13673a0250408aedce52c08ace86ff"
+        },
+        {
+          "phraseIndex": 1,
+          "en": "I had to learn almost everything from scratch.",
+          "ja": "ほとんどすべてをゼロから学ばなければなりませんでした。",
+          "path": "lessons/etcl-09-past-experiences/japanese-cues-v2/phrase-002.mp3",
+          "size": 81792,
+          "sha256": "7b43003de20bef798da295fc93bd491a9f1ec871373fbcc25dd4e37eaff4b144"
+        },
+        {
+          "phraseIndex": 2,
+          "en": "I couldn't figure out why my code wasn't working.",
+          "ja": "なぜ自分のコードが動かないのか分かりませんでした。",
+          "path": "lessons/etcl-09-past-experiences/japanese-cues-v2/phrase-003.mp3",
+          "size": 77568,
+          "sha256": "c8b469b9380d6b8c85538db958377ae293babdf6309525e33383249ad904c6f3"
+        },
+        {
+          "phraseIndex": 3,
+          "en": "I kept practicing, and things gradually started to make more sense.",
+          "ja": "練習を続けるうちに、少しずつ理解できるようになりました。",
+          "path": "lessons/etcl-09-past-experiences/japanese-cues-v2/phrase-004.mp3",
+          "size": 75264,
+          "sha256": "d432aa34723dd9559c91b479a4bafa53a2993b4edbb63eea56ca20e8b1791242"
+        },
+        {
+          "phraseIndex": 4,
+          "en": "Looking back, I've come a long way.",
+          "ja": "振り返ると、ずいぶん成長しました。",
+          "path": "lessons/etcl-09-past-experiences/japanese-cues-v2/phrase-005.mp3",
+          "size": 61824,
+          "sha256": "d417ee3e10a9bec49f545f8b27dab8cbf8c1f225b032f7d2385fa5d0d6220383"
+        },
+        {
+          "phraseIndex": 5,
+          "en": "There's still a lot I want to learn.",
+          "ja": "まだまだ学びたいことがたくさんあります。",
+          "path": "lessons/etcl-09-past-experiences/japanese-cues-v2/phrase-006.mp3",
+          "size": 61056,
+          "sha256": "9e4bfa8b47a4edd75c4197b3aa4af24f7640fc21112f8d0820af4e1914467cf4"
+        }
+      ],
+      "originalManifestSha256": "df36f0e9dbfa21bef8a17751e9a3ddc7fe6b4ca51caf694b4de878325128ee0b"
+    },
+    {
+      "lessonId": "etcl-10-explaining-problems",
+      "manifestSha256": "122bc4283899545d28e49059bf5d1c723bbbb449ae1624f6bc13685c9f4d4224",
+      "entries": [
+        {
+          "phraseIndex": 0,
+          "en": "I've been having a problem with it lately.",
+          "ja": "最近、それに問題が起きています。",
+          "path": "lessons/etcl-10-explaining-problems/japanese-cues-v2/phrase-001.mp3",
+          "size": 54528,
+          "sha256": "ee12ecfdf31d1d94678b3b46a0a9cb53c3ba2b4385406e104327871ff055d51b"
+        },
+        {
+          "phraseIndex": 1,
+          "en": "It sometimes stops working for no apparent reason.",
+          "ja": "明らかな理由もなく、ときどき動かなくなります。",
+          "path": "lessons/etcl-10-explaining-problems/japanese-cues-v2/phrase-002.mp3",
+          "size": 71424,
+          "sha256": "8613a7d8abd17bda2a978465418b54c01a33a3a90a89e3aba3b3cb49f9132fc3"
+        },
+        {
+          "phraseIndex": 2,
+          "en": "It only happens under certain conditions.",
+          "ja": "それは特定の条件下でしか起こりません。",
+          "path": "lessons/etcl-10-explaining-problems/japanese-cues-v2/phrase-003.mp3",
+          "size": 59520,
+          "sha256": "dff179af7203a04c1c0fcd8d62664d1a66b867412460e1adb7dd4984057ee576"
+        },
+        {
+          "phraseIndex": 3,
+          "en": "I've tried a few things, but nothing has worked so far.",
+          "ja": "いくつか試しましたが、今のところ何もうまくいっていません。",
+          "path": "lessons/etcl-10-explaining-problems/japanese-cues-v2/phrase-004.mp3",
+          "size": 76800,
+          "sha256": "b969dd5d7be14dde40776ed0d35b0c9791d6cb4b602ed3e4df6f34dc4b657ba5"
+        },
+        {
+          "phraseIndex": 4,
+          "en": "I'm still trying to figure out what's causing the problem.",
+          "ja": "まだ何が問題の原因なのか突き止めようとしているところです。",
+          "path": "lessons/etcl-10-explaining-problems/japanese-cues-v2/phrase-005.mp3",
+          "size": 92160,
+          "sha256": "30d01899297c9d5f91bf87db3b4383d7ab6c70fc27b0872ce9180de764a4bbf9"
+        },
+        {
+          "phraseIndex": 5,
+          "en": "I'm not sure what to do next.",
+          "ja": "次にどうすればいいのか分かりません。",
+          "path": "lessons/etcl-10-explaining-problems/japanese-cues-v2/phrase-006.mp3",
+          "size": 51456,
+          "sha256": "fd33df2c0bc8331bcf88ede8b5e5ab1d16d402b09d719cb18d9a9ea330245d12"
+        }
+      ],
+      "originalManifestSha256": "2b9b9467b7cd692ffbefdc153559d4046163a4a540e4566cd41935b2f5b54e82"
+    },
+    {
+      "lessonId": "etcl-11-plans-and-possibilities",
+      "manifestSha256": "07eebad6e758cc9b07608ddc501804f1020831f04aa26f9ff300c92863706009",
+      "entries": [
+        {
+          "phraseIndex": 0,
+          "en": "I'm planning to spend more time working on my own projects.",
+          "ja": "自分のプロジェクトに取り組む時間をもっと増やす予定です。",
+          "path": "lessons/etcl-11-plans-and-possibilities/japanese-cues-v2/phrase-001.mp3",
+          "size": 74496,
+          "sha256": "f6d00961574a3e6e9bd3a7ac43db83119ba070e9c524ea8917baecfbe1c7e406"
+        },
+        {
+          "phraseIndex": 1,
+          "en": "I'm thinking about trying something new.",
+          "ja": "何か新しいことを試してみようかと考えています。",
+          "path": "lessons/etcl-11-plans-and-possibilities/japanese-cues-v2/phrase-002.mp3",
+          "size": 67968,
+          "sha256": "9efabd820268c602412336d6abe7d0c126faad5910b4aa4d3829aed95415d322"
+        },
+        {
+          "phraseIndex": 2,
+          "en": "I haven't decided yet.",
+          "ja": "まだ決めていません。",
+          "path": "lessons/etcl-11-plans-and-possibilities/japanese-cues-v2/phrase-003.mp3",
+          "size": 33792,
+          "sha256": "299deb092fc6ebc7e096ae5876527526b416c10f887f320e29a51e5059a227c0"
+        },
+        {
+          "phraseIndex": 3,
+          "en": "I'm hoping to make some progress on a few things I've been putting off.",
+          "ja": "先延ばしにしていたいくつかのことを、少しでも進められたらと思っています。",
+          "path": "lessons/etcl-11-plans-and-possibilities/japanese-cues-v2/phrase-004.mp3",
+          "size": 78720,
+          "sha256": "224582e7856e6c2285a9e540124d50dad3b10d9974d176cc9fbd20d9ad7aba9b"
+        },
+        {
+          "phraseIndex": 4,
+          "en": "I'll see how things go before making any decisions.",
+          "ja": "何か決める前に、しばらく様子を見ます。",
+          "path": "lessons/etcl-11-plans-and-possibilities/japanese-cues-v2/phrase-005.mp3",
+          "size": 57600,
+          "sha256": "1d75ef00cb4a38bfe473ea2d1275569ec238adcce7a752a90630544c723c655c"
+        },
+        {
+          "phraseIndex": 5,
+          "en": "It depends on how things work out.",
+          "ja": "物事がどう進むかによります。",
+          "path": "lessons/etcl-11-plans-and-possibilities/japanese-cues-v2/phrase-006.mp3",
+          "size": 56832,
+          "sha256": "9648e55ec6f24e17f166d3f0f8ec02f310a593d6c69aebc2f712b16905df73bf"
+        }
+      ],
+      "originalManifestSha256": "98b724808cb06fc8513a972843b53750484cae989bd7422392d4c3d1ee00cce2"
+    },
+    {
+      "lessonId": "etcl-12-expressing-opinions",
+      "manifestSha256": "356d532c81aeb9eee9962daa803779f10c59e4d7f3b7e7a3789d0315498ca49d",
+      "entries": [
+        {
+          "phraseIndex": 0,
+          "en": "I think AI is a really useful tool for learning.",
+          "ja": "AIは学習にとても役立つツールだと思います。",
+          "path": "lessons/etcl-12-expressing-opinions/japanese-cues-v2/phrase-001.mp3",
+          "size": 73728,
+          "sha256": "1921dff0c5d060d388d1f34a8b4af7663ba6a033bcf7c169c943a55edb5b4c91"
+        },
+        {
+          "phraseIndex": 1,
+          "en": "The main reason is that I can get explanations whenever I need them.",
+          "ja": "一番の理由は、必要なときにいつでも説明を受けられることです。",
+          "path": "lessons/etcl-12-expressing-opinions/japanese-cues-v2/phrase-002.mp3",
+          "size": 90624,
+          "sha256": "31b22e400fe0ff35adf0d0db899c36d3da4e597c6115551a45f61efd96dad1f5"
+        },
+        {
+          "phraseIndex": 2,
+          "en": "I think relying too much on AI can be a problem.",
+          "ja": "AIに頼りすぎるのは問題になり得ると思います。",
+          "path": "lessons/etcl-12-expressing-opinions/japanese-cues-v2/phrase-003.mp3",
+          "size": 72960,
+          "sha256": "f131d3fcaa14c6e6c813065524192c410f7bcc8402842f39cfb5bad898776321"
+        },
+        {
+          "phraseIndex": 3,
+          "en": "Not necessarily. It depends on how you use it.",
+          "ja": "必ずしもそうではありません。使い方次第です。",
+          "path": "lessons/etcl-12-expressing-opinions/japanese-cues-v2/phrase-004.mp3",
+          "size": 79488,
+          "sha256": "75006adfbcc335873877c99d7647c9f1c4898907b4f21d5bd89f110b0e52b4ef"
+        },
+        {
+          "phraseIndex": 4,
+          "en": "It's important to think for yourself instead of just accepting what AI tells you.",
+          "ja": "AIが言うことをそのまま受け入れるのではなく、自分で考えることが大切です。",
+          "path": "lessons/etcl-12-expressing-opinions/japanese-cues-v2/phrase-005.mp3",
+          "size": 104064,
+          "sha256": "8298dc6119cd46aee9b8ae19fc6e42d499ce5b56af4924bc038d36dfb7e90b3b"
+        },
+        {
+          "phraseIndex": 5,
+          "en": "AI works best when it supports your learning rather than replacing your own thinking.",
+          "ja": "AIは、自分で考えることの代わりにするのではなく、学習を支えるために使うと最も効果的です。",
+          "path": "lessons/etcl-12-expressing-opinions/japanese-cues-v2/phrase-006.mp3",
+          "size": 128256,
+          "sha256": "d29030086bb630ffef7cc48460cedebd3ebb5e79fa33754ddb3b6447fd76994c"
+        }
+      ],
+      "originalManifestSha256": "2e226d5ee82af0ce6c1c64041a5e4b4e4ffc522b6e00105db1759760f08b4b97"
+    }
+  ]
+}
