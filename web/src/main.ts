@@ -505,11 +505,11 @@ Active Recall has not started.</pre>
     errorCode: audio.error?.code ?? null, errorMessage: audio.error?.message ?? '',
   }));
   const japaneseMp3Player = createJapaneseMp3Player(
-    () => new Audio(),
+    () => audio,
     () => ({ visibility: document.visibilityState, time: performance.now() }),
     updateResumeDiagnostic,
     undefined,
-    (kind) => audioTransitionDiagnostic.record(kind, 'element=japanese-mp3 (dedicated Audio)', 'Japanese MP3'),
+    (kind) => audioTransitionDiagnostic.record(kind, 'element=shared-recall-audio', 'Japanese MP3'),
   );
   const speechDiagnostic = createSpeechDiagnostic(() => ({
     visibility: document.visibilityState,
@@ -870,30 +870,7 @@ Active Recall has not started.</pre>
     const detail = error && typeof error === 'object' && 'message' in error
       ? String(('name' in error ? error.name : 'Error')) + ': ' + String(error.message)
       : String(error);
-    return 'Active Recall failed — ' + trainingStatus.textContent + ' — ' + detail;
-  }
-
-  // Invoke play directly from the click; retain activation on this English element.
-  function prepareEnglishPlayback(): Promise<void> {
-    const muted = audio.muted;
-    audio.muted = true;
-    return new Promise((resolve, reject) => {
-      let settled = false;
-      const finish = (error?: unknown): void => {
-        if (settled) return;
-        settled = true;
-        window.clearTimeout(timeout);
-        if (cancelActiveSegment === cancel) cancelActiveSegment = null;
-        audio.pause();
-        audio.muted = muted;
-        if (error !== undefined) reject(error); else resolve();
-      };
-      const cancel = (): void => finish();
-      const timeout = window.setTimeout(() => finish(new Error('English audio preparation timed out.')), 20000);
-      cancelActiveSegment = cancel;
-      try { void audio.play().then(() => finish(), error => finish(error)); }
-      catch (error) { finish(error); }
-    });
+    return 'Active Recall failed — ' + trainingStatus.textContent + ' — ' + detail + ' — Recallボタンを再タップすると保存位置のCueから再開します。';
   }
 
   function waitForAudioMetadata(): Promise<void> {
@@ -1197,12 +1174,35 @@ Active Recall has not started.</pre>
     });
     activeButton.textContent = 'Stop Active Recall';
 
+    const playRecallCue = (entry: (typeof queue)[number], queueIndex: number): Promise<void> => {
+      return playJapaneseCue(
+        japaneseCueMode,
+        () => {
+          const speechRequestId = speechDiagnostic.request({
+            phraseId: `${entry.lessonId}:${entry.phraseIndex}`,
+            queueIndex,
+            textLength: entry.ja.length,
+          });
+          updateResumeDiagnostic();
+          return speakJapaneseCue(entry.ja, speechRequestId);
+        },
+        () => japaneseMp3Player.play({
+          lessonId: entry.lessonId,
+          phraseIndex: entry.phraseIndex,
+          queueIndex,
+          assetScope: diagnosticFresh ? 'diagnostic' : 'lesson',
+        }, import.meta.env.BASE_URL),
+      );
+    };
+
     let failureMessage: string | null = null;
     try {
-      trainingStatus.textContent = 'Preparing English audio';
-      // Start preparation now, but do not await a media event before starting
-      // the first Japanese cue: that would lose its original activation timing.
-      const englishPreparation = prepareEnglishPlayback();
+      const firstEntry = queue[session.currentIndex];
+      if (!firstEntry) throw new Error('Saved Recall position is not playable.');
+      trainingStatus.textContent = 'Round ' + currentRound + ' — Meaning';
+      // The first audible cue starts synchronously in the user's click handler.
+      // Cue and English reuse this same element; no muted priming or extra Audio.
+      let initialCue: Promise<void> | null = playRecallCue(firstEntry, session.currentIndex);
       const metadataPromisesByLessonId = new Map<
         string,
         Promise<LessonMetadata>
@@ -1256,24 +1256,9 @@ Active Recall has not started.</pre>
 
           trainingStatus.textContent = `${statusPrefix} — Phrase ${queueIndex + 1} / ${queue.length} — Meaning`;
 
-          await Promise.all([englishPreparation, playJapaneseCue(
-            japaneseCueMode,
-            () => {
-              const speechRequestId = speechDiagnostic.request({
-                phraseId: `${entry.lessonId}:${entry.phraseIndex}`,
-                queueIndex,
-                textLength: entry.ja.length,
-              });
-              updateResumeDiagnostic();
-              return speakJapaneseCue(entry.ja, speechRequestId);
-            },
-            () => japaneseMp3Player.play({
-              lessonId: entry.lessonId,
-              phraseIndex: entry.phraseIndex,
-              queueIndex,
-              assetScope: diagnosticFresh ? 'diagnostic' : 'lesson',
-            }, import.meta.env.BASE_URL),
-          )]);
+          const cue = initialCue ?? playRecallCue(entry, queueIndex);
+          initialCue = null;
+          await cue;
 
           if (!trainingActive || trainingRunId !== runId) {
             break;

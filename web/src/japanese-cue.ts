@@ -39,11 +39,17 @@ export async function probeJapaneseMp3Url(url: string, request: typeof fetch = f
       : response.ok ? 'reachable (not a decode test)' : 'HTTP-failure';
     return `${classification}; HTTP ${response.status}; Content-Type: ${response.headers.get('content-type') ?? 'unknown'}`;
   } catch (error) {
-    return `network-failure; ${error instanceof Error ? error.name : 'unknown'}`;
+    return `network-failure; ${failureName(error)}`;
   }
 }
 
-// A dedicated element keeps the English player and Media Session policy intact.
+function failureName(error: unknown): string {
+  return error && typeof error === 'object' && 'name' in error
+    ? String(error.name) : 'unknown';
+}
+
+// The caller owns element allocation; Recall shares its element with English.
+// Completed cue listeners are detached before the caller changes the source.
 // Only ended resolves playback normally; play() fulfillment is not completion.
 export function createJapaneseMp3Player(
   createAudio: () => CueAudio,
@@ -197,7 +203,7 @@ export function createJapaneseMp3Player(
             if(endedWhilePaused){handleEnded();return true;}
             try{await element.play();return true;}catch(error){
               if(controlledPaused&&error instanceof Error&&error.name==='AbortError')return false;
-              fail(error instanceof Error?error.name:'resume-failed','resume-rejection');throw error;
+              fail(failureName(error),'resume-rejection');throw error;
             }
           };
           element.src = resolvedPath;
@@ -205,13 +211,13 @@ export function createJapaneseMp3Player(
           void element.play().catch((error: unknown) => {
             if (id !== requestId) return;
             if(controlledPaused&&error instanceof Error&&error.name==='AbortError')return;
-            playRejection = error instanceof Error ? `${error.name}: ${error.message}` : 'unknown';
+            playRejection = failureName(error) + ': ' + String(error);
             captureMediaError();
             record('play-rejected');
-            fail(error instanceof Error ? error.name : 'play-rejected', 'play-rejection');
+            fail(failureName(error), 'play-rejection');
           });
         } catch (error) {
-          fail(error instanceof Error ? error.name : 'play-threw', 'synchronous-exception');
+          fail(failureName(error), 'synchronous-exception');
         }
       });
     },

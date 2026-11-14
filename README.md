@@ -41,8 +41,8 @@ push/PRのCIは検証だけを行い、自動公開しません。公開対象�
 
 ## 検証結果
 
-41件の単体・実bundle接続テスト、型検査、build、68教材・104音声/metadata参照のHash照合がPASS。全12 Lessonsと全68件の両モードでCue→英語2回→次Round、Weak時3回、Stop/Pause/Resume、保存再開とMedia Sessionガードを確認しています。DOM/mediaは合成環境で、想起時間はテスト内だけ短縮しています。PC実ブラウザの実音声再生・iPhone Safari実機での修正版動作は未確認です。
+44件の単体・実bundle接続テスト、型検査、build、68教材・104音声/metadata参照のHash照合がPASS。全12 Lessonsと全68件の両モードでCue→英語2回→次Round、Weak時3回、Stop/Pause/Resume、保存再開とMedia Sessionガードを確認しています。DOM/mediaは合成環境で、想起時間はテスト内だけ短縮しています。PC実ブラウザの実音声再生・iPhone Safari実機での修正版動作は未確認です。
 
-Lesson Recallの修正では、クリック時に同じ英語audio要素を無音で準備し、再生開始・区間終了を確認してから次へ進めます。再生拒否や音声読込エラーは原因と再生段階を画面に表示します。Round切替では保存位置を削除せず次のcheckpointで更新します。保存キーと署名は変更していません。
+Lesson Recallはクリック内で最初の日本語Cueを実際に開始し、同じAudio要素のsrcを切り替えて英語・次のCueを再生します。無音の事前playや追加Audio要素は使用しません。再生開始・区間終了を確認してから次へ進みます。NotAllowedErrorなどの再生拒否は原因と段階を表示して停止し、Recallボタンの再タップで保存位置のCueから再開します。自動再試行はしません。Round切替では保存位置を削除せず次のcheckpointで更新します。保存キーと署名は変更していません。Safariで許可が維持されるかは実機確認が必要です。
 
 音声再生成・有料API呼出しは行っていません。公開用の由来manifestから不要なローカルパスを除去し、元manifestのSHA-256を記録しています。

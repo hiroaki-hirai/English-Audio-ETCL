@@ -10,18 +10,20 @@ const flush=()=>new Promise(r=>setTimeout(r,5));
 async function poll(fn:()=>boolean){for(let i=0;i<120;i++){if(fn())return;await flush();}throw Error('Runtime checkpoint timed out');}
 let gesture=false;
 class Control{
- handlers=new Map<string,Function[]>();dataset:any={};disabled=false;textContent='';src='';currentSrc='';currentTime=0;duration=10000;paused=true;loop=false;error=null;plays=0;muted=false;readyState=1;seeking=false;requireGesture=false;unlocked=false;rejectPlay=false;deferPlay=false;pendingResolve:(()=>void)|null=null;
+ handlers=new Map<string,Function[]>();dataset:any={};disabled=false;textContent='';src='';currentSrc='';currentTime=0;duration=10000;paused=true;loop=false;error=null;plays=0;cuePlays=0;onCue:()=>void=()=>{};muted=false;readyState=1;seeking=false;requireGesture=false;unlocked=false;rejectPlay=false;deferPlay=false;pendingResolve:(()=>void)|null=null;
  constructor(public classes=''){}
  addEventListener(name:string,fn:Function){this.handlers.set(name,[...(this.handlers.get(name)??[]),fn]);}
  removeEventListener(name:string,fn:Function){this.handlers.set(name,(this.handlers.get(name)??[]).filter(f=>f!==fn));}
  emit(name:string){for(const fn of [...(this.handlers.get(name)??[])])fn({});}
  click(){gesture=true;try{this.emit('click');}finally{gesture=false;}}
  play(){
-  if(gesture)this.unlocked=true;
+  if(gesture&&!this.muted)this.unlocked=true;
   if(this.rejectPlay||(this.requireGesture&&!this.unlocked))return Promise.reject(Object.assign(new Error('Playback requires user activation'),{name:'NotAllowedError'}));
-  if(!this.muted)this.plays++;
+  const cue=this.src.includes('japanese-cues-v2/');
+  if(this.muted)throw Error('Recall must not rely on muted priming');
+  if(cue){this.cuePlays++;this.onCue();}else this.plays++;
   this.paused=false;this.currentSrc=this.src;
-  if(this.deferPlay&&!this.muted)return new Promise<void>(resolve=>{this.pendingResolve=()=>{this.emit('playing');resolve();};});
+  if(this.deferPlay&&!cue)return new Promise<void>(resolve=>{this.pendingResolve=()=>{this.emit('playing');resolve();};});
   this.emit('playing');return Promise.resolve();
  }
  pause(){this.paused=true;this.emit('pause');}load(){}
@@ -47,6 +49,11 @@ function bundle(){return code??=(async()=>{
 async function page(initial:Record<string,string>={},options:{requireGesture?:boolean,rejectPlay?:boolean}={}){
  let html='',buttons:Control[]=[];
  const audio=new Control(),japanese:Control[]=[],status=new Control(),diagnostic=new Control(),progress=new Control(),weakCount=new Control();
+ const cueView=new Proxy(audio,{get(target,key){
+  if(key==='plays')return target.cuePlays;
+  const value=Reflect.get(target,key);return typeof value==='function'?value.bind(target):value;
+ }});
+ audio.onCue=()=>{if(!japanese.length)japanese.push(cueView);};
  audio.requireGesture=!!options.requireGesture;audio.rejectPlay=!!options.rejectPlay;
  const sentinels:any={'eag.weakPhrases.v1':'KEEP-EAG','eag.preview.etcl01.etcl-v2.activeRecallSession.v1':'KEEP-PREVIEW'};
  const saved={...sentinels,...initial};const writes:string[]=[];
@@ -65,7 +72,7 @@ async function page(initial:Record<string,string>={},options:{requireGesture?:bo
  window:{localStorage:storage,addEventListener:()=>{},location:{href:origin+base},setTimeout:(fn:()=>void,ms:number)=>setTimeout(fn,ms===5000?1:ms),clearTimeout,
  speechSynthesis:{speaking:false,pending:false,paused:false,cancel:()=>{}}},
  localStorage:storage,navigator:{mediaSession:{playbackState:'none',setActionHandler:(key:string,fn:Function)=>{mediaHandlers[key]=fn}}},console,URL,performance,setTimeout:(fn:()=>void,ms:number)=>setTimeout(fn,ms===5000?1:ms),clearTimeout,
- Audio:class extends Control{constructor(){super();japanese.push(this);}},
+ Audio:class extends Control{constructor(){super();throw Error('Recall must reuse the existing audio element');}},
  fetch:async(url:string)=>({ok:true,json:async()=>JSON.parse(fs.readFileSync('web/public/'+url.replace(base,''),'utf8'))})};
  vm.runInNewContext(await bundle(),context);await context.__initialization;
  return {app,audio,japanese,status,progress,saved,writes,sentinels,mediaHandlers,html:()=>html};
@@ -129,10 +136,10 @@ test('actual app reload shows saved progress and resumes the same phrase without
  assert(reloaded.japanese[0].src.endsWith('japanese-cues-v2/phrase-002.mp3'));resume.click();await flush();
 });
 
-test('English is activated in the user gesture before the asynchronous Cue chain',async()=>{
+test('first audible Cue starts in the gesture and English reuses that same unmuted element',async()=>{
  const p=await page({}, {requireGesture:true}),b=p.app.querySelectorAll('.active-recall-button')[2];
  b.click();await poll(()=>p.japanese.length>0);
- assert(p.audio.unlocked);assert.equal(p.audio.muted,false);
+ assert(p.audio.unlocked);assert.equal(p.audio.muted,false);assert.equal(p.audio.plays,0);assert.equal(p.audio.cuePlays,1);
  p.japanese[0].emit('ended');await poll(()=>p.audio.plays===1);
  assert(p.status.textContent.endsWith('Answer'));b.click();await flush();
 });
@@ -168,7 +175,7 @@ test('metadata media error is reported and Stop cancels a pending metadata wait'
 
 test('every Lesson and both 68-item modes play all English repetitions and enter Round 2',async()=>{
  for(const mode of [...Array.from({length:12},(_,i)=>i),'global','sequential-category-order']){
-  const p=await page();
+  const p=await page({}, {requireGesture:true});
   if(typeof mode==='number'){p.app.querySelectorAll('.lesson-button')[mode].click();await flush();}
   const b=typeof mode==='number'?p.app.querySelectorAll('.active-recall-button')[2]:
    p.app.querySelectorAll('.etcl-library-button').find((x:Control)=>x.dataset.libraryMode===mode);
@@ -217,4 +224,42 @@ test('source-switch abort waits for new metadata and does not falsely stop Recal
  p.audio.emit('abort');await flush();assert(!p.status.textContent.includes('failed'));
  p.audio.readyState=1;p.audio.duration=100;p.audio.emit('loadedmetadata');
  await poll(()=>p.audio.plays===1);b.click();await flush();
+});
+
+test('NotAllowedError preserves position and Weak; a new tap restarts its Cue without automatic retries',async()=>{
+ const p=await page(),b=p.app.querySelectorAll('.active-recall-button')[2];
+ p.app.querySelectorAll('.weak-button')[0].click();
+ b.click();await poll(()=>p.japanese.length>0);p.audio.rejectPlay=true;p.japanese[0].emit('ended');
+ await poll(()=>p.status.textContent.includes('NotAllowedError'));
+ const sessionKey='etcl.app.v1.lesson.'+lessons[0].id+'.sequentialCategoryOrderedActiveRecallSession.v1';
+ const saved=p.saved[sessionKey],weak=p.saved['etcl.app.v1.weakPhrases.v1'],attempts=p.audio.cuePlays;
+ await flush();await flush();assert.equal(p.audio.cuePlays,attempts);
+ assert.equal(JSON.parse(saved).currentIndex,0);
+ p.audio.rejectPlay=false;b.click();await poll(()=>p.audio.cuePlays===attempts+1);
+ assert.equal(p.saved['etcl.app.v1.weakPhrases.v1'],weak);
+ assert.equal(JSON.parse(p.saved[sessionKey]).currentIndex,0);
+ p.japanese[0].emit('ended');await poll(()=>p.audio.plays===1);
+ b.click();await flush();
+});
+
+test('first Cue refusal is explicit and can recover by an audible user tap',async()=>{
+ const p=await page({}, {rejectPlay:true}),b=p.app.querySelectorAll('.active-recall-button')[2];
+ b.click();await poll(()=>p.status.textContent.includes('NotAllowedError'));
+ assert.equal(p.audio.plays,0);assert.equal(p.audio.cuePlays,0);
+ p.audio.rejectPlay=false;b.click();assert.equal(p.audio.cuePlays,1);
+ await poll(()=>p.status.textContent.includes('Meaning'));b.click();await flush();
+});
+
+test('English refusal on the second phrase preserves its queue, signature and saved index on retry',async()=>{
+ const p=await page(),b=p.app.querySelectorAll('.active-recall-button')[2];
+ b.click();await poll(()=>p.audio.cuePlays===1);p.japanese[0].emit('ended');
+ await poll(()=>p.audio.plays===1);completeEnglish(p);
+ await poll(()=>p.audio.plays===2);completeEnglish(p);
+ await poll(()=>p.audio.cuePlays===2);p.audio.rejectPlay=true;p.japanese[0].emit('ended');
+ await poll(()=>p.status.textContent.includes('NotAllowedError'));
+ const key='etcl.app.v1.lesson.'+lessons[0].id+'.sequentialCategoryOrderedActiveRecallSession.v1';
+ const before=p.saved[key];assert.equal(JSON.parse(before).currentIndex,1);
+ p.audio.rejectPlay=false;b.click();await poll(()=>p.audio.cuePlays===3);
+ assert.equal(p.saved[key],before);assert(p.audio.src.endsWith('phrase-002.mp3'));
+ b.click();await flush();
 });
