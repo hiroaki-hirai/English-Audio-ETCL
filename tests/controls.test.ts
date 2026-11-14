@@ -11,6 +11,7 @@ async function poll(fn:()=>boolean){for(let i=0;i<120;i++){if(fn())return;await 
 let gesture=false;
 class Control{
  handlers=new Map<string,Function[]>();dataset:any={};disabled=false;textContent='';src='';currentSrc='';currentTime=0;duration=10000;paused=true;loop=false;error=null;plays=0;cuePlays=0;onCue:()=>void=()=>{};muted=false;readyState=1;seeking=false;requireGesture=false;unlocked=false;rejectPlay=false;deferPlay=false;pendingResolve:(()=>void)|null=null;
+ classList={values:new Set<string>(),toggle:(name:string,enabled:boolean)=>{if(enabled)this.classList.values.add(name);else this.classList.values.delete(name);}};
  constructor(public classes=''){}
  addEventListener(name:string,fn:Function){this.handlers.set(name,[...(this.handlers.get(name)??[]),fn]);}
  removeEventListener(name:string,fn:Function){this.handlers.set(name,(this.handlers.get(name)??[]).filter(f=>f!==fn));}
@@ -47,7 +48,7 @@ function bundle(){return code??=(async()=>{
  return result.output.find((x:any)=>x.type==='chunk'&&x.isEntry).code;
 })();}
 async function page(initial:Record<string,string>={},options:{requireGesture?:boolean,rejectPlay?:boolean}={}){
- let html='',buttons:Control[]=[];
+ let html='',buttons:Control[]=[],rows:Control[]=[];
  const audio=new Control(),japanese:Control[]=[],status=new Control(),diagnostic=new Control(),progress=new Control(),weakCount=new Control();
  const cueView=new Proxy(audio,{get(target,key){
   if(key==='plays')return target.cuePlays;
@@ -59,14 +60,17 @@ async function page(initial:Record<string,string>={},options:{requireGesture?:bo
  const saved={...sentinels,...initial};const writes:string[]=[];
  const storage={getItem:(k:string)=>saved[k]??null,setItem:(k:string,v:string)=>{saved[k]=v;writes.push(k)},removeItem:(k:string)=>{delete saved[k];writes.push(k)}};
  const app:any={
-  set innerHTML(value:string){html=value;audio.src=value.match(/<audio\b[^>]*src="([^"]*)"/)?.[1]??'';buttons=[...value.matchAll(/<button\b([^>]*)>([\s\S]*?)<\/button>/g)].map(m=>{const b=new Control(m[1].match(/class="([^"]*)"/)?.[1]??'');b.textContent=m[2].trim();b.disabled=/\sdisabled(?:\s|$)/.test(m[1]);for(const a of m[1].matchAll(/data-([a-z-]+)="([^"]*)"/g))b.dataset[a[1].replace(/-([a-z])/g,(_,l)=>l.toUpperCase())]=a[2];return b;});},
-  querySelectorAll(selector:string){return buttons.filter(b=>b.classes.split(/\s+/).includes(selector.slice(1)));},
+  set innerHTML(value:string){html=value;rows=[...value.matchAll(/<li data-concatenated-phrase="(\d+)">/g)].map(m=>{const row=new Control();row.dataset.concatenatedPhrase=m[1];return row;});audio.src=value.match(/<audio\b[^>]*src="([^"]*)"/)?.[1]??'';buttons=[...value.matchAll(/<button\b([^>]*)>([\s\S]*?)<\/button>/g)].map(m=>{const b=new Control(m[1].match(/class="([^"]*)"/)?.[1]??'');b.textContent=m[2].trim();b.disabled=/\sdisabled(?:\s|$)/.test(m[1]);for(const a of m[1].matchAll(/data-([a-z-]+)="([^"]*)"/g))b.dataset[a[1].replace(/-([a-z])/g,(_,l)=>l.toUpperCase())]=a[2];return b;});},
+  querySelectorAll(selector:string){if(selector==='[data-concatenated-phrase]')return rows;return buttons.filter(b=>b.classes.split(/\s+/).includes(selector.slice(1)));},
   querySelector(selector:string){if(selector==='audio')return audio;if(selector==='.learning-panel')return null;
    if(selector==='.training-status')return status;if(selector==='.resume-diagnostic')return diagnostic;
    if(selector==='.mode-progress')return progress;if(selector==='.mode-weak-count')return weakCount;
    if(selector==='.japanese-cue-mode')return {value:'mp3',disabled:false};
    return this.querySelectorAll(selector)[0]??null;}
  };
+ const concatenatedStatus=new Control(),concatenatedPosition=new Control();
+ const originalQuery=app.querySelector.bind(app);
+ app.querySelector=(selector:string)=>selector==='.concatenated-status'?concatenatedStatus:selector==='.concatenated-position'?concatenatedPosition:originalQuery(selector);
  const mediaHandlers:any={};
  const context:any={document:{querySelector:(s:string)=>s==='#app'?app:null,createElement:()=>({relList:{supports:()=>true}}),addEventListener:()=>{},visibilityState:'visible'},
  window:{localStorage:storage,addEventListener:()=>{},location:{href:origin+base},setTimeout:(fn:()=>void,ms:number)=>setTimeout(fn,ms===5000?1:ms),clearTimeout,
@@ -75,7 +79,7 @@ async function page(initial:Record<string,string>={},options:{requireGesture?:bo
  Audio:class extends Control{constructor(){super();throw Error('Recall must reuse the existing audio element');}},
  fetch:async(url:string)=>({ok:true,json:async()=>JSON.parse(fs.readFileSync('web/public/'+url.replace(base,''),'utf8'))})};
  vm.runInNewContext(await bundle(),context);await context.__initialization;
- return {app,audio,japanese,status,progress,saved,writes,sentinels,mediaHandlers,html:()=>html};
+ return {app,audio,japanese,status,progress,saved,writes,sentinels,mediaHandlers,concatenatedStatus,concatenatedPosition,html:()=>html};
 }
 test('actual bundled app renders only12 ETCL lessons and wires every Recall mode without initial storage writes',async()=>{
  const p=await page();assert.equal(p.app.querySelectorAll('.lesson-button').length,12);
@@ -262,4 +266,47 @@ test('English refusal on the second phrase preserves its queue, signature and sa
  p.audio.rejectPlay=false;b.click();await poll(()=>p.audio.cuePlays===3);
  assert.equal(p.saved[key],before);assert(p.audio.src.endsWith('phrase-002.mp3'));
  b.click();await flush();
+});
+
+test('concatenated Recall starts once per Lesson, follows all68 phrase timelines and ends without a Round',async()=>{
+ const manifest=JSON.parse(fs.readFileSync('web/src/concatenated-recall-manifest.json','utf8'));
+ for(let lessonIndex=0;lessonIndex<12;lessonIndex++){
+  const p=await page({}, {requireGesture:true});
+  if(lessonIndex){p.app.querySelectorAll('.lesson-button')[lessonIndex].click();await flush();}
+  const before={...p.saved},writes=p.writes.length,track=manifest.lessons[lessonIndex];
+  const start=p.app.querySelector('.concatenated-start'),stop=p.app.querySelector('.concatenated-stop');
+  start.click();assert.equal(p.audio.plays,1);assert(!p.audio.loop);assert(p.audio.src.endsWith(track.path));
+  for(const entry of track.timeline){
+   p.audio.currentTime=(entry.start+entry.end)/2;p.audio.emit('timeupdate');
+   assert(p.concatenatedPosition.textContent.includes('Phrase '+entry.phrase+' / '+track.phraseCount));
+   assert(p.concatenatedPosition.textContent.includes(lessons[lessonIndex].phrases[entry.phrase-1].en));
+   const rows=p.app.querySelectorAll('[data-concatenated-phrase]');
+   assert.equal(rows.length,track.phraseCount);
+   assert.deepEqual(rows.map((row:Control)=>row.classList.values.has('concatenated-current')),rows.map((_:Control,i:number)=>i===entry.phrase-1));
+  }
+  assert.equal(p.audio.plays,1,'No play at any phrase boundary');
+  p.audio.currentTime=track.duration;p.audio.emit('ended');assert(p.concatenatedStatus.textContent.includes('Lesson完了'));
+  await flush();assert.equal(p.audio.plays,1,'No next Round');assert(!p.audio.loop);
+  start.click();assert.equal(p.audio.plays,2);assert.equal(p.audio.currentTime,0);
+  stop.click();assert(p.audio.paused);assert(p.audio.src.endsWith('/lesson.mp3'));
+  assert.equal(p.writes.length,writes);assert.deepEqual(p.saved,before);
+ }
+});
+
+test('concatenated Media Session pause/resume and Stop never restart a stopped Lesson',async()=>{
+ const p=await page(),start=p.app.querySelector('.concatenated-start'),stop=p.app.querySelector('.concatenated-stop');
+ start.click();p.audio.currentTime=10;p.mediaHandlers.pause();assert(p.audio.paused);
+ p.mediaHandlers.play();assert.equal(p.audio.currentTime,10);assert.equal(p.audio.plays,2);
+ stop.click();const plays=p.audio.plays;p.mediaHandlers.play();await flush();assert.equal(p.audio.plays,plays);
+});
+
+test('Lesson switching and legacy Recall release concatenated playback without mixing or storage reset',async()=>{
+ const p=await page();p.app.querySelector('.concatenated-start').click();assert.equal(p.audio.plays,1);
+ p.app.querySelectorAll('.active-recall-button')[2].click();await poll(()=>p.audio.cuePlays===1);
+ assert(p.audio.src.includes('japanese-cues-v2/'));p.app.querySelectorAll('.active-recall-button')[2].click();
+ p.app.querySelector('.concatenated-start').click();
+ p.app.querySelectorAll('.lesson-button')[1].click();await flush();assert(p.audio.paused);
+ assert(p.audio.src.includes(lessons[1].id+'/lesson.mp3'));
+ p.app.querySelector('.concatenated-start').click();assert(p.audio.src.includes(lessons[1].id+'/recall-concatenated-v1.mp3'));
+ p.app.querySelector('.concatenated-stop').click();
 });

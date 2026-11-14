@@ -1,0 +1,2599 @@
+{
+  "version": 1,
+  "recallSeconds": 5,
+  "englishRepetitions": 2,
+  "lessons": [
+    {
+      "lessonId": "etcl-01-talking-about-my-job",
+      "path": "lessons/etcl-01-talking-about-my-job/recall-concatenated-v1.mp3",
+      "size": 394941,
+      "sha256": "7d1e5c56e390a4414822adcae564f2acebf4ef33e5d22d42d498dbcc2fd75888",
+      "sampleRate": 24000,
+      "duration": 72.76,
+      "totalSamples": 1746240,
+      "phraseCount": 5,
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 97344,
+          "start": 0.0,
+          "end": 4.056
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 97344,
+          "endSample": 217344,
+          "start": 4.056,
+          "end": 9.056
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 217344,
+          "endSample": 289344,
+          "start": 9.056,
+          "end": 12.056
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 289344,
+          "endSample": 361344,
+          "start": 12.056,
+          "end": 15.056
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 361344,
+          "endSample": 434496,
+          "start": 15.056,
+          "end": 18.104
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 434496,
+          "endSample": 554496,
+          "start": 18.104,
+          "end": 23.104
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 554496,
+          "endSample": 612096,
+          "start": 23.104,
+          "end": 25.504
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 612096,
+          "endSample": 669696,
+          "start": 25.504,
+          "end": 27.904
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 669696,
+          "endSample": 770496,
+          "start": 27.904,
+          "end": 32.104
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 770496,
+          "endSample": 890496,
+          "start": 32.104,
+          "end": 37.104
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 890496,
+          "endSample": 942336,
+          "start": 37.104,
+          "end": 39.264
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 942336,
+          "endSample": 994176,
+          "start": 39.264,
+          "end": 41.424
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 994176,
+          "endSample": 1103616,
+          "start": 41.424,
+          "end": 45.984
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1103616,
+          "endSample": 1223616,
+          "start": 45.984,
+          "end": 50.984
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1223616,
+          "endSample": 1305408,
+          "start": 50.984,
+          "end": 54.392
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1305408,
+          "endSample": 1387200,
+          "start": 54.392,
+          "end": 57.8
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1387200,
+          "endSample": 1479936,
+          "start": 57.8,
+          "end": 61.664
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1479936,
+          "endSample": 1599936,
+          "start": 61.664,
+          "end": 66.664
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1599936,
+          "endSample": 1673088,
+          "start": 66.664,
+          "end": 69.712
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1673088,
+          "endSample": 1746240,
+          "start": 69.712,
+          "end": 72.76
+        }
+      ]
+    },
+    {
+      "lessonId": "etcl-02-daily-routine",
+      "path": "lessons/etcl-02-daily-routine/recall-concatenated-v1.mp3",
+      "size": 418797,
+      "sha256": "ccd22921c52cac4b4b2cc4697090eff9940863dce1dbb8091fb3f3c2388bfb9b",
+      "sampleRate": 24000,
+      "duration": 75.184,
+      "totalSamples": 1804416,
+      "phraseCount": 5,
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 85248,
+          "start": 0.0,
+          "end": 3.552
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 85248,
+          "endSample": 205248,
+          "start": 3.552,
+          "end": 8.552
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 205248,
+          "endSample": 280128,
+          "start": 8.552,
+          "end": 11.672
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 280128,
+          "endSample": 355008,
+          "start": 11.672,
+          "end": 14.792
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 355008,
+          "endSample": 466752,
+          "start": 14.792,
+          "end": 19.448
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 466752,
+          "endSample": 586752,
+          "start": 19.448,
+          "end": 24.448
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 586752,
+          "endSample": 669696,
+          "start": 24.448,
+          "end": 27.904
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 669696,
+          "endSample": 752640,
+          "start": 27.904,
+          "end": 31.36
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 752640,
+          "endSample": 862080,
+          "start": 31.36,
+          "end": 35.92
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 862080,
+          "endSample": 982080,
+          "start": 35.92,
+          "end": 40.92
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 982080,
+          "endSample": 1047168,
+          "start": 40.92,
+          "end": 43.632
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1047168,
+          "endSample": 1112256,
+          "start": 43.632,
+          "end": 46.344
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1112256,
+          "endSample": 1198656,
+          "start": 46.344,
+          "end": 49.944
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1198656,
+          "endSample": 1318656,
+          "start": 49.944,
+          "end": 54.944
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1318656,
+          "endSample": 1389504,
+          "start": 54.944,
+          "end": 57.896
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1389504,
+          "endSample": 1460352,
+          "start": 57.896,
+          "end": 60.848
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1460352,
+          "endSample": 1549632,
+          "start": 60.848,
+          "end": 64.568
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1549632,
+          "endSample": 1669632,
+          "start": 64.568,
+          "end": 69.568
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1669632,
+          "endSample": 1737024,
+          "start": 69.568,
+          "end": 72.376
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1737024,
+          "endSample": 1804416,
+          "start": 72.376,
+          "end": 75.184
+        }
+      ]
+    },
+    {
+      "lessonId": "etcl-03-recent-events",
+      "path": "lessons/etcl-03-recent-events/recall-concatenated-v1.mp3",
+      "size": 555189,
+      "sha256": "d317c831abd10c3dba74daa2e12fbf967accd09ad6fb14a1e3018105b7f33fea",
+      "sampleRate": 24000,
+      "duration": 98.472,
+      "totalSamples": 2363328,
+      "phraseCount": 6,
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 77184,
+          "start": 0.0,
+          "end": 3.216
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 77184,
+          "endSample": 197184,
+          "start": 3.216,
+          "end": 8.216
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 197184,
+          "endSample": 258816,
+          "start": 8.216,
+          "end": 10.784
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 258816,
+          "endSample": 320448,
+          "start": 10.784,
+          "end": 13.352
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 320448,
+          "endSample": 464448,
+          "start": 13.352,
+          "end": 19.352
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 464448,
+          "endSample": 584448,
+          "start": 19.352,
+          "end": 24.352
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 584448,
+          "endSample": 689280,
+          "start": 24.352,
+          "end": 28.72
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 689280,
+          "endSample": 794112,
+          "start": 28.72,
+          "end": 33.088
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 794112,
+          "endSample": 912192,
+          "start": 33.088,
+          "end": 38.008
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 912192,
+          "endSample": 1032192,
+          "start": 38.008,
+          "end": 43.008
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1032192,
+          "endSample": 1134144,
+          "start": 43.008,
+          "end": 47.256
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1134144,
+          "endSample": 1236096,
+          "start": 47.256,
+          "end": 51.504
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1236096,
+          "endSample": 1342080,
+          "start": 51.504,
+          "end": 55.92
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1342080,
+          "endSample": 1462080,
+          "start": 55.92,
+          "end": 60.92
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1462080,
+          "endSample": 1531776,
+          "start": 60.92,
+          "end": 63.824
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1531776,
+          "endSample": 1601472,
+          "start": 63.824,
+          "end": 66.728
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1601472,
+          "endSample": 1677504,
+          "start": 66.728,
+          "end": 69.896
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1677504,
+          "endSample": 1797504,
+          "start": 69.896,
+          "end": 74.896
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1797504,
+          "endSample": 1861440,
+          "start": 74.896,
+          "end": 77.56
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1861440,
+          "endSample": 1925376,
+          "start": 77.56,
+          "end": 80.224
+        },
+        {
+          "phrase": 6,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1925376,
+          "endSample": 2057856,
+          "start": 80.224,
+          "end": 85.744
+        },
+        {
+          "phrase": 6,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 2057856,
+          "endSample": 2177856,
+          "start": 85.744,
+          "end": 90.744
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 2177856,
+          "endSample": 2270592,
+          "start": 90.744,
+          "end": 94.608
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 2270592,
+          "endSample": 2363328,
+          "start": 94.608,
+          "end": 98.472
+        }
+      ]
+    },
+    {
+      "lessonId": "etcl-04-current-situation",
+      "path": "lessons/etcl-04-current-situation/recall-concatenated-v1.mp3",
+      "size": 595029,
+      "sha256": "28bfe8dde2492af6db04aeb16b1241998ddc2e5b97d9c10191ab3f776b522850",
+      "sampleRate": 24000,
+      "duration": 104.04,
+      "totalSamples": 2496960,
+      "phraseCount": 6,
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 123840,
+          "start": 0.0,
+          "end": 5.16
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 123840,
+          "endSample": 243840,
+          "start": 5.16,
+          "end": 10.16
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 243840,
+          "endSample": 336576,
+          "start": 10.16,
+          "end": 14.024
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 336576,
+          "endSample": 429312,
+          "start": 14.024,
+          "end": 17.888
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 429312,
+          "endSample": 555456,
+          "start": 17.888,
+          "end": 23.144
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 555456,
+          "endSample": 675456,
+          "start": 23.144,
+          "end": 28.144
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 675456,
+          "endSample": 779136,
+          "start": 28.144,
+          "end": 32.464
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 779136,
+          "endSample": 882816,
+          "start": 32.464,
+          "end": 36.784
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 882816,
+          "endSample": 994560,
+          "start": 36.784,
+          "end": 41.44
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 994560,
+          "endSample": 1114560,
+          "start": 41.44,
+          "end": 46.44
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1114560,
+          "endSample": 1210752,
+          "start": 46.44,
+          "end": 50.448
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1210752,
+          "endSample": 1306944,
+          "start": 50.448,
+          "end": 54.456
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1306944,
+          "endSample": 1456128,
+          "start": 54.456,
+          "end": 60.672
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1456128,
+          "endSample": 1576128,
+          "start": 60.672,
+          "end": 65.672
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1576128,
+          "endSample": 1702272,
+          "start": 65.672,
+          "end": 70.928
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1702272,
+          "endSample": 1828416,
+          "start": 70.928,
+          "end": 76.184
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1828416,
+          "endSample": 1887168,
+          "start": 76.184,
+          "end": 78.632
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1887168,
+          "endSample": 2007168,
+          "start": 78.632,
+          "end": 83.632
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 2007168,
+          "endSample": 2079168,
+          "start": 83.632,
+          "end": 86.632
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 2079168,
+          "endSample": 2151168,
+          "start": 86.632,
+          "end": 89.632
+        },
+        {
+          "phrase": 6,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 2151168,
+          "endSample": 2232960,
+          "start": 89.632,
+          "end": 93.04
+        },
+        {
+          "phrase": 6,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 2232960,
+          "endSample": 2352960,
+          "start": 93.04,
+          "end": 98.04
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 2352960,
+          "endSample": 2424960,
+          "start": 98.04,
+          "end": 101.04
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 2424960,
+          "endSample": 2496960,
+          "start": 101.04,
+          "end": 104.04
+        }
+      ]
+    },
+    {
+      "lessonId": "etcl-05-reasons-and-decisions",
+      "path": "lessons/etcl-05-reasons-and-decisions/recall-concatenated-v1.mp3",
+      "size": 574749,
+      "sha256": "1de196c10963cb25a2ce6d6399c5df9b4190eea9f8818823b47fc33e44f900b7",
+      "sampleRate": 24000,
+      "duration": 95.2,
+      "totalSamples": 2284800,
+      "phraseCount": 5,
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 105984,
+          "start": 0.0,
+          "end": 4.416
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 105984,
+          "endSample": 225984,
+          "start": 4.416,
+          "end": 9.416
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 225984,
+          "endSample": 305472,
+          "start": 9.416,
+          "end": 12.728
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 305472,
+          "endSample": 384960,
+          "start": 12.728,
+          "end": 16.04
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 384960,
+          "endSample": 537600,
+          "start": 16.04,
+          "end": 22.4
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 537600,
+          "endSample": 657600,
+          "start": 22.4,
+          "end": 27.4
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 657600,
+          "endSample": 787200,
+          "start": 27.4,
+          "end": 32.8
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 787200,
+          "endSample": 916800,
+          "start": 32.8,
+          "end": 38.2
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 916800,
+          "endSample": 1053888,
+          "start": 38.2,
+          "end": 43.912
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1053888,
+          "endSample": 1173888,
+          "start": 43.912,
+          "end": 48.912
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1173888,
+          "endSample": 1301184,
+          "start": 48.912,
+          "end": 54.216
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1301184,
+          "endSample": 1428480,
+          "start": 54.216,
+          "end": 59.52
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1428480,
+          "endSample": 1563264,
+          "start": 59.52,
+          "end": 65.136
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1563264,
+          "endSample": 1683264,
+          "start": 65.136,
+          "end": 70.136
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1683264,
+          "endSample": 1790400,
+          "start": 70.136,
+          "end": 74.6
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1790400,
+          "endSample": 1897536,
+          "start": 74.6,
+          "end": 79.064
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1897536,
+          "endSample": 2032320,
+          "start": 79.064,
+          "end": 84.68
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 2032320,
+          "endSample": 2152320,
+          "start": 84.68,
+          "end": 89.68
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 2152320,
+          "endSample": 2218560,
+          "start": 89.68,
+          "end": 92.44
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 2218560,
+          "endSample": 2284800,
+          "start": 92.44,
+          "end": 95.2
+        }
+      ]
+    },
+    {
+      "lessonId": "etcl-06-preferences-and-priorities",
+      "path": "lessons/etcl-06-preferences-and-priorities/recall-concatenated-v1.mp3",
+      "size": 565173,
+      "sha256": "2323c099d538a639b36d8061dbeb8862f7eaea475e8387200293c78747914514",
+      "sampleRate": 24000,
+      "duration": 94.408,
+      "totalSamples": 2265792,
+      "phraseCount": 5,
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 101952,
+          "start": 0.0,
+          "end": 4.248
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 101952,
+          "endSample": 221952,
+          "start": 4.248,
+          "end": 9.248
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 221952,
+          "endSample": 288192,
+          "start": 9.248,
+          "end": 12.008
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 288192,
+          "endSample": 354432,
+          "start": 12.008,
+          "end": 14.768
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 354432,
+          "endSample": 501312,
+          "start": 14.768,
+          "end": 20.888
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 501312,
+          "endSample": 621312,
+          "start": 20.888,
+          "end": 25.888
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 621312,
+          "endSample": 744000,
+          "start": 25.888,
+          "end": 31.0
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 744000,
+          "endSample": 866688,
+          "start": 31.0,
+          "end": 36.112
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 866688,
+          "endSample": 971520,
+          "start": 36.112,
+          "end": 40.48
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 971520,
+          "endSample": 1091520,
+          "start": 40.48,
+          "end": 45.48
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1091520,
+          "endSample": 1168704,
+          "start": 45.48,
+          "end": 48.696
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1168704,
+          "endSample": 1245888,
+          "start": 48.696,
+          "end": 51.912
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1245888,
+          "endSample": 1456128,
+          "start": 51.912,
+          "end": 60.672
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1456128,
+          "endSample": 1576128,
+          "start": 60.672,
+          "end": 65.672
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1576128,
+          "endSample": 1686720,
+          "start": 65.672,
+          "end": 70.28
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1686720,
+          "endSample": 1797312,
+          "start": 70.28,
+          "end": 74.888
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1797312,
+          "endSample": 1922304,
+          "start": 74.888,
+          "end": 80.096
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1922304,
+          "endSample": 2042304,
+          "start": 80.096,
+          "end": 85.096
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 2042304,
+          "endSample": 2154048,
+          "start": 85.096,
+          "end": 89.752
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 2154048,
+          "endSample": 2265792,
+          "start": 89.752,
+          "end": 94.408
+        }
+      ]
+    },
+    {
+      "lessonId": "etcl-07-asking-questions",
+      "path": "lessons/etcl-07-asking-questions/recall-concatenated-v1.mp3",
+      "size": 380085,
+      "sha256": "560edfa1f6aa01aab09876b081ca1046856825408632812b5c92acc0e693b649",
+      "sampleRate": 24000,
+      "duration": 77.712,
+      "totalSamples": 1865088,
+      "phraseCount": 6,
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 62784,
+          "start": 0.0,
+          "end": 2.616
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 62784,
+          "endSample": 182784,
+          "start": 2.616,
+          "end": 7.616
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 182784,
+          "endSample": 244416,
+          "start": 7.616,
+          "end": 10.184
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 244416,
+          "endSample": 306048,
+          "start": 10.184,
+          "end": 12.752
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 306048,
+          "endSample": 402240,
+          "start": 12.752,
+          "end": 16.76
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 402240,
+          "endSample": 522240,
+          "start": 16.76,
+          "end": 21.76
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 522240,
+          "endSample": 585024,
+          "start": 21.76,
+          "end": 24.376
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 585024,
+          "endSample": 647808,
+          "start": 24.376,
+          "end": 26.992
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 647808,
+          "endSample": 715200,
+          "start": 26.992,
+          "end": 29.8
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 715200,
+          "endSample": 835200,
+          "start": 29.8,
+          "end": 34.8
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 835200,
+          "endSample": 883584,
+          "start": 34.8,
+          "end": 36.816
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 883584,
+          "endSample": 931968,
+          "start": 36.816,
+          "end": 38.832
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 931968,
+          "endSample": 1029312,
+          "start": 38.832,
+          "end": 42.888
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1029312,
+          "endSample": 1149312,
+          "start": 42.888,
+          "end": 47.888
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1149312,
+          "endSample": 1205760,
+          "start": 47.888,
+          "end": 50.24
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1205760,
+          "endSample": 1262208,
+          "start": 50.24,
+          "end": 52.592
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1262208,
+          "endSample": 1377408,
+          "start": 52.592,
+          "end": 57.392
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1377408,
+          "endSample": 1497408,
+          "start": 57.392,
+          "end": 62.392
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1497408,
+          "endSample": 1555008,
+          "start": 62.392,
+          "end": 64.792
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1555008,
+          "endSample": 1612608,
+          "start": 64.792,
+          "end": 67.192
+        },
+        {
+          "phrase": 6,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1612608,
+          "endSample": 1670208,
+          "start": 67.192,
+          "end": 69.592
+        },
+        {
+          "phrase": 6,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1670208,
+          "endSample": 1790208,
+          "start": 69.592,
+          "end": 74.592
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1790208,
+          "endSample": 1827648,
+          "start": 74.592,
+          "end": 76.152
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1827648,
+          "endSample": 1865088,
+          "start": 76.152,
+          "end": 77.712
+        }
+      ]
+    },
+    {
+      "lessonId": "etcl-08-responding-naturally",
+      "path": "lessons/etcl-08-responding-naturally/recall-concatenated-v1.mp3",
+      "size": 274341,
+      "sha256": "e9f112b54fe69241bb488e030f031e0ab97fd6d77cf54311ac84d3ed9e5a499b",
+      "sampleRate": 24000,
+      "duration": 64.272,
+      "totalSamples": 1542528,
+      "phraseCount": 6,
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 47232,
+          "start": 0.0,
+          "end": 1.968
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 47232,
+          "endSample": 167232,
+          "start": 1.968,
+          "end": 6.968
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 167232,
+          "endSample": 194880,
+          "start": 6.968,
+          "end": 8.12
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 194880,
+          "endSample": 222528,
+          "start": 8.12,
+          "end": 9.272
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 222528,
+          "endSample": 275520,
+          "start": 9.272,
+          "end": 11.48
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 275520,
+          "endSample": 395520,
+          "start": 11.48,
+          "end": 16.48
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 395520,
+          "endSample": 437568,
+          "start": 16.48,
+          "end": 18.232
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 437568,
+          "endSample": 479616,
+          "start": 18.232,
+          "end": 19.984
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 479616,
+          "endSample": 532608,
+          "start": 19.984,
+          "end": 22.192
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 532608,
+          "endSample": 652608,
+          "start": 22.192,
+          "end": 27.192
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 652608,
+          "endSample": 723456,
+          "start": 27.192,
+          "end": 30.144
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 723456,
+          "endSample": 794304,
+          "start": 30.144,
+          "end": 33.096
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 794304,
+          "endSample": 847296,
+          "start": 33.096,
+          "end": 35.304
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 847296,
+          "endSample": 967296,
+          "start": 35.304,
+          "end": 40.304
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 967296,
+          "endSample": 998976,
+          "start": 40.304,
+          "end": 41.624
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 998976,
+          "endSample": 1030656,
+          "start": 41.624,
+          "end": 42.944
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1030656,
+          "endSample": 1088256,
+          "start": 42.944,
+          "end": 45.344
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1088256,
+          "endSample": 1208256,
+          "start": 45.344,
+          "end": 50.344
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1208256,
+          "endSample": 1251456,
+          "start": 50.344,
+          "end": 52.144
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1251456,
+          "endSample": 1294656,
+          "start": 52.144,
+          "end": 53.944
+        },
+        {
+          "phrase": 6,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1294656,
+          "endSample": 1345344,
+          "start": 53.944,
+          "end": 56.056
+        },
+        {
+          "phrase": 6,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1345344,
+          "endSample": 1465344,
+          "start": 56.056,
+          "end": 61.056
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1465344,
+          "endSample": 1503936,
+          "start": 61.056,
+          "end": 62.664
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1503936,
+          "endSample": 1542528,
+          "start": 62.664,
+          "end": 64.272
+        }
+      ]
+    },
+    {
+      "lessonId": "etcl-09-past-experiences",
+      "path": "lessons/etcl-09-past-experiences/recall-concatenated-v1.mp3",
+      "size": 571941,
+      "sha256": "0709eaa02eaacdcad3dc5092dd1b5de2f257b1f7ae7632b8deb0a7e087a57432",
+      "sampleRate": 24000,
+      "duration": 99.12,
+      "totalSamples": 2378880,
+      "phraseCount": 6,
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 150336,
+          "start": 0.0,
+          "end": 6.264
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 150336,
+          "endSample": 270336,
+          "start": 6.264,
+          "end": 11.264
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 270336,
+          "endSample": 380928,
+          "start": 11.264,
+          "end": 15.872
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 380928,
+          "endSample": 491520,
+          "start": 15.872,
+          "end": 20.48
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 491520,
+          "endSample": 614208,
+          "start": 20.48,
+          "end": 25.592
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 614208,
+          "endSample": 734208,
+          "start": 25.592,
+          "end": 30.592
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 734208,
+          "endSample": 814848,
+          "start": 30.592,
+          "end": 33.952
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 814848,
+          "endSample": 895488,
+          "start": 33.952,
+          "end": 37.312
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 895488,
+          "endSample": 1011840,
+          "start": 37.312,
+          "end": 42.16
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1011840,
+          "endSample": 1131840,
+          "start": 42.16,
+          "end": 47.16
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1131840,
+          "endSample": 1200384,
+          "start": 47.16,
+          "end": 50.016
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1200384,
+          "endSample": 1268928,
+          "start": 50.016,
+          "end": 52.872
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1268928,
+          "endSample": 1381824,
+          "start": 52.872,
+          "end": 57.576
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1381824,
+          "endSample": 1501824,
+          "start": 57.576,
+          "end": 62.576
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1501824,
+          "endSample": 1601472,
+          "start": 62.576,
+          "end": 66.728
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1601472,
+          "endSample": 1701120,
+          "start": 66.728,
+          "end": 70.88
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1701120,
+          "endSample": 1793856,
+          "start": 70.88,
+          "end": 74.744
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1793856,
+          "endSample": 1913856,
+          "start": 74.744,
+          "end": 79.744
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1913856,
+          "endSample": 1976640,
+          "start": 79.744,
+          "end": 82.36
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1976640,
+          "endSample": 2039424,
+          "start": 82.36,
+          "end": 84.976
+        },
+        {
+          "phrase": 6,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 2039424,
+          "endSample": 2131008,
+          "start": 84.976,
+          "end": 88.792
+        },
+        {
+          "phrase": 6,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 2131008,
+          "endSample": 2251008,
+          "start": 88.792,
+          "end": 93.792
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 2251008,
+          "endSample": 2314944,
+          "start": 93.792,
+          "end": 96.456
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 2314944,
+          "endSample": 2378880,
+          "start": 96.456,
+          "end": 99.12
+        }
+      ]
+    },
+    {
+      "lessonId": "etcl-10-explaining-problems",
+      "path": "lessons/etcl-10-explaining-problems/recall-concatenated-v1.mp3",
+      "size": 517701,
+      "sha256": "351744d2c99c81a1b763d43e76109b70631f3da6fd1855b0076fc5b8428af58d",
+      "sampleRate": 24000,
+      "duration": 94.776,
+      "totalSamples": 2274624,
+      "phraseCount": 6,
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 81792,
+          "start": 0.0,
+          "end": 3.408
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 81792,
+          "endSample": 201792,
+          "start": 3.408,
+          "end": 8.408
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 201792,
+          "endSample": 270336,
+          "start": 8.408,
+          "end": 11.264
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 270336,
+          "endSample": 338880,
+          "start": 11.264,
+          "end": 14.12
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 338880,
+          "endSample": 446016,
+          "start": 14.12,
+          "end": 18.584
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 446016,
+          "endSample": 566016,
+          "start": 18.584,
+          "end": 23.584
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 566016,
+          "endSample": 648960,
+          "start": 23.584,
+          "end": 27.04
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 648960,
+          "endSample": 731904,
+          "start": 27.04,
+          "end": 30.496
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 731904,
+          "endSample": 821184,
+          "start": 30.496,
+          "end": 34.216
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 821184,
+          "endSample": 941184,
+          "start": 34.216,
+          "end": 39.216
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 941184,
+          "endSample": 1027584,
+          "start": 39.216,
+          "end": 42.816
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1027584,
+          "endSample": 1113984,
+          "start": 42.816,
+          "end": 46.416
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1113984,
+          "endSample": 1229184,
+          "start": 46.416,
+          "end": 51.216
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1229184,
+          "endSample": 1349184,
+          "start": 51.216,
+          "end": 56.216
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1349184,
+          "endSample": 1444224,
+          "start": 56.216,
+          "end": 60.176
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1444224,
+          "endSample": 1539264,
+          "start": 60.176,
+          "end": 64.136
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1539264,
+          "endSample": 1677504,
+          "start": 64.136,
+          "end": 69.896
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1677504,
+          "endSample": 1797504,
+          "start": 69.896,
+          "end": 74.896
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1797504,
+          "endSample": 1874688,
+          "start": 74.896,
+          "end": 78.112
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1874688,
+          "endSample": 1951872,
+          "start": 78.112,
+          "end": 81.328
+        },
+        {
+          "phrase": 6,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1951872,
+          "endSample": 2029056,
+          "start": 81.328,
+          "end": 84.544
+        },
+        {
+          "phrase": 6,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 2029056,
+          "endSample": 2149056,
+          "start": 84.544,
+          "end": 89.544
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 2149056,
+          "endSample": 2211840,
+          "start": 89.544,
+          "end": 92.16
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 2211840,
+          "endSample": 2274624,
+          "start": 92.16,
+          "end": 94.776
+        }
+      ]
+    },
+    {
+      "lessonId": "etcl-11-plans-and-possibilities",
+      "path": "lessons/etcl-11-plans-and-possibilities/recall-concatenated-v1.mp3",
+      "size": 499941,
+      "sha256": "e721e9866047710a9dfd91253e399b5c30f8c5ba654a92430e6e98cad1bc6e47",
+      "sampleRate": 24000,
+      "duration": 89.28,
+      "totalSamples": 2142720,
+      "phraseCount": 6,
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 111744,
+          "start": 0.0,
+          "end": 4.656
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 111744,
+          "endSample": 231744,
+          "start": 4.656,
+          "end": 9.656
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 231744,
+          "endSample": 331392,
+          "start": 9.656,
+          "end": 13.808
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 331392,
+          "endSample": 431040,
+          "start": 13.808,
+          "end": 17.96
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 431040,
+          "endSample": 532992,
+          "start": 17.96,
+          "end": 22.208
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 532992,
+          "endSample": 652992,
+          "start": 22.208,
+          "end": 27.208
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 652992,
+          "endSample": 705984,
+          "start": 27.208,
+          "end": 29.416
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 705984,
+          "endSample": 758976,
+          "start": 29.416,
+          "end": 31.624
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 758976,
+          "endSample": 809664,
+          "start": 31.624,
+          "end": 33.736
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 809664,
+          "endSample": 929664,
+          "start": 33.736,
+          "end": 38.736
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 929664,
+          "endSample": 968256,
+          "start": 38.736,
+          "end": 40.344
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 968256,
+          "endSample": 1006848,
+          "start": 40.344,
+          "end": 41.952
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1006848,
+          "endSample": 1124928,
+          "start": 41.952,
+          "end": 46.872
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1124928,
+          "endSample": 1244928,
+          "start": 46.872,
+          "end": 51.872
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1244928,
+          "endSample": 1339968,
+          "start": 51.872,
+          "end": 55.832
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1339968,
+          "endSample": 1435008,
+          "start": 55.832,
+          "end": 59.792
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1435008,
+          "endSample": 1521408,
+          "start": 59.792,
+          "end": 63.392
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1521408,
+          "endSample": 1641408,
+          "start": 63.392,
+          "end": 68.392
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1641408,
+          "endSample": 1725504,
+          "start": 68.392,
+          "end": 71.896
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1725504,
+          "endSample": 1809600,
+          "start": 71.896,
+          "end": 75.4
+        },
+        {
+          "phrase": 6,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1809600,
+          "endSample": 1894848,
+          "start": 75.4,
+          "end": 78.952
+        },
+        {
+          "phrase": 6,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1894848,
+          "endSample": 2014848,
+          "start": 78.952,
+          "end": 83.952
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 2014848,
+          "endSample": 2078784,
+          "start": 83.952,
+          "end": 86.616
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 2078784,
+          "endSample": 2142720,
+          "start": 86.616,
+          "end": 89.28
+        }
+      ]
+    },
+    {
+      "lessonId": "etcl-12-expressing-opinions",
+      "path": "lessons/etcl-12-expressing-opinions/recall-concatenated-v1.mp3",
+      "size": 668997,
+      "sha256": "4ce6c64ebf097ae7863a4cf1c8321a9ae2b4b079afa63161c5c8fe43e780f38a",
+      "sampleRate": 24000,
+      "duration": 112.608,
+      "totalSamples": 2702592,
+      "phraseCount": 6,
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 110592,
+          "start": 0.0,
+          "end": 4.608
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 110592,
+          "endSample": 230592,
+          "start": 4.608,
+          "end": 9.608
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 230592,
+          "endSample": 307776,
+          "start": 9.608,
+          "end": 12.824
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 307776,
+          "endSample": 384960,
+          "start": 12.824,
+          "end": 16.04
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 384960,
+          "endSample": 520896,
+          "start": 16.04,
+          "end": 21.704
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 520896,
+          "endSample": 640896,
+          "start": 21.704,
+          "end": 26.704
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 640896,
+          "endSample": 757248,
+          "start": 26.704,
+          "end": 31.552
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 757248,
+          "endSample": 873600,
+          "start": 31.552,
+          "end": 36.4
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 873600,
+          "endSample": 983040,
+          "start": 36.4,
+          "end": 40.96
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 983040,
+          "endSample": 1103040,
+          "start": 40.96,
+          "end": 45.96
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1103040,
+          "endSample": 1180224,
+          "start": 45.96,
+          "end": 49.176
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1180224,
+          "endSample": 1257408,
+          "start": 49.176,
+          "end": 52.392
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1257408,
+          "endSample": 1376640,
+          "start": 52.392,
+          "end": 57.36
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1376640,
+          "endSample": 1496640,
+          "start": 57.36,
+          "end": 62.36
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1496640,
+          "endSample": 1567488,
+          "start": 62.36,
+          "end": 65.312
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1567488,
+          "endSample": 1638336,
+          "start": 65.312,
+          "end": 68.264
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1638336,
+          "endSample": 1794432,
+          "start": 68.264,
+          "end": 74.768
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1794432,
+          "endSample": 1914432,
+          "start": 74.768,
+          "end": 79.768
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1914432,
+          "endSample": 2038272,
+          "start": 79.768,
+          "end": 84.928
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 2038272,
+          "endSample": 2162112,
+          "start": 84.928,
+          "end": 90.088
+        },
+        {
+          "phrase": 6,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 2162112,
+          "endSample": 2354496,
+          "start": 90.088,
+          "end": 98.104
+        },
+        {
+          "phrase": 6,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 2354496,
+          "endSample": 2474496,
+          "start": 98.104,
+          "end": 103.104
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 2474496,
+          "endSample": 2588544,
+          "start": 103.104,
+          "end": 107.856
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 2588544,
+          "endSample": 2702592,
+          "start": 107.856,
+          "end": 112.608
+        }
+      ]
+    }
+  ]
+}

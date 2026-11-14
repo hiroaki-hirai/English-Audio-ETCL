@@ -1,3 +1,5 @@
+import concatenatedManifest from './concatenated-recall-manifest.json';
+import {createConcatenatedRecall} from './concatenated-recall.js';
 import './style.css';
 import { createAudioTransitionDiagnostic } from './audio-transition-diagnostic.js';
 import { createSpeechDiagnostic } from './speech-diagnostic.js';
@@ -257,7 +259,7 @@ async function renderLesson(selectedLesson: TrainingScript): Promise<void> {
       const isWeak = weakPhrases.has(weakPhraseKey);
 
       return `
-        <li>
+        <li data-concatenated-phrase="${index}">
           <button
             class="phrase-button"
             type="button"
@@ -291,6 +293,17 @@ async function renderLesson(selectedLesson: TrainingScript): Promise<void> {
         src="${import.meta.env.BASE_URL}lessons/${selectedLesson.id}/lesson.mp3"
       ></audio>
 
+      <section class="control-group concatenated-controls" aria-labelledby="concatenated-heading">
+        <h3 id="concatenated-heading">Lesson Recall（連結音声・推奨）</h3>
+        <p>日本語Cue → 5秒想起 → 英語2回。選択Lessonの最後で停止します。</p>
+        <button class="concatenated-start" type="button">Lesson Recallを先頭から再生</button>
+        <button class="concatenated-stop" type="button" disabled>Stop Lesson Recall</button>
+        <p class="concatenated-status" aria-live="polite">開始ボタンをタップしてください。</p>
+        <p class="concatenated-position">再生中のフレーズをここに表示します。</p>
+        <small>Weak・Shuffle・既存の保存位置は従来方式で利用できます。連結再生は常に英語2回です。</small>
+      </section>
+      <details class="legacy-playback-controls">
+        <summary>従来のTraining / Recall（切り戻し用）</summary>
       <label class="cue-mode-setting">
         <span>Japanese Cue Mode</span>
         <small id="cue-mode-help">Used for Active Recall. Training plays English only.</small>
@@ -341,6 +354,7 @@ async function renderLesson(selectedLesson: TrainingScript): Promise<void> {
 
       </section>
       ${isEtclLesson ? '<section class="etcl-library-scopes"><h3>ETCL全体のモード（全68フレーズ）</h3><button class="training-button etcl-library-button" type="button" data-library-mode="global">ETCL Global Shuffle — 全68件</button><button class="training-button etcl-library-button" type="button" data-library-mode="sequential-category-order">ETCL Sequential Category Order — Lesson 1〜12</button><p>Lesson別の保存位置とは独立して再開します。1巡後は既存仕様どおり次Roundへ進みます。</p></section>' : ''}
+      </details>
       <p class="training-status" aria-live="polite">
         Training stopped
       </p>
@@ -511,6 +525,33 @@ Active Recall has not started.</pre>
     undefined,
     (kind) => audioTransitionDiagnostic.record(kind, 'element=shared-recall-audio', 'Japanese MP3'),
   );
+  const concatenatedTrack = concatenatedManifest.lessons.find(track => track.lessonId === selectedLesson.id);
+  if (!concatenatedTrack) throw new Error('Concatenated Lesson audio is unavailable.');
+  const concatenatedStart = app.querySelector<HTMLButtonElement>('.concatenated-start');
+  const concatenatedStop = app.querySelector<HTMLButtonElement>('.concatenated-stop');
+  const concatenatedStatus = app.querySelector<HTMLParagraphElement>('.concatenated-status');
+  const concatenatedPosition = app.querySelector<HTMLParagraphElement>('.concatenated-position');
+  const concatenatedRecall = createConcatenatedRecall(audio, concatenatedTrack, import.meta.env.BASE_URL, snapshot => {
+    if (sequence !== renderSequence) return;
+    const labels = {idle:'停止', starting:'開始中', playing:'再生中', paused:'一時停止', ended:'Lesson完了 — もう一度再生できます。', error:'再生エラー'};
+    if (concatenatedStatus) concatenatedStatus.textContent = labels[snapshot.state] + (snapshot.message ? ' — ' + snapshot.message + ' 開始ボタンで再試行できます。' : '');
+    if (concatenatedStop) concatenatedStop.disabled = !concatenatedRecall.ownsAudio;
+    const entry = snapshot.entry;
+    if (concatenatedPosition) {
+      const phase = entry?.kind === 'japanese' ? '日本語Cue' : entry?.kind === 'recall' ? '想起 残り ' + Math.max(0,entry.end-snapshot.currentTime).toFixed(1) + '秒' : '英語 ' + entry?.repetition + ' / 2';
+      concatenatedPosition.textContent = entry ? 'Phrase ' + entry.phrase + ' / ' + concatenatedTrack.phraseCount + ' — ' + phase + ' — ' + selectedLesson.phrases[entry.phrase-1].en : '';
+    }
+    app.querySelectorAll<HTMLElement>('[data-concatenated-phrase]').forEach(node => {
+      node.classList.toggle('concatenated-current', entry !== null && Number(node.dataset.concatenatedPhrase) === entry.phrase-1);
+    });
+    if (concatenatedRecall.ownsAudio) setMediaSessionPlaybackState(snapshot.state === 'playing' ? 'playing' : snapshot.state === 'paused' ? 'paused' : 'none');
+  });
+  concatenatedStart?.addEventListener('click', () => {
+    stopTraining();
+    concatenatedRecall.start();
+  });
+  concatenatedStop?.addEventListener('click', () => stopTraining());
+
   const speechDiagnostic = createSpeechDiagnostic(() => ({
     visibility: document.visibilityState,
     time: performance.now(),
@@ -662,14 +703,15 @@ Active Recall has not started.</pre>
   if ('mediaSession' in navigator) {
     if ('MediaMetadata' in window) {
       navigator.mediaSession.metadata = new MediaMetadata({
-        title: 'Continuous Training',
-        artist: 'English Audio Generator',
+        title: selectedLesson.scenario,
+        artist: 'English Audio ETCL',
         album: selectedLesson.scenario,
       });
     }
 
     navigator.mediaSession.setActionHandler('play', () => {
       if(sequence!==renderSequence)return; // Retired mode must not reclaim playback.
+      if(concatenatedRecall.ownsAudio){concatenatedRecall.resume();return;}
       if(isEtclLesson&&trainingActive&&runtimeKind==='active-recall'){resumeEtclRecall();return;}
       const handled = dispatchMediaSessionAction(
         getMediaSessionPolicyState(),
@@ -695,6 +737,7 @@ Active Recall has not started.</pre>
     });
     navigator.mediaSession.setActionHandler('pause', () => {
       if(sequence!==renderSequence)return;
+      if(concatenatedRecall.ownsAudio){concatenatedRecall.pause();return;}
       if(isEtclLesson&&trainingActive&&runtimeKind==='active-recall'){pauseEtclRecall();return;}
       const handled = dispatchMediaSessionAction(
         getMediaSessionPolicyState(),
@@ -1103,6 +1146,7 @@ Active Recall has not started.</pre>
       return;
     }
 
+    concatenatedRecall.stop();
     if(isEtclLesson){
       try{assertEtclPlayable(scope==='all'?libraryRecallPlan!:lessonRecallPlan!);}catch(error){trainingStatus.textContent=String(error);return;}
     }
@@ -1412,6 +1456,7 @@ Active Recall has not started.</pre>
   }
 
   async function runTraining(): Promise<void> {
+    concatenatedRecall.stop();
     diagnosticDisplayPhraseCount = isEtclLesson?selectedLesson.phrases.length:modePhraseCount;
     const hasWeakPhrases = selectedLesson.phrases.some((_, index) =>
       weakPhrases.has(getWeakPhraseKey(selectedLesson.id, index)),
@@ -1520,6 +1565,7 @@ Active Recall has not started.</pre>
   }
 
   function stopTraining(error?: unknown): void {
+    concatenatedRecall.stop();
     const failureMessage = error === undefined ? null : playbackError(error);
     cancelMetadataWait?.();
     if (diagnosticTestStatus.startsWith('running')) {
@@ -1605,6 +1651,7 @@ Active Recall has not started.</pre>
 
   phraseButtons.forEach((button) => {
     button.addEventListener('click', async () => {
+      concatenatedRecall.stop();
       if (trainingActive) {
         stopTraining();
       }

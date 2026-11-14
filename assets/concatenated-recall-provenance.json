@@ -1,0 +1,5817 @@
+{
+  "version": 1,
+  "lessons": [
+    {
+      "lessonId": "etcl-01-talking-about-my-job",
+      "sampleRate": 24000,
+      "channels": 1,
+      "phrases": [
+        {
+          "phrase": 1,
+          "en": "I'm mainly focused on developing my own apps.",
+          "ja": "私は主に自分のアプリ開発に取り組んでいます。",
+          "englishSourceStart": 0.0,
+          "englishSourceEnd": 3.0,
+          "originalRepeatCorrelation": 0.9908447142816388
+        },
+        {
+          "phrase": 2,
+          "en": "I do food delivery on the side.",
+          "ja": "副業でフードデリバリーをしています。",
+          "englishSourceStart": 16.0,
+          "englishSourceEnd": 18.4,
+          "originalRepeatCorrelation": 0.9921089256703125
+        },
+        {
+          "phrase": 3,
+          "en": "I like the flexibility.",
+          "ja": "その自由度の高さが気に入っています。",
+          "englishSourceStart": 30.8,
+          "englishSourceEnd": 32.96,
+          "originalRepeatCorrelation": 0.9888278550562157
+        },
+        {
+          "phrase": 4,
+          "en": "It gives me more time to work on my own projects.",
+          "ja": "そのおかげで、自分のプロジェクトに取り組む時間が増えます。",
+          "englishSourceStart": 45.12,
+          "englishSourceEnd": 48.528,
+          "originalRepeatCorrelation": 0.992623838061026
+        },
+        {
+          "phrase": 5,
+          "en": "Eventually, I'd like to make money from my apps.",
+          "ja": "いずれは自分のアプリで収入を得たいです。",
+          "englishSourceStart": 61.936,
+          "englishSourceEnd": 64.984,
+          "originalRepeatCorrelation": 0.988143560295582
+        }
+      ],
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 97344,
+          "start": 0.0,
+          "end": 4.056,
+          "pcmSha256": "97f05dafdf639b289831b7cfe71c1b199b1a8482379b2b3639a7d4ca650535e2"
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 97344,
+          "endSample": 217344,
+          "start": 4.056,
+          "end": 9.056,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 217344,
+          "endSample": 289344,
+          "start": 9.056,
+          "end": 12.056,
+          "pcmSha256": "a39a6656636197ffc4727ac172bd955d7a0320d95d66db40e85b168e540e9a28"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 289344,
+          "endSample": 361344,
+          "start": 12.056,
+          "end": 15.056,
+          "pcmSha256": "a39a6656636197ffc4727ac172bd955d7a0320d95d66db40e85b168e540e9a28"
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 361344,
+          "endSample": 434496,
+          "start": 15.056,
+          "end": 18.104,
+          "pcmSha256": "8885c5b7948cb8eb21bc012027073423fd8dd28899a43cf6e064d4c0f0c602ae"
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 434496,
+          "endSample": 554496,
+          "start": 18.104,
+          "end": 23.104,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 554496,
+          "endSample": 612096,
+          "start": 23.104,
+          "end": 25.504,
+          "pcmSha256": "9c932ef55b431bdf8503bb429ce9e34037c4635bd83687bd332fcbbd703f42e8"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 612096,
+          "endSample": 669696,
+          "start": 25.504,
+          "end": 27.904,
+          "pcmSha256": "9c932ef55b431bdf8503bb429ce9e34037c4635bd83687bd332fcbbd703f42e8"
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 669696,
+          "endSample": 770496,
+          "start": 27.904,
+          "end": 32.104,
+          "pcmSha256": "733796325c7b6916bd3c50fbbca7578c302c5521d8e749645fb4e035454a7d66"
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 770496,
+          "endSample": 890496,
+          "start": 32.104,
+          "end": 37.104,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 890496,
+          "endSample": 942336,
+          "start": 37.104,
+          "end": 39.264,
+          "pcmSha256": "3c0c2dd89a6aa74a76a33a4912ed11f5902806e4b095bf9994901ea14fc89c66"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 942336,
+          "endSample": 994176,
+          "start": 39.264,
+          "end": 41.424,
+          "pcmSha256": "3c0c2dd89a6aa74a76a33a4912ed11f5902806e4b095bf9994901ea14fc89c66"
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 994176,
+          "endSample": 1103616,
+          "start": 41.424,
+          "end": 45.984,
+          "pcmSha256": "ef6a045d8707b072fe8fb41ead2479f7b2c1c99b8a41c54486dcd506942a7b7c"
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1103616,
+          "endSample": 1223616,
+          "start": 45.984,
+          "end": 50.984,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1223616,
+          "endSample": 1305408,
+          "start": 50.984,
+          "end": 54.392,
+          "pcmSha256": "b3a67a7814c280e0a73d4d7dc232fd970032e45c1f4b28be16f7a6278366692d"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1305408,
+          "endSample": 1387200,
+          "start": 54.392,
+          "end": 57.8,
+          "pcmSha256": "b3a67a7814c280e0a73d4d7dc232fd970032e45c1f4b28be16f7a6278366692d"
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1387200,
+          "endSample": 1479936,
+          "start": 57.8,
+          "end": 61.664,
+          "pcmSha256": "0da22b929c9cdfc1b85b77fd74edec9ea8de79e1224d55d6ebd894418da2234e"
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1479936,
+          "endSample": 1599936,
+          "start": 61.664,
+          "end": 66.664,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1599936,
+          "endSample": 1673088,
+          "start": 66.664,
+          "end": 69.712,
+          "pcmSha256": "fbeeead02f9f78a01ea9d4feb09e6918ea87f0975db08d235c99a0d61116c3d7"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1673088,
+          "endSample": 1746240,
+          "start": 69.712,
+          "end": 72.76,
+          "pcmSha256": "fbeeead02f9f78a01ea9d4feb09e6918ea87f0975db08d235c99a0d61116c3d7"
+        }
+      ],
+      "decodedDuration": 72.76,
+      "mp3ContainerDuration": 72.76,
+      "totalSamples": 1746240,
+      "sourcePins": [
+        {
+          "path": "web/public/lessons/etcl-01-talking-about-my-job/lesson.mp3",
+          "size": 292557,
+          "sha256": "b103f0476e18e965fa213e5bdf7583798bd5cd7972acb10ba5639adbbb9ee388"
+        },
+        {
+          "path": "web/public/lessons/etcl-01-talking-about-my-job/metadata.json",
+          "size": 275,
+          "sha256": "04f746172dd63e132355945c6487d901dd8e4d2c6ecc1d306122fe5747dc509a"
+        },
+        {
+          "path": "web/src/etcl-lessons-v2.json",
+          "size": 13345,
+          "sha256": "3c48295b5da31f34a99f2ab1c8e87584895e608001a4f410bc9d4d3cc3b5ce5c",
+          "normalization": "lf"
+        },
+        {
+          "path": "web/public/lessons/etcl-01-talking-about-my-job/japanese-cues-v2/phrase-001.mp3",
+          "size": 64896,
+          "sha256": "6a124b5af6647812e06ad1eea614faab3c15ad0480a80f87502196be5044d56e"
+        },
+        {
+          "path": "web/public/lessons/etcl-01-talking-about-my-job/japanese-cues-v2/phrase-002.mp3",
+          "size": 48768,
+          "sha256": "6cbed6a385d507b81f6980e4f68f5bb228af850991948eec05c972e0cde3ee45"
+        },
+        {
+          "path": "web/public/lessons/etcl-01-talking-about-my-job/japanese-cues-v2/phrase-003.mp3",
+          "size": 67200,
+          "sha256": "40e72920d72c88c7d4cc2c9b03505ebb48e41f336bd666f89c0cdd619e96a795"
+        },
+        {
+          "path": "web/public/lessons/etcl-01-talking-about-my-job/japanese-cues-v2/phrase-004.mp3",
+          "size": 72960,
+          "sha256": "9b239d3fe0bb56c77c7fc44a4d85d2da31c262f781a9aed1dccbc707eab56a81"
+        },
+        {
+          "path": "web/public/lessons/etcl-01-talking-about-my-job/japanese-cues-v2/phrase-005.mp3",
+          "size": 61824,
+          "sha256": "da7e025dd5ad901e4abe9cef015875888a154402fca29dbbbcd6cee29e0e93d7"
+        }
+      ],
+      "output": {
+        "path": "web/public/lessons/etcl-01-talking-about-my-job/recall-concatenated-v1.mp3",
+        "size": 394941,
+        "sha256": "7d1e5c56e390a4414822adcae564f2acebf4ef33e5d22d42d498dbcc2fd75888"
+      },
+      "verification": {
+        "status": "PASS",
+        "sourceUnchanged": true,
+        "japaneseCues": 5,
+        "recallSeconds": 5,
+        "englishRepetitions": 2,
+        "englishSegments": 10,
+        "gapsOrOverlaps": false,
+        "decodedSamplesExact": true,
+        "checks": [
+          {
+            "phrase": 1,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9992264297909196
+          },
+          {
+            "phrase": 1,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9998203237687214
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9998202687357884
+          },
+          {
+            "phrase": 2,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9995868892956477
+          },
+          {
+            "phrase": 2,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9997519624672485
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9997519486891476
+          },
+          {
+            "phrase": 3,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9992366693600067
+          },
+          {
+            "phrase": 3,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9998249119825908
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9998248994316683
+          },
+          {
+            "phrase": 4,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9993118325148598
+          },
+          {
+            "phrase": 4,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9997925302115906
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9997925299184508
+          },
+          {
+            "phrase": 5,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9995037241735913
+          },
+          {
+            "phrase": 5,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9994977878684618
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9994977880341637
+          }
+        ]
+      },
+      "scope": "Concatenated Lesson Recall v1. Fixed order, English twice, stop at lesson end. No new storage."
+    },
+    {
+      "lessonId": "etcl-02-daily-routine",
+      "sampleRate": 24000,
+      "channels": 1,
+      "phrases": [
+        {
+          "phrase": 1,
+          "en": "My schedule changes from day to day.",
+          "ja": "私のスケジュールは日によって変わります。",
+          "englishSourceStart": 0.0,
+          "englishSourceEnd": 3.12,
+          "originalRepeatCorrelation": 0.983822244246039
+        },
+        {
+          "phrase": 2,
+          "en": "I work on my apps between deliveries.",
+          "ja": "配達の合間に自分のアプリを開発しています。",
+          "englishSourceStart": 16.24,
+          "englishSourceEnd": 19.696,
+          "originalRepeatCorrelation": 0.9884931527096987
+        },
+        {
+          "phrase": 3,
+          "en": "I try to make the most of my downtime.",
+          "ja": "空き時間をできるだけ有効に使うようにしています。",
+          "englishSourceStart": 33.152,
+          "englishSourceEnd": 35.864,
+          "originalRepeatCorrelation": 0.9901447111915813
+        },
+        {
+          "phrase": 4,
+          "en": "I practice English while making deliveries.",
+          "ja": "配達をしながら英語を練習しています。",
+          "englishSourceStart": 48.576,
+          "englishSourceEnd": 51.528,
+          "originalRepeatCorrelation": 0.9871078162445125
+        },
+        {
+          "phrase": 5,
+          "en": "I try to make time for exercise as well.",
+          "ja": "運動する時間も確保するようにしています。",
+          "englishSourceStart": 64.48,
+          "englishSourceEnd": 67.288,
+          "originalRepeatCorrelation": 0.985180092391198
+        }
+      ],
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 85248,
+          "start": 0.0,
+          "end": 3.552,
+          "pcmSha256": "7bb61c60434cde006c6d0496677bb3d42411412b307ea14b037f62420be3afb3"
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 85248,
+          "endSample": 205248,
+          "start": 3.552,
+          "end": 8.552,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 205248,
+          "endSample": 280128,
+          "start": 8.552,
+          "end": 11.672,
+          "pcmSha256": "098c8be67ecb2c64d55baa2efcf8483165aaff78c29302c91dbd4a83d3b10059"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 280128,
+          "endSample": 355008,
+          "start": 11.672,
+          "end": 14.792,
+          "pcmSha256": "098c8be67ecb2c64d55baa2efcf8483165aaff78c29302c91dbd4a83d3b10059"
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 355008,
+          "endSample": 466752,
+          "start": 14.792,
+          "end": 19.448,
+          "pcmSha256": "9968cf9b7d21f5f9f640459c4601ed68c22c1f5b8e25819f5d90b26875e44636"
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 466752,
+          "endSample": 586752,
+          "start": 19.448,
+          "end": 24.448,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 586752,
+          "endSample": 669696,
+          "start": 24.448,
+          "end": 27.904,
+          "pcmSha256": "3e27a62c42a8e925eadda7f483bede9f45f48d51efd818fc2af16f5934f69637"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 669696,
+          "endSample": 752640,
+          "start": 27.904,
+          "end": 31.36,
+          "pcmSha256": "3e27a62c42a8e925eadda7f483bede9f45f48d51efd818fc2af16f5934f69637"
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 752640,
+          "endSample": 862080,
+          "start": 31.36,
+          "end": 35.92,
+          "pcmSha256": "91dad62ad60457e96ffa54fcabddf41d95cb4eb0a8d7d59d724bb88994519102"
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 862080,
+          "endSample": 982080,
+          "start": 35.92,
+          "end": 40.92,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 982080,
+          "endSample": 1047168,
+          "start": 40.92,
+          "end": 43.632,
+          "pcmSha256": "d28fa4499426985b02c205529ae4b35bab2a23f00514cf5051f16097e97fb15c"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1047168,
+          "endSample": 1112256,
+          "start": 43.632,
+          "end": 46.344,
+          "pcmSha256": "d28fa4499426985b02c205529ae4b35bab2a23f00514cf5051f16097e97fb15c"
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1112256,
+          "endSample": 1198656,
+          "start": 46.344,
+          "end": 49.944,
+          "pcmSha256": "f9faae755502ea1548b8f5c22577506556408819896b7d418b9af61bd682a0db"
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1198656,
+          "endSample": 1318656,
+          "start": 49.944,
+          "end": 54.944,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1318656,
+          "endSample": 1389504,
+          "start": 54.944,
+          "end": 57.896,
+          "pcmSha256": "ac6c6fb5779219619bf4f23ee769412c46638b31c00062fdaf18bafa5751c870"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1389504,
+          "endSample": 1460352,
+          "start": 57.896,
+          "end": 60.848,
+          "pcmSha256": "ac6c6fb5779219619bf4f23ee769412c46638b31c00062fdaf18bafa5751c870"
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1460352,
+          "endSample": 1549632,
+          "start": 60.848,
+          "end": 64.568,
+          "pcmSha256": "cff32546136d3eae81e733e073725404af4c40cd7e591c085f5a7bfda9ff536a"
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1549632,
+          "endSample": 1669632,
+          "start": 64.568,
+          "end": 69.568,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1669632,
+          "endSample": 1737024,
+          "start": 69.568,
+          "end": 72.376,
+          "pcmSha256": "5240e6aaf5f76e7650e89c7083105b6a177bd40dfa4ab93ceb2cf1e7af0aa2e5"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1737024,
+          "endSample": 1804416,
+          "start": 72.376,
+          "end": 75.184,
+          "pcmSha256": "5240e6aaf5f76e7650e89c7083105b6a177bd40dfa4ab93ceb2cf1e7af0aa2e5"
+        }
+      ],
+      "decodedDuration": 75.184,
+      "mp3ContainerDuration": 75.184,
+      "totalSamples": 1804416,
+      "sourcePins": [
+        {
+          "path": "web/public/lessons/etcl-02-daily-routine/lesson.mp3",
+          "size": 300813,
+          "sha256": "5cb656b2bd27635a327e389b922edbea117b105f3f5d64e65b773cb628125adc"
+        },
+        {
+          "path": "web/public/lessons/etcl-02-daily-routine/metadata.json",
+          "size": 280,
+          "sha256": "a344021d0d20314f64e10e4ebb99991c3d9c834d8ed8d46935a27b75ddd898f4"
+        },
+        {
+          "path": "web/src/etcl-lessons-v2.json",
+          "size": 13345,
+          "sha256": "3c48295b5da31f34a99f2ab1c8e87584895e608001a4f410bc9d4d3cc3b5ce5c",
+          "normalization": "lf"
+        },
+        {
+          "path": "web/public/lessons/etcl-02-daily-routine/japanese-cues-v2/phrase-001.mp3",
+          "size": 56832,
+          "sha256": "14290dbf683fd38af61c557c8f249919afd831fafffad6c91fea28d335ed34c8"
+        },
+        {
+          "path": "web/public/lessons/etcl-02-daily-routine/japanese-cues-v2/phrase-002.mp3",
+          "size": 74496,
+          "sha256": "bd349316bce5c23c41d8924411e9058a758e52c486e5f08668d8039742182ccb"
+        },
+        {
+          "path": "web/public/lessons/etcl-02-daily-routine/japanese-cues-v2/phrase-003.mp3",
+          "size": 72960,
+          "sha256": "da5620f63fdb34e84ecc76dd33f5f546734a83323655d5110b5df341f149dbd4"
+        },
+        {
+          "path": "web/public/lessons/etcl-02-daily-routine/japanese-cues-v2/phrase-004.mp3",
+          "size": 57600,
+          "sha256": "7ba829157036efbf6d63f4b8f580ea4d384333f4818a3f3f84124c6ed6ee676e"
+        },
+        {
+          "path": "web/public/lessons/etcl-02-daily-routine/japanese-cues-v2/phrase-005.mp3",
+          "size": 59520,
+          "sha256": "a299c0ae7de3b6cafb5cb1d556f32f323f9bd04ba14c06fa817b1be82911f970"
+        }
+      ],
+      "output": {
+        "path": "web/public/lessons/etcl-02-daily-routine/recall-concatenated-v1.mp3",
+        "size": 418797,
+        "sha256": "ccd22921c52cac4b4b2cc4697090eff9940863dce1dbb8091fb3f3c2388bfb9b"
+      },
+      "verification": {
+        "status": "PASS",
+        "sourceUnchanged": true,
+        "japaneseCues": 5,
+        "recallSeconds": 5,
+        "englishRepetitions": 2,
+        "englishSegments": 10,
+        "gapsOrOverlaps": false,
+        "decodedSamplesExact": true,
+        "checks": [
+          {
+            "phrase": 1,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9989399533195615
+          },
+          {
+            "phrase": 1,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9992916619077017
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9992916544791074
+          },
+          {
+            "phrase": 2,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9993206927260764
+          },
+          {
+            "phrase": 2,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9996522934626632
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9996522931453928
+          },
+          {
+            "phrase": 3,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9989617036724504
+          },
+          {
+            "phrase": 3,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.99980597697302
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9998059663049715
+          },
+          {
+            "phrase": 4,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9994866468473983
+          },
+          {
+            "phrase": 4,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9997362216487542
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9997362193553332
+          },
+          {
+            "phrase": 5,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9991539302949268
+          },
+          {
+            "phrase": 5,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9995213384738432
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9995213287483758
+          }
+        ]
+      },
+      "scope": "Concatenated Lesson Recall v1. Fixed order, English twice, stop at lesson end. No new storage."
+    },
+    {
+      "lessonId": "etcl-03-recent-events",
+      "sampleRate": 24000,
+      "channels": 1,
+      "phrases": [
+        {
+          "phrase": 1,
+          "en": "I ran into a bug the other day.",
+          "ja": "この前、バグに遭遇しました。",
+          "englishSourceStart": 0.0,
+          "englishSourceEnd": 2.568,
+          "originalRepeatCorrelation": 0.9864472026974316
+        },
+        {
+          "phrase": 2,
+          "en": "I was working on a new feature when part of the app suddenly stopped working.",
+          "ja": "新しい機能を開発していたら、突然アプリの一部が動かなくなりました。",
+          "englishSourceStart": 15.136,
+          "englishSourceEnd": 19.504,
+          "originalRepeatCorrelation": 0.9785179762662185
+        },
+        {
+          "phrase": 3,
+          "en": "I used AI to help me figure out what was causing the problem.",
+          "ja": "問題の原因を突き止めるためにAIを使いました。",
+          "englishSourceStart": 33.872,
+          "englishSourceEnd": 38.12,
+          "originalRepeatCorrelation": 0.9884782537390729
+        },
+        {
+          "phrase": 4,
+          "en": "It helped me narrow down the cause.",
+          "ja": "そのおかげで原因を絞り込むことができました。",
+          "englishSourceStart": 52.368,
+          "englishSourceEnd": 55.272,
+          "originalRepeatCorrelation": 0.9924647242964186
+        },
+        {
+          "phrase": 5,
+          "en": "I was able to fix it.",
+          "ja": "それを修正することができました。",
+          "englishSourceStart": 68.176,
+          "englishSourceEnd": 70.84,
+          "originalRepeatCorrelation": 0.9898296038291227
+        },
+        {
+          "phrase": 6,
+          "en": "It took longer than I expected, but I learned a lot from it.",
+          "ja": "予想以上に時間がかかりましたが、そこから多くのことを学びました。",
+          "englishSourceStart": 83.504,
+          "englishSourceEnd": 87.368,
+          "originalRepeatCorrelation": 0.9919332726537506
+        }
+      ],
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 77184,
+          "start": 0.0,
+          "end": 3.216,
+          "pcmSha256": "a3b06dac7a95bd86517b33da362ede2e42488ebdabf3a60fdf16f8fa3cca751e"
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 77184,
+          "endSample": 197184,
+          "start": 3.216,
+          "end": 8.216,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 197184,
+          "endSample": 258816,
+          "start": 8.216,
+          "end": 10.784,
+          "pcmSha256": "bb6264b8556805d002c56c25eeaf3724ceb938db8dd810005d3a315567e0a01b"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 258816,
+          "endSample": 320448,
+          "start": 10.784,
+          "end": 13.352,
+          "pcmSha256": "bb6264b8556805d002c56c25eeaf3724ceb938db8dd810005d3a315567e0a01b"
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 320448,
+          "endSample": 464448,
+          "start": 13.352,
+          "end": 19.352,
+          "pcmSha256": "ae4f354c651da17b13b8098926d13ff20fc3b1053d5d38886ba8cd64f72e29d6"
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 464448,
+          "endSample": 584448,
+          "start": 19.352,
+          "end": 24.352,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 584448,
+          "endSample": 689280,
+          "start": 24.352,
+          "end": 28.72,
+          "pcmSha256": "cdf657792487b003cf43d4398bc5800710b501b604765e5b9662d62409e6cc70"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 689280,
+          "endSample": 794112,
+          "start": 28.72,
+          "end": 33.088,
+          "pcmSha256": "cdf657792487b003cf43d4398bc5800710b501b604765e5b9662d62409e6cc70"
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 794112,
+          "endSample": 912192,
+          "start": 33.088,
+          "end": 38.008,
+          "pcmSha256": "58f801901deaf23f92a5cae9e69ef56dfc41b55a51eb7701a3029170bb2c6b6c"
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 912192,
+          "endSample": 1032192,
+          "start": 38.008,
+          "end": 43.008,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1032192,
+          "endSample": 1134144,
+          "start": 43.008,
+          "end": 47.256,
+          "pcmSha256": "659ec43ebaf54c1bf9ef35b7e724ab87e1c8c0a91c339a6e206389825bdcc890"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1134144,
+          "endSample": 1236096,
+          "start": 47.256,
+          "end": 51.504,
+          "pcmSha256": "659ec43ebaf54c1bf9ef35b7e724ab87e1c8c0a91c339a6e206389825bdcc890"
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1236096,
+          "endSample": 1342080,
+          "start": 51.504,
+          "end": 55.92,
+          "pcmSha256": "cb00edc2f4739fcf464d771b221677d1461abd1803911bddc0320ab8fe6de47e"
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1342080,
+          "endSample": 1462080,
+          "start": 55.92,
+          "end": 60.92,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1462080,
+          "endSample": 1531776,
+          "start": 60.92,
+          "end": 63.824,
+          "pcmSha256": "67e5191be49cb4d1e668d4db738c8e868a3bc98612a491f226e4c524388cd99a"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1531776,
+          "endSample": 1601472,
+          "start": 63.824,
+          "end": 66.728,
+          "pcmSha256": "67e5191be49cb4d1e668d4db738c8e868a3bc98612a491f226e4c524388cd99a"
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1601472,
+          "endSample": 1677504,
+          "start": 66.728,
+          "end": 69.896,
+          "pcmSha256": "46994f3b930dbc1eae3108b9183e38e06d52a7e788956457c3d8fe7b0d5a2273"
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1677504,
+          "endSample": 1797504,
+          "start": 69.896,
+          "end": 74.896,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1797504,
+          "endSample": 1861440,
+          "start": 74.896,
+          "end": 77.56,
+          "pcmSha256": "baaa5187e537d495bc435ca5a4c27cb5b3a28b445d201fec4e67a66b27dad54e"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1861440,
+          "endSample": 1925376,
+          "start": 77.56,
+          "end": 80.224,
+          "pcmSha256": "baaa5187e537d495bc435ca5a4c27cb5b3a28b445d201fec4e67a66b27dad54e"
+        },
+        {
+          "phrase": 6,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1925376,
+          "endSample": 2057856,
+          "start": 80.224,
+          "end": 85.744,
+          "pcmSha256": "1fe62201d93eb5a44f51232b0d5ac52bcd856cdd9f1413fffd096ed6a475c72e"
+        },
+        {
+          "phrase": 6,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 2057856,
+          "endSample": 2177856,
+          "start": 85.744,
+          "end": 90.744,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 2177856,
+          "endSample": 2270592,
+          "start": 90.744,
+          "end": 94.608,
+          "pcmSha256": "5d2f555145c87cb9dde5bb70076e3b0074971b3308f1265de477ecefcd0c9ffd"
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 2270592,
+          "endSample": 2363328,
+          "start": 94.608,
+          "end": 98.472,
+          "pcmSha256": "5d2f555145c87cb9dde5bb70076e3b0074971b3308f1265de477ecefcd0c9ffd"
+        }
+      ],
+      "decodedDuration": 98.472,
+      "mp3ContainerDuration": 98.472,
+      "totalSamples": 2363328,
+      "sourcePins": [
+        {
+          "path": "web/public/lessons/etcl-03-recent-events/lesson.mp3",
+          "size": 385389,
+          "sha256": "f7bdb3b6ec34a1b7041794f519631a2c3168e84098c63d51f39dd3557ad5de89"
+        },
+        {
+          "path": "web/public/lessons/etcl-03-recent-events/metadata.json",
+          "size": 335,
+          "sha256": "72a67b9fab073d263388974dbbd26ba81a91ca563e2afdc8df2646d20fc7b505"
+        },
+        {
+          "path": "web/src/etcl-lessons-v2.json",
+          "size": 13345,
+          "sha256": "3c48295b5da31f34a99f2ab1c8e87584895e608001a4f410bc9d4d3cc3b5ce5c",
+          "normalization": "lf"
+        },
+        {
+          "path": "web/public/lessons/etcl-03-recent-events/japanese-cues-v2/phrase-001.mp3",
+          "size": 51456,
+          "sha256": "85227b3f0e31e9db860af17bbe5ef8cc7513f99d1abde8a265ab2215aa7092d4"
+        },
+        {
+          "path": "web/public/lessons/etcl-03-recent-events/japanese-cues-v2/phrase-002.mp3",
+          "size": 96000,
+          "sha256": "0574c733d4faefc7928768980708738eecf1a0cc69741abe26cc28bbff2d76a4"
+        },
+        {
+          "path": "web/public/lessons/etcl-03-recent-events/japanese-cues-v2/phrase-003.mp3",
+          "size": 78720,
+          "sha256": "0ebde3d9d892158cdb2c19ba39a4f398d3c8ca9dce2e747750dd07448270210d"
+        },
+        {
+          "path": "web/public/lessons/etcl-03-recent-events/japanese-cues-v2/phrase-004.mp3",
+          "size": 70656,
+          "sha256": "0276c84818b813291314c86c39dcf1cc9fb2eb07a17394e2e624d03774a45172"
+        },
+        {
+          "path": "web/public/lessons/etcl-03-recent-events/japanese-cues-v2/phrase-005.mp3",
+          "size": 50688,
+          "sha256": "7420df21a0998dbd1a9685cc937c9f9316106804892d94cb57c112f8f65f6eaf"
+        },
+        {
+          "path": "web/public/lessons/etcl-03-recent-events/japanese-cues-v2/phrase-006.mp3",
+          "size": 88320,
+          "sha256": "ebd38a152a62f71ef1b59a54376b12876f0154eaa58eb7e24938878a2ce3032f"
+        }
+      ],
+      "output": {
+        "path": "web/public/lessons/etcl-03-recent-events/recall-concatenated-v1.mp3",
+        "size": 555189,
+        "sha256": "d317c831abd10c3dba74daa2e12fbf967accd09ad6fb14a1e3018105b7f33fea"
+      },
+      "verification": {
+        "status": "PASS",
+        "sourceUnchanged": true,
+        "japaneseCues": 6,
+        "recallSeconds": 5,
+        "englishRepetitions": 2,
+        "englishSegments": 12,
+        "gapsOrOverlaps": false,
+        "decodedSamplesExact": true,
+        "checks": [
+          {
+            "phrase": 1,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9993832484144545
+          },
+          {
+            "phrase": 1,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9999502921207897
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9999502831581485
+          },
+          {
+            "phrase": 2,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9992381587360439
+          },
+          {
+            "phrase": 2,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9996228250358491
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9996228248340004
+          },
+          {
+            "phrase": 3,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9992968178491527
+          },
+          {
+            "phrase": 3,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9996984002338449
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9996984002318329
+          },
+          {
+            "phrase": 4,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9991285691455967
+          },
+          {
+            "phrase": 4,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.999778055473794
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9997780553417999
+          },
+          {
+            "phrase": 5,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.999371956360387
+          },
+          {
+            "phrase": 5,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9995164191610914
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9995152146188253
+          },
+          {
+            "phrase": 6,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9996092800647087
+          },
+          {
+            "phrase": 6,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 6,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9997238522000474
+          },
+          {
+            "phrase": 6,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9997236216624413
+          }
+        ]
+      },
+      "scope": "Concatenated Lesson Recall v1. Fixed order, English twice, stop at lesson end. No new storage."
+    },
+    {
+      "lessonId": "etcl-04-current-situation",
+      "sampleRate": 24000,
+      "channels": 1,
+      "phrases": [
+        {
+          "phrase": 1,
+          "en": "I've been practicing English regularly with an app I built.",
+          "ja": "自分で作ったアプリを使って、定期的に英語を練習しています。",
+          "englishSourceStart": 0.0,
+          "englishSourceEnd": 3.864,
+          "originalRepeatCorrelation": 0.9867167315600474
+        },
+        {
+          "phrase": 2,
+          "en": "I can come up with phrases I've practiced much more quickly now.",
+          "ja": "練習したフレーズが、今では以前よりずっと早く思い浮かびます。",
+          "englishSourceStart": 17.728,
+          "englishSourceEnd": 22.048,
+          "originalRepeatCorrelation": 0.9908579385387238
+        },
+        {
+          "phrase": 3,
+          "en": "I'm starting to understand more spoken English than before.",
+          "ja": "以前よりも、話されている英語を理解できるようになってきました。",
+          "englishSourceStart": 36.368,
+          "englishSourceEnd": 40.376,
+          "originalRepeatCorrelation": 0.9848498928972604
+        },
+        {
+          "phrase": 4,
+          "en": "I still find it difficult to speak freely without relying on memorized phrases.",
+          "ja": "暗記したフレーズに頼らずに自由に話すのは、まだ難しいと感じます。",
+          "englishSourceStart": 54.384,
+          "englishSourceEnd": 59.64,
+          "originalRepeatCorrelation": 0.9827758506700841
+        },
+        {
+          "phrase": 5,
+          "en": "I still have a long way to go.",
+          "ja": "まだまだ先は長いです。",
+          "englishSourceStart": 74.896,
+          "englishSourceEnd": 77.896,
+          "originalRepeatCorrelation": 0.9899101808067359
+        },
+        {
+          "phrase": 6,
+          "en": "I feel like I'm making progress.",
+          "ja": "上達していると感じます。",
+          "englishSourceStart": 90.896,
+          "englishSourceEnd": 93.896,
+          "originalRepeatCorrelation": 0.9823110307466443
+        }
+      ],
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 123840,
+          "start": 0.0,
+          "end": 5.16,
+          "pcmSha256": "2f49d03fae116ee70afc51035438b7a05100b117013a7d1626099d8b86514787"
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 123840,
+          "endSample": 243840,
+          "start": 5.16,
+          "end": 10.16,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 243840,
+          "endSample": 336576,
+          "start": 10.16,
+          "end": 14.024,
+          "pcmSha256": "f177d7c148324f5038509a9f7ae3d55228cda242414f31aedb13b511fa6741fd"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 336576,
+          "endSample": 429312,
+          "start": 14.024,
+          "end": 17.888,
+          "pcmSha256": "f177d7c148324f5038509a9f7ae3d55228cda242414f31aedb13b511fa6741fd"
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 429312,
+          "endSample": 555456,
+          "start": 17.888,
+          "end": 23.144,
+          "pcmSha256": "a6dc9c3e6b935884d2a6564126063357d92daabcc8cfb642b59b00a5c4ad2aeb"
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 555456,
+          "endSample": 675456,
+          "start": 23.144,
+          "end": 28.144,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 675456,
+          "endSample": 779136,
+          "start": 28.144,
+          "end": 32.464,
+          "pcmSha256": "6337ddcb6e01b23128f9d1bb6ac8afc267d07ec7528e660321e147af39cb0503"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 779136,
+          "endSample": 882816,
+          "start": 32.464,
+          "end": 36.784,
+          "pcmSha256": "6337ddcb6e01b23128f9d1bb6ac8afc267d07ec7528e660321e147af39cb0503"
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 882816,
+          "endSample": 994560,
+          "start": 36.784,
+          "end": 41.44,
+          "pcmSha256": "74a9d57c09478cd1ffec300588a053aa379b4e68654482e06b3919f29f9e9ef3"
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 994560,
+          "endSample": 1114560,
+          "start": 41.44,
+          "end": 46.44,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1114560,
+          "endSample": 1210752,
+          "start": 46.44,
+          "end": 50.448,
+          "pcmSha256": "d1c3e16ddd03b0a6eda6d1285729e1a7bb37f5415d9034378205bed60134ea44"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1210752,
+          "endSample": 1306944,
+          "start": 50.448,
+          "end": 54.456,
+          "pcmSha256": "d1c3e16ddd03b0a6eda6d1285729e1a7bb37f5415d9034378205bed60134ea44"
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1306944,
+          "endSample": 1456128,
+          "start": 54.456,
+          "end": 60.672,
+          "pcmSha256": "b5bc0406aaa03b90df2ececddb31d3c3639d692d73e95c9e2fe9735615bf0251"
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1456128,
+          "endSample": 1576128,
+          "start": 60.672,
+          "end": 65.672,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1576128,
+          "endSample": 1702272,
+          "start": 65.672,
+          "end": 70.928,
+          "pcmSha256": "cb7049c07feeeb12d578b2318fa60ac96d68f7b68f3f5f05609111ba91ddb175"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1702272,
+          "endSample": 1828416,
+          "start": 70.928,
+          "end": 76.184,
+          "pcmSha256": "cb7049c07feeeb12d578b2318fa60ac96d68f7b68f3f5f05609111ba91ddb175"
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1828416,
+          "endSample": 1887168,
+          "start": 76.184,
+          "end": 78.632,
+          "pcmSha256": "12858d59b61b2d6821e7a1587db07c539794c8ff3e6beb30d20513460b19791a"
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1887168,
+          "endSample": 2007168,
+          "start": 78.632,
+          "end": 83.632,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 2007168,
+          "endSample": 2079168,
+          "start": 83.632,
+          "end": 86.632,
+          "pcmSha256": "d9acf1e40b43e5e2ac8e8ad3387925a3d3bbd40fbc50e88881bb8492987b7d73"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 2079168,
+          "endSample": 2151168,
+          "start": 86.632,
+          "end": 89.632,
+          "pcmSha256": "d9acf1e40b43e5e2ac8e8ad3387925a3d3bbd40fbc50e88881bb8492987b7d73"
+        },
+        {
+          "phrase": 6,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 2151168,
+          "endSample": 2232960,
+          "start": 89.632,
+          "end": 93.04,
+          "pcmSha256": "2bc1548dea2762d7664bc46f23dcd35ff5d3c61c250b105a911a8bfaf299d424"
+        },
+        {
+          "phrase": 6,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 2232960,
+          "endSample": 2352960,
+          "start": 93.04,
+          "end": 98.04,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 2352960,
+          "endSample": 2424960,
+          "start": 98.04,
+          "end": 101.04,
+          "pcmSha256": "055c4d07fe75d87969037d29c572001e93002e8199a6eaf418b570e1cdb84c6b"
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 2424960,
+          "endSample": 2496960,
+          "start": 101.04,
+          "end": 104.04,
+          "pcmSha256": "055c4d07fe75d87969037d29c572001e93002e8199a6eaf418b570e1cdb84c6b"
+        }
+      ],
+      "decodedDuration": 104.04,
+      "mp3ContainerDuration": 104.04,
+      "totalSamples": 2496960,
+      "sourcePins": [
+        {
+          "path": "web/public/lessons/etcl-04-current-situation/lesson.mp3",
+          "size": 408045,
+          "sha256": "6226b6eabba8a455ec6e2db03a29c10e87b5eb793eb0e03980a8670acbe779f1"
+        },
+        {
+          "path": "web/public/lessons/etcl-04-current-situation/metadata.json",
+          "size": 335,
+          "sha256": "cff928f706454c8efb1cda0fede4ddb8e245d877d4a210b8030d3026f5bce991"
+        },
+        {
+          "path": "web/src/etcl-lessons-v2.json",
+          "size": 13345,
+          "sha256": "3c48295b5da31f34a99f2ab1c8e87584895e608001a4f410bc9d4d3cc3b5ce5c",
+          "normalization": "lf"
+        },
+        {
+          "path": "web/public/lessons/etcl-04-current-situation/japanese-cues-v2/phrase-001.mp3",
+          "size": 82560,
+          "sha256": "968e3808b96a3bdd55f60e84ad077bb060e07e7b0965fc4b65f78f841cd77a0d"
+        },
+        {
+          "path": "web/public/lessons/etcl-04-current-situation/japanese-cues-v2/phrase-002.mp3",
+          "size": 84096,
+          "sha256": "45f121e9a1e7e6ff70b2d37d94b0d01486c3dc79f68b301a9eb8a07ff8a6def2"
+        },
+        {
+          "path": "web/public/lessons/etcl-04-current-situation/japanese-cues-v2/phrase-003.mp3",
+          "size": 74496,
+          "sha256": "14e6386fc3c0e0b4e770400bcb0a4602127c0e0dbe129a28493ceccf8e03a343"
+        },
+        {
+          "path": "web/public/lessons/etcl-04-current-situation/japanese-cues-v2/phrase-004.mp3",
+          "size": 99456,
+          "sha256": "b101ea507d304de7b77068e7c123655a59bdfe417509d51d7f92e7505627adff"
+        },
+        {
+          "path": "web/public/lessons/etcl-04-current-situation/japanese-cues-v2/phrase-005.mp3",
+          "size": 39168,
+          "sha256": "67fd751f48bf7760b064d20576fe6f4e15b21ae8a086e69633e82671632c1bc3"
+        },
+        {
+          "path": "web/public/lessons/etcl-04-current-situation/japanese-cues-v2/phrase-006.mp3",
+          "size": 54528,
+          "sha256": "45fc93dd03c01f8db73b56a60bc2147d7ef6fe7df75be34e966581ffa8094fba"
+        }
+      ],
+      "output": {
+        "path": "web/public/lessons/etcl-04-current-situation/recall-concatenated-v1.mp3",
+        "size": 595029,
+        "sha256": "28bfe8dde2492af6db04aeb16b1241998ddc2e5b97d9c10191ab3f776b522850"
+      },
+      "verification": {
+        "status": "PASS",
+        "sourceUnchanged": true,
+        "japaneseCues": 6,
+        "recallSeconds": 5,
+        "englishRepetitions": 2,
+        "englishSegments": 12,
+        "gapsOrOverlaps": false,
+        "decodedSamplesExact": true,
+        "checks": [
+          {
+            "phrase": 1,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9993378642559059
+          },
+          {
+            "phrase": 1,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9996038485552797
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9996038211746443
+          },
+          {
+            "phrase": 2,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9996147852102617
+          },
+          {
+            "phrase": 2,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9995725407149132
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9995724777585554
+          },
+          {
+            "phrase": 3,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9995699366317412
+          },
+          {
+            "phrase": 3,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9993825133282553
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9993822003037042
+          },
+          {
+            "phrase": 4,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9992357079921573
+          },
+          {
+            "phrase": 4,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.999667711459026
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9996677110512149
+          },
+          {
+            "phrase": 5,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9988699729510218
+          },
+          {
+            "phrase": 5,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9996645693706281
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9996645669708242
+          },
+          {
+            "phrase": 6,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9992949079246553
+          },
+          {
+            "phrase": 6,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 6,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9998569183171053
+          },
+          {
+            "phrase": 6,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9998569179072838
+          }
+        ]
+      },
+      "scope": "Concatenated Lesson Recall v1. Fixed order, English twice, stop at lesson end. No new storage."
+    },
+    {
+      "lessonId": "etcl-05-reasons-and-decisions",
+      "sampleRate": 24000,
+      "channels": 1,
+      "phrases": [
+        {
+          "phrase": 1,
+          "en": "I wanted an app that fit the way I like to learn.",
+          "ja": "自分の好きな学び方に合うアプリが欲しかったんです。",
+          "englishSourceStart": 0.0,
+          "englishSourceEnd": 3.312,
+          "originalRepeatCorrelation": 0.9872466093773585
+        },
+        {
+          "phrase": 2,
+          "en": "I couldn't find one that worked exactly the way I wanted, so I decided to build my own.",
+          "ja": "自分の希望どおりに動くものが見つからなかったので、自分で作ることにしました。",
+          "englishSourceStart": 16.624,
+          "englishSourceEnd": 22.024,
+          "originalRepeatCorrelation": 0.9904175808670374
+        },
+        {
+          "phrase": 3,
+          "en": "I wanted to practice phrases based on situations I'm likely to encounter in real life.",
+          "ja": "実生活で遭遇しそうな状況に基づいたフレーズを練習したかったんです。",
+          "englishSourceStart": 37.424,
+          "englishSourceEnd": 42.728,
+          "originalRepeatCorrelation": 0.9898575396093596
+        },
+        {
+          "phrase": 4,
+          "en": "I also thought it would be a good opportunity to improve my programming skills.",
+          "ja": "プログラミングのスキルを伸ばす良い機会にもなると思いました。",
+          "englishSourceStart": 58.032,
+          "englishSourceEnd": 62.496,
+          "originalRepeatCorrelation": 0.9922311022774929
+        },
+        {
+          "phrase": 5,
+          "en": "It fits naturally into my daily routine.",
+          "ja": "それは私の日常生活に無理なく取り入れられます。",
+          "englishSourceStart": 76.96,
+          "englishSourceEnd": 79.72,
+          "originalRepeatCorrelation": 0.9884370080158754
+        }
+      ],
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 105984,
+          "start": 0.0,
+          "end": 4.416,
+          "pcmSha256": "69b05ec963bd15c72a20e4a8160e1c7abc84ae850b06251b7e3cdbe118686163"
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 105984,
+          "endSample": 225984,
+          "start": 4.416,
+          "end": 9.416,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 225984,
+          "endSample": 305472,
+          "start": 9.416,
+          "end": 12.728,
+          "pcmSha256": "c39b094a69ef0c7ddc5d381171f84cba49a05b1cf022d1337901174c8e0e9f99"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 305472,
+          "endSample": 384960,
+          "start": 12.728,
+          "end": 16.04,
+          "pcmSha256": "c39b094a69ef0c7ddc5d381171f84cba49a05b1cf022d1337901174c8e0e9f99"
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 384960,
+          "endSample": 537600,
+          "start": 16.04,
+          "end": 22.4,
+          "pcmSha256": "480cfece6f1db812b02e7b81d4d7cbc85526082a4203e5cbe85f552623eaa867"
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 537600,
+          "endSample": 657600,
+          "start": 22.4,
+          "end": 27.4,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 657600,
+          "endSample": 787200,
+          "start": 27.4,
+          "end": 32.8,
+          "pcmSha256": "6ede1dc0a4b5c913a3a5e6b576f0bdd2065d3e9f6da36bff6e30ec5e026a6556"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 787200,
+          "endSample": 916800,
+          "start": 32.8,
+          "end": 38.2,
+          "pcmSha256": "6ede1dc0a4b5c913a3a5e6b576f0bdd2065d3e9f6da36bff6e30ec5e026a6556"
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 916800,
+          "endSample": 1053888,
+          "start": 38.2,
+          "end": 43.912,
+          "pcmSha256": "688c26a9483033b4b260c1b3ea365a960bc0f1546b099e6c64d2d064ac024cb9"
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1053888,
+          "endSample": 1173888,
+          "start": 43.912,
+          "end": 48.912,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1173888,
+          "endSample": 1301184,
+          "start": 48.912,
+          "end": 54.216,
+          "pcmSha256": "44fe87fc8eb15d2b2af2d3628e4f4bc08b1a3855edb70877a3efc9cd917e3e78"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1301184,
+          "endSample": 1428480,
+          "start": 54.216,
+          "end": 59.52,
+          "pcmSha256": "44fe87fc8eb15d2b2af2d3628e4f4bc08b1a3855edb70877a3efc9cd917e3e78"
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1428480,
+          "endSample": 1563264,
+          "start": 59.52,
+          "end": 65.136,
+          "pcmSha256": "7093eb11d01cbd394670185c8246a3aad91fd004fb310b1cdaa421a744108ffe"
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1563264,
+          "endSample": 1683264,
+          "start": 65.136,
+          "end": 70.136,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1683264,
+          "endSample": 1790400,
+          "start": 70.136,
+          "end": 74.6,
+          "pcmSha256": "b25bb74f2b881c9d34fb66ba70a2759409de2c0fce940e25c33e04d5b0e51952"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1790400,
+          "endSample": 1897536,
+          "start": 74.6,
+          "end": 79.064,
+          "pcmSha256": "b25bb74f2b881c9d34fb66ba70a2759409de2c0fce940e25c33e04d5b0e51952"
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1897536,
+          "endSample": 2032320,
+          "start": 79.064,
+          "end": 84.68,
+          "pcmSha256": "6e25a72eead83e133ad571eae09831a21fce9543a86e392692db1a7ed4eda1bc"
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 2032320,
+          "endSample": 2152320,
+          "start": 84.68,
+          "end": 89.68,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 2152320,
+          "endSample": 2218560,
+          "start": 89.68,
+          "end": 92.44,
+          "pcmSha256": "33b012986849dca0a71af45560744857860a1174819227a728d8a79e39d09fcc"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 2218560,
+          "endSample": 2284800,
+          "start": 92.44,
+          "end": 95.2,
+          "pcmSha256": "33b012986849dca0a71af45560744857860a1174819227a728d8a79e39d09fcc"
+        }
+      ],
+      "decodedDuration": 95.2,
+      "mp3ContainerDuration": 95.2,
+      "totalSamples": 2284800,
+      "sourcePins": [
+        {
+          "path": "web/public/lessons/etcl-05-reasons-and-decisions/lesson.mp3",
+          "size": 350349,
+          "sha256": "ff4c3bb33901e5f6fb458572be3295c79849be5cb412e5bf05f088c56851f1dd"
+        },
+        {
+          "path": "web/public/lessons/etcl-05-reasons-and-decisions/metadata.json",
+          "size": 281,
+          "sha256": "84c9ea5e4c6618fe76fd7c2d85b6fc127fa847825579070052282614fd85461b"
+        },
+        {
+          "path": "web/src/etcl-lessons-v2.json",
+          "size": 13345,
+          "sha256": "3c48295b5da31f34a99f2ab1c8e87584895e608001a4f410bc9d4d3cc3b5ce5c",
+          "normalization": "lf"
+        },
+        {
+          "path": "web/public/lessons/etcl-05-reasons-and-decisions/japanese-cues-v2/phrase-001.mp3",
+          "size": 70656,
+          "sha256": "df341182cbdf43bad7e1a72cdb2e0da9d89e155c1f079ddfad92e58da8a37243"
+        },
+        {
+          "path": "web/public/lessons/etcl-05-reasons-and-decisions/japanese-cues-v2/phrase-002.mp3",
+          "size": 101760,
+          "sha256": "b024a1ccc647ca93e8c8111ba74fdb6c309c8ee883e808c806f44e380cb46f3b"
+        },
+        {
+          "path": "web/public/lessons/etcl-05-reasons-and-decisions/japanese-cues-v2/phrase-003.mp3",
+          "size": 91392,
+          "sha256": "28248116794eec8df18db149370ce100517cc36cc7730cd0763f74927c8b740d"
+        },
+        {
+          "path": "web/public/lessons/etcl-05-reasons-and-decisions/japanese-cues-v2/phrase-004.mp3",
+          "size": 89856,
+          "sha256": "ea16e969a3a9e4b0c7613c722ab181a94b1eab2b1c0d28b82a85edb83f5d5d96"
+        },
+        {
+          "path": "web/public/lessons/etcl-05-reasons-and-decisions/japanese-cues-v2/phrase-005.mp3",
+          "size": 89856,
+          "sha256": "ade2bc177fe4ef960666b22f71467cdf62889f3b0ef1e71a7c8417f6e6687e1b"
+        }
+      ],
+      "output": {
+        "path": "web/public/lessons/etcl-05-reasons-and-decisions/recall-concatenated-v1.mp3",
+        "size": 574749,
+        "sha256": "1de196c10963cb25a2ce6d6399c5df9b4190eea9f8818823b47fc33e44f900b7"
+      },
+      "verification": {
+        "status": "PASS",
+        "sourceUnchanged": true,
+        "japaneseCues": 5,
+        "recallSeconds": 5,
+        "englishRepetitions": 2,
+        "englishSegments": 10,
+        "gapsOrOverlaps": false,
+        "decodedSamplesExact": true,
+        "checks": [
+          {
+            "phrase": 1,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9987472895350086
+          },
+          {
+            "phrase": 1,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9998619389530544
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.999861938892586
+          },
+          {
+            "phrase": 2,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9996971112494517
+          },
+          {
+            "phrase": 2,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9995877203099783
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9995876990018177
+          },
+          {
+            "phrase": 3,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.999086061244007
+          },
+          {
+            "phrase": 3,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9998110233170021
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9998110231978853
+          },
+          {
+            "phrase": 4,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9997286331611582
+          },
+          {
+            "phrase": 4,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9997851386320994
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9997850523970522
+          },
+          {
+            "phrase": 5,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.99961218287964
+          },
+          {
+            "phrase": 5,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9996998004678266
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9996997994643474
+          }
+        ]
+      },
+      "scope": "Concatenated Lesson Recall v1. Fixed order, English twice, stop at lesson end. No new storage."
+    },
+    {
+      "lessonId": "etcl-06-preferences-and-priorities",
+      "sampleRate": 24000,
+      "channels": 1,
+      "phrases": [
+        {
+          "phrase": 1,
+          "en": "I prefer working on my own schedule.",
+          "ja": "私は自分のスケジュールで働く方が好きです。",
+          "englishSourceStart": 0.0,
+          "englishSourceEnd": 2.76,
+          "originalRepeatCorrelation": 0.9848774753227636
+        },
+        {
+          "phrase": 2,
+          "en": "I want to earn enough money while still having time to work on my own apps.",
+          "ja": "自分のアプリに取り組む時間を確保しながら、十分な収入も得たいです。",
+          "englishSourceStart": 15.52,
+          "englishSourceEnd": 20.632,
+          "originalRepeatCorrelation": 0.9934645092449941
+        },
+        {
+          "phrase": 3,
+          "en": "I'm trying to find a balance between work and my own projects.",
+          "ja": "仕事と自分のプロジェクトのバランスを取ろうとしています。",
+          "englishSourceStart": 35.744,
+          "englishSourceEnd": 38.96,
+          "originalRepeatCorrelation": 0.9882118042297395
+        },
+        {
+          "phrase": 4,
+          "en": "What matters most to me is having enough time to work on my own projects.",
+          "ja": "私にとって最も大切なのは、自分のプロジェクトに取り組む時間を十分に確保することです。",
+          "englishSourceStart": 52.176,
+          "englishSourceEnd": 56.784,
+          "originalRepeatCorrelation": 0.991486977301508
+        },
+        {
+          "phrase": 5,
+          "en": "My long-term goal is to make app development my main source of income.",
+          "ja": "長期的な目標は、アプリ開発を主な収入源にすることです。",
+          "englishSourceStart": 71.392,
+          "englishSourceEnd": 76.048,
+          "originalRepeatCorrelation": 0.9913902305808577
+        }
+      ],
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 101952,
+          "start": 0.0,
+          "end": 4.248,
+          "pcmSha256": "10643ab6afdc89a17edc3a27d24fc1fac02220064c3afcd843323d826f103329"
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 101952,
+          "endSample": 221952,
+          "start": 4.248,
+          "end": 9.248,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 221952,
+          "endSample": 288192,
+          "start": 9.248,
+          "end": 12.008,
+          "pcmSha256": "59752fe990d63a678420726468361989693b2d48ef89d4a6545ee71a6ab41986"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 288192,
+          "endSample": 354432,
+          "start": 12.008,
+          "end": 14.768,
+          "pcmSha256": "59752fe990d63a678420726468361989693b2d48ef89d4a6545ee71a6ab41986"
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 354432,
+          "endSample": 501312,
+          "start": 14.768,
+          "end": 20.888,
+          "pcmSha256": "6e12cb93c5b68fa59a7fb33f4b22d3a104a365258d435adb37cbc5a18fb58fc8"
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 501312,
+          "endSample": 621312,
+          "start": 20.888,
+          "end": 25.888,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 621312,
+          "endSample": 744000,
+          "start": 25.888,
+          "end": 31.0,
+          "pcmSha256": "06a204a3e509dde6e89e947017e7a9071b4d2975630af8b49594b8d227f17305"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 744000,
+          "endSample": 866688,
+          "start": 31.0,
+          "end": 36.112,
+          "pcmSha256": "06a204a3e509dde6e89e947017e7a9071b4d2975630af8b49594b8d227f17305"
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 866688,
+          "endSample": 971520,
+          "start": 36.112,
+          "end": 40.48,
+          "pcmSha256": "54436777cd6d8b6d44a609be70ee9cead58fca5ef88db4e9213fe32a925e3ba9"
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 971520,
+          "endSample": 1091520,
+          "start": 40.48,
+          "end": 45.48,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1091520,
+          "endSample": 1168704,
+          "start": 45.48,
+          "end": 48.696,
+          "pcmSha256": "657e771159fb8971081b947586e61da4147c8443f99c8f9fe426b6e85d9b88e2"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1168704,
+          "endSample": 1245888,
+          "start": 48.696,
+          "end": 51.912,
+          "pcmSha256": "657e771159fb8971081b947586e61da4147c8443f99c8f9fe426b6e85d9b88e2"
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1245888,
+          "endSample": 1456128,
+          "start": 51.912,
+          "end": 60.672,
+          "pcmSha256": "f65a19c66ccb9aebdadd54aef03d25143b6c23545071e1035c8e1fe7529918c4"
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1456128,
+          "endSample": 1576128,
+          "start": 60.672,
+          "end": 65.672,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1576128,
+          "endSample": 1686720,
+          "start": 65.672,
+          "end": 70.28,
+          "pcmSha256": "608c054570356c6b58add0cb263f2f49a1ba61537f69ffd493a8f51b11f5b53e"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1686720,
+          "endSample": 1797312,
+          "start": 70.28,
+          "end": 74.888,
+          "pcmSha256": "608c054570356c6b58add0cb263f2f49a1ba61537f69ffd493a8f51b11f5b53e"
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1797312,
+          "endSample": 1922304,
+          "start": 74.888,
+          "end": 80.096,
+          "pcmSha256": "790307b7c5fdef69ece6eb19673aa54fd0f94187132d2dec3c5727f56ff77b44"
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1922304,
+          "endSample": 2042304,
+          "start": 80.096,
+          "end": 85.096,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 2042304,
+          "endSample": 2154048,
+          "start": 85.096,
+          "end": 89.752,
+          "pcmSha256": "cd3b792f275c120f3dbb0d3ab1d417409fbac4c6f1cce0c9ba8cc8a7cc5a8af0"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 2154048,
+          "endSample": 2265792,
+          "start": 89.752,
+          "end": 94.408,
+          "pcmSha256": "cd3b792f275c120f3dbb0d3ab1d417409fbac4c6f1cce0c9ba8cc8a7cc5a8af0"
+        }
+      ],
+      "decodedDuration": 94.408,
+      "mp3ContainerDuration": 94.408,
+      "totalSamples": 2265792,
+      "sourcePins": [
+        {
+          "path": "web/public/lessons/etcl-06-preferences-and-priorities/lesson.mp3",
+          "size": 343245,
+          "sha256": "4ba638601cc404bdd47001fa533da5adaf3657a62c4fcfbb343db025878ddf3d"
+        },
+        {
+          "path": "web/public/lessons/etcl-06-preferences-and-priorities/metadata.json",
+          "size": 281,
+          "sha256": "7833e16634553258cfbb574653fd316cdcd08bcb4e0482141437e001a2b7e9ee"
+        },
+        {
+          "path": "web/src/etcl-lessons-v2.json",
+          "size": 13345,
+          "sha256": "3c48295b5da31f34a99f2ab1c8e87584895e608001a4f410bc9d4d3cc3b5ce5c",
+          "normalization": "lf"
+        },
+        {
+          "path": "web/public/lessons/etcl-06-preferences-and-priorities/japanese-cues-v2/phrase-001.mp3",
+          "size": 67968,
+          "sha256": "3c34743d6e0e2f9aeac19efe056880c9268af298ad724eeeeb6696de9fd0f911"
+        },
+        {
+          "path": "web/public/lessons/etcl-06-preferences-and-priorities/japanese-cues-v2/phrase-002.mp3",
+          "size": 97920,
+          "sha256": "8c0c9b3e64a6d276e97d239d928a09676764b15831e37ac9e94fa0e94065ae22"
+        },
+        {
+          "path": "web/public/lessons/etcl-06-preferences-and-priorities/japanese-cues-v2/phrase-003.mp3",
+          "size": 69888,
+          "sha256": "84efd0b8a4c3319e9b80ebfcd2e744500bb4efc95dab770ce56c05f18f0f1d34"
+        },
+        {
+          "path": "web/public/lessons/etcl-06-preferences-and-priorities/japanese-cues-v2/phrase-004.mp3",
+          "size": 140160,
+          "sha256": "ecb92b213b461f3bd48dd6008c4a1f8bd2178010d269a6c53fcee975a2260299"
+        },
+        {
+          "path": "web/public/lessons/etcl-06-preferences-and-priorities/japanese-cues-v2/phrase-005.mp3",
+          "size": 83328,
+          "sha256": "9883f61c3bbf8991b14aeb435821c230b62948feaf2394ccf594c974b72d98fb"
+        }
+      ],
+      "output": {
+        "path": "web/public/lessons/etcl-06-preferences-and-priorities/recall-concatenated-v1.mp3",
+        "size": 565173,
+        "sha256": "2323c099d538a639b36d8061dbeb8862f7eaea475e8387200293c78747914514"
+      },
+      "verification": {
+        "status": "PASS",
+        "sourceUnchanged": true,
+        "japaneseCues": 5,
+        "recallSeconds": 5,
+        "englishRepetitions": 2,
+        "englishSegments": 10,
+        "gapsOrOverlaps": false,
+        "decodedSamplesExact": true,
+        "checks": [
+          {
+            "phrase": 1,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9993615137109388
+          },
+          {
+            "phrase": 1,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9998258347152879
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9998258346975102
+          },
+          {
+            "phrase": 2,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9990522587772354
+          },
+          {
+            "phrase": 2,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9997472381389236
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9997472370374259
+          },
+          {
+            "phrase": 3,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.999439874179815
+          },
+          {
+            "phrase": 3,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9997118784137009
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9997118783749134
+          },
+          {
+            "phrase": 4,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9995084624842475
+          },
+          {
+            "phrase": 4,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9997695341738024
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9997695338387466
+          },
+          {
+            "phrase": 5,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9995184528240912
+          },
+          {
+            "phrase": 5,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9997521308442805
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9997521289896093
+          }
+        ]
+      },
+      "scope": "Concatenated Lesson Recall v1. Fixed order, English twice, stop at lesson end. No new storage."
+    },
+    {
+      "lessonId": "etcl-07-asking-questions",
+      "sampleRate": 24000,
+      "channels": 1,
+      "phrases": [
+        {
+          "phrase": 1,
+          "en": "What do you mean by that?",
+          "ja": "それはどういう意味ですか？",
+          "englishSourceStart": 0.0,
+          "englishSourceEnd": 2.568,
+          "originalRepeatCorrelation": 0.9836726555699861
+        },
+        {
+          "phrase": 2,
+          "en": "How did you get into that?",
+          "ja": "どういうきっかけでそれを始めたんですか？",
+          "englishSourceStart": 15.136,
+          "englishSourceEnd": 17.752,
+          "originalRepeatCorrelation": 0.9917909891322224
+        },
+        {
+          "phrase": 3,
+          "en": "How's it going so far?",
+          "ja": "今のところ、どんな調子ですか？",
+          "englishSourceStart": 30.368,
+          "englishSourceEnd": 32.384,
+          "originalRepeatCorrelation": 0.9914914911212535
+        },
+        {
+          "phrase": 4,
+          "en": "What do you find most challenging?",
+          "ja": "何が一番難しいと感じますか？",
+          "englishSourceStart": 44.4,
+          "englishSourceEnd": 46.752,
+          "originalRepeatCorrelation": 0.990248566183476
+        },
+        {
+          "phrase": 5,
+          "en": "Could you tell me a bit more about that?",
+          "ja": "それについてもう少し詳しく教えてもらえますか？",
+          "englishSourceStart": 59.104,
+          "englishSourceEnd": 61.504,
+          "originalRepeatCorrelation": 0.9932769004809996
+        },
+        {
+          "phrase": 6,
+          "en": "Are you enjoying it?",
+          "ja": "それを楽しんでいますか？",
+          "englishSourceStart": 73.904,
+          "englishSourceEnd": 75.464,
+          "originalRepeatCorrelation": 0.9673505160208931
+        }
+      ],
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 62784,
+          "start": 0.0,
+          "end": 2.616,
+          "pcmSha256": "09b143f87285383adfd8386a3d1a9e089bab8339ee61a99c4fcdf69d0c88ccd0"
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 62784,
+          "endSample": 182784,
+          "start": 2.616,
+          "end": 7.616,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 182784,
+          "endSample": 244416,
+          "start": 7.616,
+          "end": 10.184,
+          "pcmSha256": "b4a2c1f3edcf0b0d3cf1a2da59222b10b1776f18b480929b21382e5d0d6727b0"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 244416,
+          "endSample": 306048,
+          "start": 10.184,
+          "end": 12.752,
+          "pcmSha256": "b4a2c1f3edcf0b0d3cf1a2da59222b10b1776f18b480929b21382e5d0d6727b0"
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 306048,
+          "endSample": 402240,
+          "start": 12.752,
+          "end": 16.76,
+          "pcmSha256": "ff784f70cf70e1cf0180783d98d9f35a815ccf888bce21cc03f11011aec32d96"
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 402240,
+          "endSample": 522240,
+          "start": 16.76,
+          "end": 21.76,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 522240,
+          "endSample": 585024,
+          "start": 21.76,
+          "end": 24.376,
+          "pcmSha256": "155b6935fa051f71578ad1c2ec0da175146c5a7ad8c20907189efc58644ebbb9"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 585024,
+          "endSample": 647808,
+          "start": 24.376,
+          "end": 26.992,
+          "pcmSha256": "155b6935fa051f71578ad1c2ec0da175146c5a7ad8c20907189efc58644ebbb9"
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 647808,
+          "endSample": 715200,
+          "start": 26.992,
+          "end": 29.8,
+          "pcmSha256": "73c0fc888e8827b94a70b80fa741adc2aef73a491bd86d2ba27f499ebdc53fdc"
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 715200,
+          "endSample": 835200,
+          "start": 29.8,
+          "end": 34.8,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 835200,
+          "endSample": 883584,
+          "start": 34.8,
+          "end": 36.816,
+          "pcmSha256": "94a83a6b9323a4cae8b6f06dcf9565a3704180a33732621f7aeeacaac671642d"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 883584,
+          "endSample": 931968,
+          "start": 36.816,
+          "end": 38.832,
+          "pcmSha256": "94a83a6b9323a4cae8b6f06dcf9565a3704180a33732621f7aeeacaac671642d"
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 931968,
+          "endSample": 1029312,
+          "start": 38.832,
+          "end": 42.888,
+          "pcmSha256": "a3bffc82184cb0731e1acc7444bc637097f652b88fca3a20c1c9adc835941efd"
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1029312,
+          "endSample": 1149312,
+          "start": 42.888,
+          "end": 47.888,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1149312,
+          "endSample": 1205760,
+          "start": 47.888,
+          "end": 50.24,
+          "pcmSha256": "f7b6d4d1d3c3aa9b3dd6803d2917db54f0180e2912325f39aaaeaad9ea2e22e5"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1205760,
+          "endSample": 1262208,
+          "start": 50.24,
+          "end": 52.592,
+          "pcmSha256": "f7b6d4d1d3c3aa9b3dd6803d2917db54f0180e2912325f39aaaeaad9ea2e22e5"
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1262208,
+          "endSample": 1377408,
+          "start": 52.592,
+          "end": 57.392,
+          "pcmSha256": "34455340f2e6d4d2e5bf3117994890eecf22ece7de43e1035f8a4679e896e06a"
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1377408,
+          "endSample": 1497408,
+          "start": 57.392,
+          "end": 62.392,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1497408,
+          "endSample": 1555008,
+          "start": 62.392,
+          "end": 64.792,
+          "pcmSha256": "e42e8c0530ef553bfa760031dbb129dc01c4555d586c29e2ef9cbee4409b22c7"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1555008,
+          "endSample": 1612608,
+          "start": 64.792,
+          "end": 67.192,
+          "pcmSha256": "e42e8c0530ef553bfa760031dbb129dc01c4555d586c29e2ef9cbee4409b22c7"
+        },
+        {
+          "phrase": 6,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1612608,
+          "endSample": 1670208,
+          "start": 67.192,
+          "end": 69.592,
+          "pcmSha256": "246feb7c43f8f3d7a6f11bdc32ffde4d8fae78dcceb557536c9293575495a1b2"
+        },
+        {
+          "phrase": 6,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1670208,
+          "endSample": 1790208,
+          "start": 69.592,
+          "end": 74.592,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1790208,
+          "endSample": 1827648,
+          "start": 74.592,
+          "end": 76.152,
+          "pcmSha256": "0cc368d4dea1019d62e82eaeb22c1e2b836e3af2617966c746659dd8cc716503"
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1827648,
+          "endSample": 1865088,
+          "start": 76.152,
+          "end": 77.712,
+          "pcmSha256": "0cc368d4dea1019d62e82eaeb22c1e2b836e3af2617966c746659dd8cc716503"
+        }
+      ],
+      "decodedDuration": 77.712,
+      "mp3ContainerDuration": 77.712,
+      "totalSamples": 1865088,
+      "sourcePins": [
+        {
+          "path": "web/public/lessons/etcl-07-asking-questions/lesson.mp3",
+          "size": 328557,
+          "sha256": "172fde896f6f20d9028f701baaf96fd0338df91b446afade2375c6f8466e9c7a"
+        },
+        {
+          "path": "web/public/lessons/etcl-07-asking-questions/metadata.json",
+          "size": 333,
+          "sha256": "7069d679185d9ece5c8f551cd0bea53ad0dd4f55769c4ff6006910030edf7c77"
+        },
+        {
+          "path": "web/src/etcl-lessons-v2.json",
+          "size": 13345,
+          "sha256": "3c48295b5da31f34a99f2ab1c8e87584895e608001a4f410bc9d4d3cc3b5ce5c",
+          "normalization": "lf"
+        },
+        {
+          "path": "web/public/lessons/etcl-07-asking-questions/japanese-cues-v2/phrase-001.mp3",
+          "size": 41856,
+          "sha256": "b7d67053e756629b74c752be32b648a146869db9d641b80353e1dfc23bb9a54f"
+        },
+        {
+          "path": "web/public/lessons/etcl-07-asking-questions/japanese-cues-v2/phrase-002.mp3",
+          "size": 64128,
+          "sha256": "97438cdc85bbcdcdb827f90d2ca0f5b5fd9aec914f95e1ab4151d0f2d19394cb"
+        },
+        {
+          "path": "web/public/lessons/etcl-07-asking-questions/japanese-cues-v2/phrase-003.mp3",
+          "size": 44928,
+          "sha256": "b6a75ec6e296ba406a25897772e87d1149d5ecef13ea72e819737a8cc5e48795"
+        },
+        {
+          "path": "web/public/lessons/etcl-07-asking-questions/japanese-cues-v2/phrase-004.mp3",
+          "size": 64896,
+          "sha256": "7ceaecc8b0ef101985915e64b8176078c3bfa0b83ee0ca471b1c5eb432ba0964"
+        },
+        {
+          "path": "web/public/lessons/etcl-07-asking-questions/japanese-cues-v2/phrase-005.mp3",
+          "size": 76800,
+          "sha256": "8f9200fd38b9b969e77e986f8239eb9e530f012a3a7b3625e3d83b6d85ac87f7"
+        },
+        {
+          "path": "web/public/lessons/etcl-07-asking-questions/japanese-cues-v2/phrase-006.mp3",
+          "size": 38400,
+          "sha256": "d831c86cdbcba8c4b8220c3cb9da4ac30ea8f1498d29a49b2607b8f10bc413da"
+        }
+      ],
+      "output": {
+        "path": "web/public/lessons/etcl-07-asking-questions/recall-concatenated-v1.mp3",
+        "size": 380085,
+        "sha256": "560edfa1f6aa01aab09876b081ca1046856825408632812b5c92acc0e693b649"
+      },
+      "verification": {
+        "status": "PASS",
+        "sourceUnchanged": true,
+        "japaneseCues": 6,
+        "recallSeconds": 5,
+        "englishRepetitions": 2,
+        "englishSegments": 12,
+        "gapsOrOverlaps": false,
+        "decodedSamplesExact": true,
+        "checks": [
+          {
+            "phrase": 1,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9995121601425828
+          },
+          {
+            "phrase": 1,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9998346057565599
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9998346058063717
+          },
+          {
+            "phrase": 2,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9996759721886298
+          },
+          {
+            "phrase": 2,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9996343487376396
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9996343486834988
+          },
+          {
+            "phrase": 3,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9995345542771934
+          },
+          {
+            "phrase": 3,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9998445827099021
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9998445821906567
+          },
+          {
+            "phrase": 4,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.998677056931346
+          },
+          {
+            "phrase": 4,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9997315677633808
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9997315674464373
+          },
+          {
+            "phrase": 5,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.998745050291021
+          },
+          {
+            "phrase": 5,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9996138690309925
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9996138689958557
+          },
+          {
+            "phrase": 6,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9992773718726039
+          },
+          {
+            "phrase": 6,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 6,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9997773598589607
+          },
+          {
+            "phrase": 6,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9997637533418047
+          }
+        ]
+      },
+      "scope": "Concatenated Lesson Recall v1. Fixed order, English twice, stop at lesson end. No new storage."
+    },
+    {
+      "lessonId": "etcl-08-responding-naturally",
+      "sampleRate": 24000,
+      "channels": 1,
+      "phrases": [
+        {
+          "phrase": 1,
+          "en": "I see.",
+          "ja": "なるほど。",
+          "englishSourceStart": 0.0,
+          "englishSourceEnd": 1.152,
+          "originalRepeatCorrelation": 0.8870867860016772
+        },
+        {
+          "phrase": 2,
+          "en": "That makes sense.",
+          "ja": "それなら納得です。",
+          "englishSourceStart": 12.304,
+          "englishSourceEnd": 14.056,
+          "originalRepeatCorrelation": 0.9523423085505036
+        },
+        {
+          "phrase": 3,
+          "en": "I know what you mean.",
+          "ja": "言いたいことは分かります。",
+          "englishSourceStart": 25.808,
+          "englishSourceEnd": 28.76,
+          "originalRepeatCorrelation": 0.9921194458566565
+        },
+        {
+          "phrase": 4,
+          "en": "I can imagine.",
+          "ja": "想像できます。",
+          "englishSourceStart": 41.712,
+          "englishSourceEnd": 43.032,
+          "originalRepeatCorrelation": 0.9891531325767874
+        },
+        {
+          "phrase": 5,
+          "en": "That's good to hear.",
+          "ja": "それはよかったです。",
+          "englishSourceStart": 54.352,
+          "englishSourceEnd": 56.152,
+          "originalRepeatCorrelation": 0.9766218254417826
+        },
+        {
+          "phrase": 6,
+          "en": "Exactly.",
+          "ja": "まさにそのとおりです。",
+          "englishSourceStart": 67.952,
+          "englishSourceEnd": 69.56,
+          "originalRepeatCorrelation": 0.9750528235411883
+        }
+      ],
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 47232,
+          "start": 0.0,
+          "end": 1.968,
+          "pcmSha256": "b85f799e49b11dda84398df25d05894fba0d43a47dd5a20708b7c15686508ad3"
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 47232,
+          "endSample": 167232,
+          "start": 1.968,
+          "end": 6.968,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 167232,
+          "endSample": 194880,
+          "start": 6.968,
+          "end": 8.12,
+          "pcmSha256": "76027db65a2c01b409db090e418392c23e4a74fd8719c6d52000dc25412acad7"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 194880,
+          "endSample": 222528,
+          "start": 8.12,
+          "end": 9.272,
+          "pcmSha256": "76027db65a2c01b409db090e418392c23e4a74fd8719c6d52000dc25412acad7"
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 222528,
+          "endSample": 275520,
+          "start": 9.272,
+          "end": 11.48,
+          "pcmSha256": "fed542693d915f2d98246cbbbd0ceaf9995ee1afed6a452fbaf9a6f8299a5a3c"
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 275520,
+          "endSample": 395520,
+          "start": 11.48,
+          "end": 16.48,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 395520,
+          "endSample": 437568,
+          "start": 16.48,
+          "end": 18.232,
+          "pcmSha256": "50dc93595c67ff6c7d7be852397749c5b93f240f207572e02cbecda2dfd7771d"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 437568,
+          "endSample": 479616,
+          "start": 18.232,
+          "end": 19.984,
+          "pcmSha256": "50dc93595c67ff6c7d7be852397749c5b93f240f207572e02cbecda2dfd7771d"
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 479616,
+          "endSample": 532608,
+          "start": 19.984,
+          "end": 22.192,
+          "pcmSha256": "85b424134ad9b7d62fc78d3bcda26e933ef7037b0e8d52e5f2c4a7aea88759be"
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 532608,
+          "endSample": 652608,
+          "start": 22.192,
+          "end": 27.192,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 652608,
+          "endSample": 723456,
+          "start": 27.192,
+          "end": 30.144,
+          "pcmSha256": "e4041b15cdd7f8c659d279c6e23dec76da091fb66d4a8afb0959e72ed2653f30"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 723456,
+          "endSample": 794304,
+          "start": 30.144,
+          "end": 33.096,
+          "pcmSha256": "e4041b15cdd7f8c659d279c6e23dec76da091fb66d4a8afb0959e72ed2653f30"
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 794304,
+          "endSample": 847296,
+          "start": 33.096,
+          "end": 35.304,
+          "pcmSha256": "80aea937b207484a835bc5cfa69dca08901826992d6182d0e5480f1bbf4e72b7"
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 847296,
+          "endSample": 967296,
+          "start": 35.304,
+          "end": 40.304,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 967296,
+          "endSample": 998976,
+          "start": 40.304,
+          "end": 41.624,
+          "pcmSha256": "e6f233da0e28c11f454b03e9ee2ce0a5d587678cecc64b3409c91f407a45f238"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 998976,
+          "endSample": 1030656,
+          "start": 41.624,
+          "end": 42.944,
+          "pcmSha256": "e6f233da0e28c11f454b03e9ee2ce0a5d587678cecc64b3409c91f407a45f238"
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1030656,
+          "endSample": 1088256,
+          "start": 42.944,
+          "end": 45.344,
+          "pcmSha256": "c7ed8f7721aaa11c5188c257a95808e50c60bed2a155939691db4d99f44ac3f8"
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1088256,
+          "endSample": 1208256,
+          "start": 45.344,
+          "end": 50.344,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1208256,
+          "endSample": 1251456,
+          "start": 50.344,
+          "end": 52.144,
+          "pcmSha256": "df2321654178502885f399ae10a7003bd5f21f3bd83c1f9ee485b35bd2f85a4a"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1251456,
+          "endSample": 1294656,
+          "start": 52.144,
+          "end": 53.944,
+          "pcmSha256": "df2321654178502885f399ae10a7003bd5f21f3bd83c1f9ee485b35bd2f85a4a"
+        },
+        {
+          "phrase": 6,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1294656,
+          "endSample": 1345344,
+          "start": 53.944,
+          "end": 56.056,
+          "pcmSha256": "c3e58cfbb6f9246825264cd3ca33b5e53e1430f803a44790d490b3cb110883bf"
+        },
+        {
+          "phrase": 6,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1345344,
+          "endSample": 1465344,
+          "start": 56.056,
+          "end": 61.056,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1465344,
+          "endSample": 1503936,
+          "start": 61.056,
+          "end": 62.664,
+          "pcmSha256": "7179efc8222752f7ea74e2f7986e86a2af400b11789d1643629e51fc74b5e352"
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1503936,
+          "endSample": 1542528,
+          "start": 62.664,
+          "end": 64.272,
+          "pcmSha256": "7179efc8222752f7ea74e2f7986e86a2af400b11789d1643629e51fc74b5e352"
+        }
+      ],
+      "decodedDuration": 64.272,
+      "mp3ContainerDuration": 64.272,
+      "totalSamples": 1542528,
+      "sourcePins": [
+        {
+          "path": "web/public/lessons/etcl-08-responding-naturally/lesson.mp3",
+          "size": 305133,
+          "sha256": "17486e4de1019a3bad8671032054824e3b292244f12829d25ed882cba68abec9"
+        },
+        {
+          "path": "web/public/lessons/etcl-08-responding-naturally/metadata.json",
+          "size": 335,
+          "sha256": "1603e1a2eeddabe748fd6fa35ad3a3a95532e810ee87dd4a877f8989830723c3"
+        },
+        {
+          "path": "web/src/etcl-lessons-v2.json",
+          "size": 13345,
+          "sha256": "3c48295b5da31f34a99f2ab1c8e87584895e608001a4f410bc9d4d3cc3b5ce5c",
+          "normalization": "lf"
+        },
+        {
+          "path": "web/public/lessons/etcl-08-responding-naturally/japanese-cues-v2/phrase-001.mp3",
+          "size": 31488,
+          "sha256": "687696256b8d561d509f95a95ff8d49a93050d55929873e210808f63ac60a6aa"
+        },
+        {
+          "path": "web/public/lessons/etcl-08-responding-naturally/japanese-cues-v2/phrase-002.mp3",
+          "size": 35328,
+          "sha256": "4aaee83b2c29276b3d1a71bab35e1582739f6a4a80a8042bf4644d66fa3961fc"
+        },
+        {
+          "path": "web/public/lessons/etcl-08-responding-naturally/japanese-cues-v2/phrase-003.mp3",
+          "size": 35328,
+          "sha256": "6f3646e1957217ba232b101504cd206b00cecdacccc731a6a1b35617f111ec70"
+        },
+        {
+          "path": "web/public/lessons/etcl-08-responding-naturally/japanese-cues-v2/phrase-004.mp3",
+          "size": 35328,
+          "sha256": "4a47870fff3529f2834e79fff0fc8dcddb10e928abba3ad14cee743f26414851"
+        },
+        {
+          "path": "web/public/lessons/etcl-08-responding-naturally/japanese-cues-v2/phrase-005.mp3",
+          "size": 38400,
+          "sha256": "15899ab4fa250dac1211469f84e4fbb2516e260b43ccbf8e1b82af7d1b5cdea7"
+        },
+        {
+          "path": "web/public/lessons/etcl-08-responding-naturally/japanese-cues-v2/phrase-006.mp3",
+          "size": 33792,
+          "sha256": "0a5183f25d9f0ea2c0457fe9cb8fcda844bd95a4b6d8a9bb3bf6849afebbff56"
+        }
+      ],
+      "output": {
+        "path": "web/public/lessons/etcl-08-responding-naturally/recall-concatenated-v1.mp3",
+        "size": 274341,
+        "sha256": "e9f112b54fe69241bb488e030f031e0ab97fd6d77cf54311ac84d3ed9e5a499b"
+      },
+      "verification": {
+        "status": "PASS",
+        "sourceUnchanged": true,
+        "japaneseCues": 6,
+        "recallSeconds": 5,
+        "englishRepetitions": 2,
+        "englishSegments": 12,
+        "gapsOrOverlaps": false,
+        "decodedSamplesExact": true,
+        "checks": [
+          {
+            "phrase": 1,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.999545383989486
+          },
+          {
+            "phrase": 1,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9992096063789446
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9992095810189721
+          },
+          {
+            "phrase": 2,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9988431093813853
+          },
+          {
+            "phrase": 2,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9992519680531089
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9992519646880051
+          },
+          {
+            "phrase": 3,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9993898272756393
+          },
+          {
+            "phrase": 3,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9997758611659674
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9997758340825095
+          },
+          {
+            "phrase": 4,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9994212796958292
+          },
+          {
+            "phrase": 4,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9998415682245785
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9998414845021368
+          },
+          {
+            "phrase": 5,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9989042070375603
+          },
+          {
+            "phrase": 5,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9992851132628937
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9992851132805762
+          },
+          {
+            "phrase": 6,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9989318260781178
+          },
+          {
+            "phrase": 6,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 6,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9995873265034855
+          },
+          {
+            "phrase": 6,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.999587326456522
+          }
+        ]
+      },
+      "scope": "Concatenated Lesson Recall v1. Fixed order, English twice, stop at lesson end. No new storage."
+    },
+    {
+      "lessonId": "etcl-09-past-experiences",
+      "sampleRate": 24000,
+      "channels": 1,
+      "phrases": [
+        {
+          "phrase": 1,
+          "en": "I got into programming because I wanted to build my own apps and services.",
+          "ja": "自分のアプリやサービスを作りたかったので、プログラミングを始めました。",
+          "englishSourceStart": 0.0,
+          "englishSourceEnd": 4.608,
+          "originalRepeatCorrelation": 0.985801483410428
+        },
+        {
+          "phrase": 2,
+          "en": "I had to learn almost everything from scratch.",
+          "ja": "ほとんどすべてをゼロから学ばなければなりませんでした。",
+          "englishSourceStart": 19.216,
+          "englishSourceEnd": 22.576,
+          "originalRepeatCorrelation": 0.9870063444769335
+        },
+        {
+          "phrase": 3,
+          "en": "I couldn't figure out why my code wasn't working.",
+          "ja": "なぜ自分のコードが動かないのか分かりませんでした。",
+          "englishSourceStart": 35.936,
+          "englishSourceEnd": 38.792,
+          "originalRepeatCorrelation": 0.9950368921627929
+        },
+        {
+          "phrase": 4,
+          "en": "I kept practicing, and things gradually started to make more sense.",
+          "ja": "練習を続けるうちに、少しずつ理解できるようになりました。",
+          "englishSourceStart": 51.648,
+          "englishSourceEnd": 55.8,
+          "originalRepeatCorrelation": 0.9876502551955809
+        },
+        {
+          "phrase": 5,
+          "en": "Looking back, I've come a long way.",
+          "ja": "振り返ると、ずいぶん成長しました。",
+          "englishSourceStart": 69.952,
+          "englishSourceEnd": 72.568,
+          "originalRepeatCorrelation": 0.9905989288793917
+        },
+        {
+          "phrase": 6,
+          "en": "There's still a lot I want to learn.",
+          "ja": "まだまだ学びたいことがたくさんあります。",
+          "englishSourceStart": 85.184,
+          "englishSourceEnd": 87.848,
+          "originalRepeatCorrelation": 0.9725118658657586
+        }
+      ],
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 150336,
+          "start": 0.0,
+          "end": 6.264,
+          "pcmSha256": "1a5644137621419f601b1b83a5aefb15df2f270635001384f6a06e7acb5c7aee"
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 150336,
+          "endSample": 270336,
+          "start": 6.264,
+          "end": 11.264,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 270336,
+          "endSample": 380928,
+          "start": 11.264,
+          "end": 15.872,
+          "pcmSha256": "a81dea8888e7868e5d6dddef8449e513a554dc9ddb0c9351023aa3bd331870c9"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 380928,
+          "endSample": 491520,
+          "start": 15.872,
+          "end": 20.48,
+          "pcmSha256": "a81dea8888e7868e5d6dddef8449e513a554dc9ddb0c9351023aa3bd331870c9"
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 491520,
+          "endSample": 614208,
+          "start": 20.48,
+          "end": 25.592,
+          "pcmSha256": "30729791c239ccb35e5fe2a543c217db75013dbcfc2baaa5fda94674421be7f4"
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 614208,
+          "endSample": 734208,
+          "start": 25.592,
+          "end": 30.592,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 734208,
+          "endSample": 814848,
+          "start": 30.592,
+          "end": 33.952,
+          "pcmSha256": "128d345f4e331c3684b62f274f7306490ef57f6772ff0bb3961fe26f680346d3"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 814848,
+          "endSample": 895488,
+          "start": 33.952,
+          "end": 37.312,
+          "pcmSha256": "128d345f4e331c3684b62f274f7306490ef57f6772ff0bb3961fe26f680346d3"
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 895488,
+          "endSample": 1011840,
+          "start": 37.312,
+          "end": 42.16,
+          "pcmSha256": "e70b9da04911446b45e55b70591a258092866c523d81be2caff9dd2a7a95b93d"
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1011840,
+          "endSample": 1131840,
+          "start": 42.16,
+          "end": 47.16,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1131840,
+          "endSample": 1200384,
+          "start": 47.16,
+          "end": 50.016,
+          "pcmSha256": "340d27d9f5db39ceb3debd564ed825dc0d6fb4254df6efe7c138ae0a4ac00f46"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1200384,
+          "endSample": 1268928,
+          "start": 50.016,
+          "end": 52.872,
+          "pcmSha256": "340d27d9f5db39ceb3debd564ed825dc0d6fb4254df6efe7c138ae0a4ac00f46"
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1268928,
+          "endSample": 1381824,
+          "start": 52.872,
+          "end": 57.576,
+          "pcmSha256": "a8739fb61b77b24c81a876882bae16dfe2d2f1661eb14221167e0095b9fc9ad1"
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1381824,
+          "endSample": 1501824,
+          "start": 57.576,
+          "end": 62.576,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1501824,
+          "endSample": 1601472,
+          "start": 62.576,
+          "end": 66.728,
+          "pcmSha256": "38e4076ccfa6b8804addd82649d1a44effcb644883e2857418a32bfb1865722b"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1601472,
+          "endSample": 1701120,
+          "start": 66.728,
+          "end": 70.88,
+          "pcmSha256": "38e4076ccfa6b8804addd82649d1a44effcb644883e2857418a32bfb1865722b"
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1701120,
+          "endSample": 1793856,
+          "start": 70.88,
+          "end": 74.744,
+          "pcmSha256": "7cb9811064cfd98c753d4ae47959abf7a813ce1a82b5a02cb54922e3071690e0"
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1793856,
+          "endSample": 1913856,
+          "start": 74.744,
+          "end": 79.744,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1913856,
+          "endSample": 1976640,
+          "start": 79.744,
+          "end": 82.36,
+          "pcmSha256": "01ca6b5fa867012aa2ecd5ba2014053396a0126835c6336783a0e4495b642955"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1976640,
+          "endSample": 2039424,
+          "start": 82.36,
+          "end": 84.976,
+          "pcmSha256": "01ca6b5fa867012aa2ecd5ba2014053396a0126835c6336783a0e4495b642955"
+        },
+        {
+          "phrase": 6,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 2039424,
+          "endSample": 2131008,
+          "start": 84.976,
+          "end": 88.792,
+          "pcmSha256": "407ffaee5bc039b0d6f77cfd758f5413b44e1237a141313b5188ca75a54f2d36"
+        },
+        {
+          "phrase": 6,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 2131008,
+          "endSample": 2251008,
+          "start": 88.792,
+          "end": 93.792,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 2251008,
+          "endSample": 2314944,
+          "start": 93.792,
+          "end": 96.456,
+          "pcmSha256": "77062b43921237f42fc058226d66207290fb698f471d904dfbe710828f77c586"
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 2314944,
+          "endSample": 2378880,
+          "start": 96.456,
+          "end": 99.12,
+          "pcmSha256": "77062b43921237f42fc058226d66207290fb698f471d904dfbe710828f77c586"
+        }
+      ],
+      "decodedDuration": 99.12,
+      "mp3ContainerDuration": 99.12,
+      "totalSamples": 2378880,
+      "sourcePins": [
+        {
+          "path": "web/public/lessons/etcl-09-past-experiences/lesson.mp3",
+          "size": 382509,
+          "sha256": "6aab97dea5ffd1485e96bb3a401d166251e42072a5ebf616a9d42f1469836fe0"
+        },
+        {
+          "path": "web/public/lessons/etcl-09-past-experiences/metadata.json",
+          "size": 335,
+          "sha256": "c6f4e723e0cfea5c5297a5f554e85cc5db51c851cff9f2e358c40ba48896ddd1"
+        },
+        {
+          "path": "web/src/etcl-lessons-v2.json",
+          "size": 13345,
+          "sha256": "3c48295b5da31f34a99f2ab1c8e87584895e608001a4f410bc9d4d3cc3b5ce5c",
+          "normalization": "lf"
+        },
+        {
+          "path": "web/public/lessons/etcl-09-past-experiences/japanese-cues-v2/phrase-001.mp3",
+          "size": 100224,
+          "sha256": "7026b684b763e3c969e36733a6dbd0b50b13673a0250408aedce52c08ace86ff"
+        },
+        {
+          "path": "web/public/lessons/etcl-09-past-experiences/japanese-cues-v2/phrase-002.mp3",
+          "size": 81792,
+          "sha256": "7b43003de20bef798da295fc93bd491a9f1ec871373fbcc25dd4e37eaff4b144"
+        },
+        {
+          "path": "web/public/lessons/etcl-09-past-experiences/japanese-cues-v2/phrase-003.mp3",
+          "size": 77568,
+          "sha256": "c8b469b9380d6b8c85538db958377ae293babdf6309525e33383249ad904c6f3"
+        },
+        {
+          "path": "web/public/lessons/etcl-09-past-experiences/japanese-cues-v2/phrase-004.mp3",
+          "size": 75264,
+          "sha256": "d432aa34723dd9559c91b479a4bafa53a2993b4edbb63eea56ca20e8b1791242"
+        },
+        {
+          "path": "web/public/lessons/etcl-09-past-experiences/japanese-cues-v2/phrase-005.mp3",
+          "size": 61824,
+          "sha256": "d417ee3e10a9bec49f545f8b27dab8cbf8c1f225b032f7d2385fa5d0d6220383"
+        },
+        {
+          "path": "web/public/lessons/etcl-09-past-experiences/japanese-cues-v2/phrase-006.mp3",
+          "size": 61056,
+          "sha256": "9e4bfa8b47a4edd75c4197b3aa4af24f7640fc21112f8d0820af4e1914467cf4"
+        }
+      ],
+      "output": {
+        "path": "web/public/lessons/etcl-09-past-experiences/recall-concatenated-v1.mp3",
+        "size": 571941,
+        "sha256": "0709eaa02eaacdcad3dc5092dd1b5de2f257b1f7ae7632b8deb0a7e087a57432"
+      },
+      "verification": {
+        "status": "PASS",
+        "sourceUnchanged": true,
+        "japaneseCues": 6,
+        "recallSeconds": 5,
+        "englishRepetitions": 2,
+        "englishSegments": 12,
+        "gapsOrOverlaps": false,
+        "decodedSamplesExact": true,
+        "checks": [
+          {
+            "phrase": 1,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9995973525171998
+          },
+          {
+            "phrase": 1,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9996009031154934
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9996003259958031
+          },
+          {
+            "phrase": 2,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9991231370415798
+          },
+          {
+            "phrase": 2,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9997174629532906
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.999716660821528
+          },
+          {
+            "phrase": 3,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9995526012322419
+          },
+          {
+            "phrase": 3,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9998876897785834
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9998876897495182
+          },
+          {
+            "phrase": 4,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9991617461590785
+          },
+          {
+            "phrase": 4,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9996166755568623
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9996166716005175
+          },
+          {
+            "phrase": 5,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9992624385703683
+          },
+          {
+            "phrase": 5,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9996249485182408
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9996249484789631
+          },
+          {
+            "phrase": 6,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9988408017989868
+          },
+          {
+            "phrase": 6,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 6,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9994692845687105
+          },
+          {
+            "phrase": 6,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9994692843621664
+          }
+        ]
+      },
+      "scope": "Concatenated Lesson Recall v1. Fixed order, English twice, stop at lesson end. No new storage."
+    },
+    {
+      "lessonId": "etcl-10-explaining-problems",
+      "sampleRate": 24000,
+      "channels": 1,
+      "phrases": [
+        {
+          "phrase": 1,
+          "en": "I've been having a problem with it lately.",
+          "ja": "最近、それに問題が起きています。",
+          "englishSourceStart": 0.0,
+          "englishSourceEnd": 2.856,
+          "originalRepeatCorrelation": 0.989574052917116
+        },
+        {
+          "phrase": 2,
+          "en": "It sometimes stops working for no apparent reason.",
+          "ja": "明らかな理由もなく、ときどき動かなくなります。",
+          "englishSourceStart": 15.712,
+          "englishSourceEnd": 19.168,
+          "originalRepeatCorrelation": 0.9853108944255603
+        },
+        {
+          "phrase": 3,
+          "en": "It only happens under certain conditions.",
+          "ja": "それは特定の条件下でしか起こりません。",
+          "englishSourceStart": 32.624,
+          "englishSourceEnd": 36.224,
+          "originalRepeatCorrelation": 0.9902993166278858
+        },
+        {
+          "phrase": 4,
+          "en": "I've tried a few things, but nothing has worked so far.",
+          "ja": "いくつか試しましたが、今のところ何もうまくいっていません。",
+          "englishSourceStart": 49.824,
+          "englishSourceEnd": 53.784,
+          "originalRepeatCorrelation": 0.9883484197107861
+        },
+        {
+          "phrase": 5,
+          "en": "I'm still trying to figure out what's causing the problem.",
+          "ja": "まだ何が問題の原因なのか突き止めようとしているところです。",
+          "englishSourceStart": 67.744,
+          "englishSourceEnd": 70.96,
+          "originalRepeatCorrelation": 0.9835569167423773
+        },
+        {
+          "phrase": 6,
+          "en": "I'm not sure what to do next.",
+          "ja": "次にどうすればいいのか分かりません。",
+          "englishSourceStart": 84.176,
+          "englishSourceEnd": 86.792,
+          "originalRepeatCorrelation": 0.9857018701694495
+        }
+      ],
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 81792,
+          "start": 0.0,
+          "end": 3.408,
+          "pcmSha256": "7e85950d0c2215c3b3234645dfa6d32ffd13acf12b010facc4294a0c732af515"
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 81792,
+          "endSample": 201792,
+          "start": 3.408,
+          "end": 8.408,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 201792,
+          "endSample": 270336,
+          "start": 8.408,
+          "end": 11.264,
+          "pcmSha256": "7b7f2b1dd1d08a9519cf47c1741ec1347f8b2c247aa091605f7ea62be9bd0e2e"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 270336,
+          "endSample": 338880,
+          "start": 11.264,
+          "end": 14.12,
+          "pcmSha256": "7b7f2b1dd1d08a9519cf47c1741ec1347f8b2c247aa091605f7ea62be9bd0e2e"
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 338880,
+          "endSample": 446016,
+          "start": 14.12,
+          "end": 18.584,
+          "pcmSha256": "40114c00f091025f83972f5529c69de797fc14f0de9f933b05bb31ab6342ca4c"
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 446016,
+          "endSample": 566016,
+          "start": 18.584,
+          "end": 23.584,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 566016,
+          "endSample": 648960,
+          "start": 23.584,
+          "end": 27.04,
+          "pcmSha256": "7940eb4252945934be2139a4d9a2edd8ca751c98d7b026be78adbb046ff2ce2d"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 648960,
+          "endSample": 731904,
+          "start": 27.04,
+          "end": 30.496,
+          "pcmSha256": "7940eb4252945934be2139a4d9a2edd8ca751c98d7b026be78adbb046ff2ce2d"
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 731904,
+          "endSample": 821184,
+          "start": 30.496,
+          "end": 34.216,
+          "pcmSha256": "1b5bd3cdfb1d129b54878b54802a493ddc60d50c0862f6340070183881e9c8a2"
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 821184,
+          "endSample": 941184,
+          "start": 34.216,
+          "end": 39.216,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 941184,
+          "endSample": 1027584,
+          "start": 39.216,
+          "end": 42.816,
+          "pcmSha256": "6eae428f08f9d164354a2caa8862e776707a3827a7c18ebdb0398c84e259d34e"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1027584,
+          "endSample": 1113984,
+          "start": 42.816,
+          "end": 46.416,
+          "pcmSha256": "6eae428f08f9d164354a2caa8862e776707a3827a7c18ebdb0398c84e259d34e"
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1113984,
+          "endSample": 1229184,
+          "start": 46.416,
+          "end": 51.216,
+          "pcmSha256": "b8e8f16e467e1e8afa9621eac00b33ae4542bece266c4360eb3d7fb19734a71c"
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1229184,
+          "endSample": 1349184,
+          "start": 51.216,
+          "end": 56.216,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1349184,
+          "endSample": 1444224,
+          "start": 56.216,
+          "end": 60.176,
+          "pcmSha256": "fd720ba93adda18fab10a04b99ed8c7c5ab0abbcbdb37b1f086997f195456559"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1444224,
+          "endSample": 1539264,
+          "start": 60.176,
+          "end": 64.136,
+          "pcmSha256": "fd720ba93adda18fab10a04b99ed8c7c5ab0abbcbdb37b1f086997f195456559"
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1539264,
+          "endSample": 1677504,
+          "start": 64.136,
+          "end": 69.896,
+          "pcmSha256": "e153960f0839e54531da16ef3d1c199a9d3768c34d27c719565dcbebafb8e9ca"
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1677504,
+          "endSample": 1797504,
+          "start": 69.896,
+          "end": 74.896,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1797504,
+          "endSample": 1874688,
+          "start": 74.896,
+          "end": 78.112,
+          "pcmSha256": "a40a1e043fc992011749e6aec795778cc4a2d013b5dd6a68921dc01bcb726baa"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1874688,
+          "endSample": 1951872,
+          "start": 78.112,
+          "end": 81.328,
+          "pcmSha256": "a40a1e043fc992011749e6aec795778cc4a2d013b5dd6a68921dc01bcb726baa"
+        },
+        {
+          "phrase": 6,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1951872,
+          "endSample": 2029056,
+          "start": 81.328,
+          "end": 84.544,
+          "pcmSha256": "5f6882bafc77c14e3100165f118dffa7d62078f90a27122f42e1011f779fdda5"
+        },
+        {
+          "phrase": 6,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 2029056,
+          "endSample": 2149056,
+          "start": 84.544,
+          "end": 89.544,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 2149056,
+          "endSample": 2211840,
+          "start": 89.544,
+          "end": 92.16,
+          "pcmSha256": "405d855256469c4ac13f3fa70136264eba0091f154108c2b114d20dbe71626eb"
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 2211840,
+          "endSample": 2274624,
+          "start": 92.16,
+          "end": 94.776,
+          "pcmSha256": "405d855256469c4ac13f3fa70136264eba0091f154108c2b114d20dbe71626eb"
+        }
+      ],
+      "decodedDuration": 94.776,
+      "mp3ContainerDuration": 94.776,
+      "totalSamples": 2274624,
+      "sourcePins": [
+        {
+          "path": "web/public/lessons/etcl-10-explaining-problems/lesson.mp3",
+          "size": 378093,
+          "sha256": "14f04b5878313f1a56603d17895b0660342b4adc95835eed33784ed8b95821a0"
+        },
+        {
+          "path": "web/public/lessons/etcl-10-explaining-problems/metadata.json",
+          "size": 335,
+          "sha256": "f91b70fb9265387034accd23c89eace2cc4b406fb502e00c071a6bfa26399bdf"
+        },
+        {
+          "path": "web/src/etcl-lessons-v2.json",
+          "size": 13345,
+          "sha256": "3c48295b5da31f34a99f2ab1c8e87584895e608001a4f410bc9d4d3cc3b5ce5c",
+          "normalization": "lf"
+        },
+        {
+          "path": "web/public/lessons/etcl-10-explaining-problems/japanese-cues-v2/phrase-001.mp3",
+          "size": 54528,
+          "sha256": "ee12ecfdf31d1d94678b3b46a0a9cb53c3ba2b4385406e104327871ff055d51b"
+        },
+        {
+          "path": "web/public/lessons/etcl-10-explaining-problems/japanese-cues-v2/phrase-002.mp3",
+          "size": 71424,
+          "sha256": "8613a7d8abd17bda2a978465418b54c01a33a3a90a89e3aba3b3cb49f9132fc3"
+        },
+        {
+          "path": "web/public/lessons/etcl-10-explaining-problems/japanese-cues-v2/phrase-003.mp3",
+          "size": 59520,
+          "sha256": "dff179af7203a04c1c0fcd8d62664d1a66b867412460e1adb7dd4984057ee576"
+        },
+        {
+          "path": "web/public/lessons/etcl-10-explaining-problems/japanese-cues-v2/phrase-004.mp3",
+          "size": 76800,
+          "sha256": "b969dd5d7be14dde40776ed0d35b0c9791d6cb4b602ed3e4df6f34dc4b657ba5"
+        },
+        {
+          "path": "web/public/lessons/etcl-10-explaining-problems/japanese-cues-v2/phrase-005.mp3",
+          "size": 92160,
+          "sha256": "30d01899297c9d5f91bf87db3b4383d7ab6c70fc27b0872ce9180de764a4bbf9"
+        },
+        {
+          "path": "web/public/lessons/etcl-10-explaining-problems/japanese-cues-v2/phrase-006.mp3",
+          "size": 51456,
+          "sha256": "fd33df2c0bc8331bcf88ede8b5e5ab1d16d402b09d719cb18d9a9ea330245d12"
+        }
+      ],
+      "output": {
+        "path": "web/public/lessons/etcl-10-explaining-problems/recall-concatenated-v1.mp3",
+        "size": 517701,
+        "sha256": "351744d2c99c81a1b763d43e76109b70631f3da6fd1855b0076fc5b8428af58d"
+      },
+      "verification": {
+        "status": "PASS",
+        "sourceUnchanged": true,
+        "japaneseCues": 6,
+        "recallSeconds": 5,
+        "englishRepetitions": 2,
+        "englishSegments": 12,
+        "gapsOrOverlaps": false,
+        "decodedSamplesExact": true,
+        "checks": [
+          {
+            "phrase": 1,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9994028323100108
+          },
+          {
+            "phrase": 1,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9997868588633989
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9997867842194749
+          },
+          {
+            "phrase": 2,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9994414669563162
+          },
+          {
+            "phrase": 2,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9992771649922131
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9992771420019525
+          },
+          {
+            "phrase": 3,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9994365227097554
+          },
+          {
+            "phrase": 3,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9995571334876133
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9995571330737832
+          },
+          {
+            "phrase": 4,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9992796743376857
+          },
+          {
+            "phrase": 4,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9995074037649687
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9995073275855464
+          },
+          {
+            "phrase": 5,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9992596361165187
+          },
+          {
+            "phrase": 5,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9992248837098672
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9992248836294397
+          },
+          {
+            "phrase": 6,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9990756898139416
+          },
+          {
+            "phrase": 6,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 6,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9994006977864512
+          },
+          {
+            "phrase": 6,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9994006977701588
+          }
+        ]
+      },
+      "scope": "Concatenated Lesson Recall v1. Fixed order, English twice, stop at lesson end. No new storage."
+    },
+    {
+      "lessonId": "etcl-11-plans-and-possibilities",
+      "sampleRate": 24000,
+      "channels": 1,
+      "phrases": [
+        {
+          "phrase": 1,
+          "en": "I'm planning to spend more time working on my own projects.",
+          "ja": "自分のプロジェクトに取り組む時間をもっと増やす予定です。",
+          "englishSourceStart": 0.0,
+          "englishSourceEnd": 4.152,
+          "originalRepeatCorrelation": 0.9899664046135791
+        },
+        {
+          "phrase": 2,
+          "en": "I'm thinking about trying something new.",
+          "ja": "何か新しいことを試してみようかと考えています。",
+          "englishSourceStart": 18.304,
+          "englishSourceEnd": 20.512,
+          "originalRepeatCorrelation": 0.9918829650627721
+        },
+        {
+          "phrase": 3,
+          "en": "I haven't decided yet.",
+          "ja": "まだ決めていません。",
+          "englishSourceStart": 32.72,
+          "englishSourceEnd": 34.328,
+          "originalRepeatCorrelation": 0.9653435294889144
+        },
+        {
+          "phrase": 4,
+          "en": "I'm hoping to make some progress on a few things I've been putting off.",
+          "ja": "先延ばしにしていたいくつかのことを、少しでも進められたらと思っています。",
+          "englishSourceStart": 45.936,
+          "englishSourceEnd": 49.896,
+          "originalRepeatCorrelation": 0.9901074835848704
+        },
+        {
+          "phrase": 5,
+          "en": "I'll see how things go before making any decisions.",
+          "ja": "何か決める前に、しばらく様子を見ます。",
+          "englishSourceStart": 63.856,
+          "englishSourceEnd": 67.36,
+          "originalRepeatCorrelation": 0.9866004416441988
+        },
+        {
+          "phrase": 6,
+          "en": "It depends on how things work out.",
+          "ja": "物事がどう進むかによります。",
+          "englishSourceStart": 80.864,
+          "englishSourceEnd": 83.528,
+          "originalRepeatCorrelation": 0.9837098517603315
+        }
+      ],
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 111744,
+          "start": 0.0,
+          "end": 4.656,
+          "pcmSha256": "000ea152a8d1b61c503b290e99b0c74eaca821ffae62c1725baf7e588bbcde8a"
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 111744,
+          "endSample": 231744,
+          "start": 4.656,
+          "end": 9.656,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 231744,
+          "endSample": 331392,
+          "start": 9.656,
+          "end": 13.808,
+          "pcmSha256": "8e5e23e0f0b201948d4ee3447feee9db7f3460f1556944e49af7132a570d452f"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 331392,
+          "endSample": 431040,
+          "start": 13.808,
+          "end": 17.96,
+          "pcmSha256": "8e5e23e0f0b201948d4ee3447feee9db7f3460f1556944e49af7132a570d452f"
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 431040,
+          "endSample": 532992,
+          "start": 17.96,
+          "end": 22.208,
+          "pcmSha256": "ac6ef3de052b59d6e8a8da8d943a4e7446da9c003389d0a46468d0d99ca6c806"
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 532992,
+          "endSample": 652992,
+          "start": 22.208,
+          "end": 27.208,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 652992,
+          "endSample": 705984,
+          "start": 27.208,
+          "end": 29.416,
+          "pcmSha256": "6b4e3838521cb32e7a1e15c26662e68ade49fd5a299190d2c594622fe4a11935"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 705984,
+          "endSample": 758976,
+          "start": 29.416,
+          "end": 31.624,
+          "pcmSha256": "6b4e3838521cb32e7a1e15c26662e68ade49fd5a299190d2c594622fe4a11935"
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 758976,
+          "endSample": 809664,
+          "start": 31.624,
+          "end": 33.736,
+          "pcmSha256": "d716169c95cd0292a059f34b5be23998db38b185c4fbcf71cfd97c86d25ef6f0"
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 809664,
+          "endSample": 929664,
+          "start": 33.736,
+          "end": 38.736,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 929664,
+          "endSample": 968256,
+          "start": 38.736,
+          "end": 40.344,
+          "pcmSha256": "a4d3bc0690840f4afff28b4e929bf1ae721f813ae95d65379372ba4c0531dd21"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 968256,
+          "endSample": 1006848,
+          "start": 40.344,
+          "end": 41.952,
+          "pcmSha256": "a4d3bc0690840f4afff28b4e929bf1ae721f813ae95d65379372ba4c0531dd21"
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1006848,
+          "endSample": 1124928,
+          "start": 41.952,
+          "end": 46.872,
+          "pcmSha256": "877f1a278f8c82343511f7eac07d0fb95957c1922756417f6a36e7b444ac70f3"
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1124928,
+          "endSample": 1244928,
+          "start": 46.872,
+          "end": 51.872,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1244928,
+          "endSample": 1339968,
+          "start": 51.872,
+          "end": 55.832,
+          "pcmSha256": "21aadcb47089a411320b20439543c68b2ddd20671753afc6dfe3525703adfaf3"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1339968,
+          "endSample": 1435008,
+          "start": 55.832,
+          "end": 59.792,
+          "pcmSha256": "21aadcb47089a411320b20439543c68b2ddd20671753afc6dfe3525703adfaf3"
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1435008,
+          "endSample": 1521408,
+          "start": 59.792,
+          "end": 63.392,
+          "pcmSha256": "d71d3b220b954335b5c577d98703bf56777862869e0eef41e3db59941a6dd832"
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1521408,
+          "endSample": 1641408,
+          "start": 63.392,
+          "end": 68.392,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1641408,
+          "endSample": 1725504,
+          "start": 68.392,
+          "end": 71.896,
+          "pcmSha256": "382f2896baafa777f7d3c33b8331fc7ad680f0d646b14219db5837e269a12447"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1725504,
+          "endSample": 1809600,
+          "start": 71.896,
+          "end": 75.4,
+          "pcmSha256": "382f2896baafa777f7d3c33b8331fc7ad680f0d646b14219db5837e269a12447"
+        },
+        {
+          "phrase": 6,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1809600,
+          "endSample": 1894848,
+          "start": 75.4,
+          "end": 78.952,
+          "pcmSha256": "81295c36af2f6b63001cd914ffb93a47b7d9a26b40db8fbaaad8149537d3da2f"
+        },
+        {
+          "phrase": 6,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1894848,
+          "endSample": 2014848,
+          "start": 78.952,
+          "end": 83.952,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 2014848,
+          "endSample": 2078784,
+          "start": 83.952,
+          "end": 86.616,
+          "pcmSha256": "a7ed589afbaba3f4c0b899f16f7fb9cdb67919e0fdf316fe4bb33b6d9557453b"
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 2078784,
+          "endSample": 2142720,
+          "start": 86.616,
+          "end": 89.28,
+          "pcmSha256": "a7ed589afbaba3f4c0b899f16f7fb9cdb67919e0fdf316fe4bb33b6d9557453b"
+        }
+      ],
+      "decodedDuration": 89.28,
+      "mp3ContainerDuration": 89.28,
+      "totalSamples": 2142720,
+      "sourcePins": [
+        {
+          "path": "web/public/lessons/etcl-11-plans-and-possibilities/lesson.mp3",
+          "size": 365229,
+          "sha256": "90c529297bfbdcc23bf50cfba95dac7e76efa79b84dd613e1c1ff758ae04f86c"
+        },
+        {
+          "path": "web/public/lessons/etcl-11-plans-and-possibilities/metadata.json",
+          "size": 334,
+          "sha256": "6119273f5473e44ca9d0112fdb9d9c5698789795a50cdb5cd7395effc5af971d"
+        },
+        {
+          "path": "web/src/etcl-lessons-v2.json",
+          "size": 13345,
+          "sha256": "3c48295b5da31f34a99f2ab1c8e87584895e608001a4f410bc9d4d3cc3b5ce5c",
+          "normalization": "lf"
+        },
+        {
+          "path": "web/public/lessons/etcl-11-plans-and-possibilities/japanese-cues-v2/phrase-001.mp3",
+          "size": 74496,
+          "sha256": "f6d00961574a3e6e9bd3a7ac43db83119ba070e9c524ea8917baecfbe1c7e406"
+        },
+        {
+          "path": "web/public/lessons/etcl-11-plans-and-possibilities/japanese-cues-v2/phrase-002.mp3",
+          "size": 67968,
+          "sha256": "9efabd820268c602412336d6abe7d0c126faad5910b4aa4d3829aed95415d322"
+        },
+        {
+          "path": "web/public/lessons/etcl-11-plans-and-possibilities/japanese-cues-v2/phrase-003.mp3",
+          "size": 33792,
+          "sha256": "299deb092fc6ebc7e096ae5876527526b416c10f887f320e29a51e5059a227c0"
+        },
+        {
+          "path": "web/public/lessons/etcl-11-plans-and-possibilities/japanese-cues-v2/phrase-004.mp3",
+          "size": 78720,
+          "sha256": "224582e7856e6c2285a9e540124d50dad3b10d9974d176cc9fbd20d9ad7aba9b"
+        },
+        {
+          "path": "web/public/lessons/etcl-11-plans-and-possibilities/japanese-cues-v2/phrase-005.mp3",
+          "size": 57600,
+          "sha256": "1d75ef00cb4a38bfe473ea2d1275569ec238adcce7a752a90630544c723c655c"
+        },
+        {
+          "path": "web/public/lessons/etcl-11-plans-and-possibilities/japanese-cues-v2/phrase-006.mp3",
+          "size": 56832,
+          "sha256": "9648e55ec6f24e17f166d3f0f8ec02f310a593d6c69aebc2f712b16905df73bf"
+        }
+      ],
+      "output": {
+        "path": "web/public/lessons/etcl-11-plans-and-possibilities/recall-concatenated-v1.mp3",
+        "size": 499941,
+        "sha256": "e721e9866047710a9dfd91253e399b5c30f8c5ba654a92430e6e98cad1bc6e47"
+      },
+      "verification": {
+        "status": "PASS",
+        "sourceUnchanged": true,
+        "japaneseCues": 6,
+        "recallSeconds": 5,
+        "englishRepetitions": 2,
+        "englishSegments": 12,
+        "gapsOrOverlaps": false,
+        "decodedSamplesExact": true,
+        "checks": [
+          {
+            "phrase": 1,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9993016820331725
+          },
+          {
+            "phrase": 1,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9997610202539433
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9997610202694147
+          },
+          {
+            "phrase": 2,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9986203343544011
+          },
+          {
+            "phrase": 2,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9997335906823618
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9997335906674892
+          },
+          {
+            "phrase": 3,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9992172856959382
+          },
+          {
+            "phrase": 3,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.998887981874792
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9988879488732114
+          },
+          {
+            "phrase": 4,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.999159079104105
+          },
+          {
+            "phrase": 4,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9997210473843611
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9997210040342072
+          },
+          {
+            "phrase": 5,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.999053224741191
+          },
+          {
+            "phrase": 5,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9996411759876611
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.999641175939232
+          },
+          {
+            "phrase": 6,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9995722736138173
+          },
+          {
+            "phrase": 6,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 6,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9997802096831478
+          },
+          {
+            "phrase": 6,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9997801956976377
+          }
+        ]
+      },
+      "scope": "Concatenated Lesson Recall v1. Fixed order, English twice, stop at lesson end. No new storage."
+    },
+    {
+      "lessonId": "etcl-12-expressing-opinions",
+      "sampleRate": 24000,
+      "channels": 1,
+      "phrases": [
+        {
+          "phrase": 1,
+          "en": "I think AI is a really useful tool for learning.",
+          "ja": "AIは学習にとても役立つツールだと思います。",
+          "englishSourceStart": 0.0,
+          "englishSourceEnd": 3.216,
+          "originalRepeatCorrelation": 0.9904710358425481
+        },
+        {
+          "phrase": 2,
+          "en": "The main reason is that I can get explanations whenever I need them.",
+          "ja": "一番の理由は、必要なときにいつでも説明を受けられることです。",
+          "englishSourceStart": 16.432,
+          "englishSourceEnd": 21.28,
+          "originalRepeatCorrelation": 0.9896817287121406
+        },
+        {
+          "phrase": 3,
+          "en": "I think relying too much on AI can be a problem.",
+          "ja": "AIに頼りすぎるのは問題になり得ると思います。",
+          "englishSourceStart": 36.128,
+          "englishSourceEnd": 39.344,
+          "originalRepeatCorrelation": 0.991575584549173
+        },
+        {
+          "phrase": 4,
+          "en": "Not necessarily. It depends on how you use it.",
+          "ja": "必ずしもそうではありません。使い方次第です。",
+          "englishSourceStart": 52.56,
+          "englishSourceEnd": 55.512,
+          "originalRepeatCorrelation": 0.9877105975936055
+        },
+        {
+          "phrase": 5,
+          "en": "It's important to think for yourself instead of just accepting what AI tells you.",
+          "ja": "AIが言うことをそのまま受け入れるのではなく、自分で考えることが大切です。",
+          "englishSourceStart": 68.464,
+          "englishSourceEnd": 73.624,
+          "originalRepeatCorrelation": 0.9878852571451175
+        },
+        {
+          "phrase": 6,
+          "en": "AI works best when it supports your learning rather than replacing your own thinking.",
+          "ja": "AIは、自分で考えることの代わりにするのではなく、学習を支えるために使うと最も効果的です。",
+          "englishSourceStart": 88.784,
+          "englishSourceEnd": 93.536,
+          "originalRepeatCorrelation": 0.9918829206709292
+        }
+      ],
+      "timeline": [
+        {
+          "phrase": 1,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 0,
+          "endSample": 110592,
+          "start": 0.0,
+          "end": 4.608,
+          "pcmSha256": "6bb4b2e35d404d724531afde931a080d131f20d492bc72979cdd92b70bd4ff54"
+        },
+        {
+          "phrase": 1,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 110592,
+          "endSample": 230592,
+          "start": 4.608,
+          "end": 9.608,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 230592,
+          "endSample": 307776,
+          "start": 9.608,
+          "end": 12.824,
+          "pcmSha256": "14269ac46aaeae12d8d8528979f909c97014914f64504ec945bb68c6f27f0554"
+        },
+        {
+          "phrase": 1,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 307776,
+          "endSample": 384960,
+          "start": 12.824,
+          "end": 16.04,
+          "pcmSha256": "14269ac46aaeae12d8d8528979f909c97014914f64504ec945bb68c6f27f0554"
+        },
+        {
+          "phrase": 2,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 384960,
+          "endSample": 520896,
+          "start": 16.04,
+          "end": 21.704,
+          "pcmSha256": "b9596b05ebc805e61346a289f8f3a65dd52ec39e9f9470dea078c13b04f67f80"
+        },
+        {
+          "phrase": 2,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 520896,
+          "endSample": 640896,
+          "start": 21.704,
+          "end": 26.704,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 640896,
+          "endSample": 757248,
+          "start": 26.704,
+          "end": 31.552,
+          "pcmSha256": "7ce37a2625b9118b77568d1147eb9e0cdf15717ff85343b4ad2067a40923ce5a"
+        },
+        {
+          "phrase": 2,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 757248,
+          "endSample": 873600,
+          "start": 31.552,
+          "end": 36.4,
+          "pcmSha256": "7ce37a2625b9118b77568d1147eb9e0cdf15717ff85343b4ad2067a40923ce5a"
+        },
+        {
+          "phrase": 3,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 873600,
+          "endSample": 983040,
+          "start": 36.4,
+          "end": 40.96,
+          "pcmSha256": "4dee6ba3bc408666803d9c5476efd40e03bf63111a852420272e33b141a32cb4"
+        },
+        {
+          "phrase": 3,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 983040,
+          "endSample": 1103040,
+          "start": 40.96,
+          "end": 45.96,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1103040,
+          "endSample": 1180224,
+          "start": 45.96,
+          "end": 49.176,
+          "pcmSha256": "9840f03b22bf4e769d4e1af0b4875b599f9a0e3ef74389b0e6347d9c39c4be63"
+        },
+        {
+          "phrase": 3,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1180224,
+          "endSample": 1257408,
+          "start": 49.176,
+          "end": 52.392,
+          "pcmSha256": "9840f03b22bf4e769d4e1af0b4875b599f9a0e3ef74389b0e6347d9c39c4be63"
+        },
+        {
+          "phrase": 4,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1257408,
+          "endSample": 1376640,
+          "start": 52.392,
+          "end": 57.36,
+          "pcmSha256": "35b07b2d20c69447a35be5a5b7d98cd0f78dcc95b6d967f25ecd86bca936f2d8"
+        },
+        {
+          "phrase": 4,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1376640,
+          "endSample": 1496640,
+          "start": 57.36,
+          "end": 62.36,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1496640,
+          "endSample": 1567488,
+          "start": 62.36,
+          "end": 65.312,
+          "pcmSha256": "551a6a926c052f076913e2d53b4e4e017858b2e0ac2d8a500963e8a503fe3eae"
+        },
+        {
+          "phrase": 4,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 1567488,
+          "endSample": 1638336,
+          "start": 65.312,
+          "end": 68.264,
+          "pcmSha256": "551a6a926c052f076913e2d53b4e4e017858b2e0ac2d8a500963e8a503fe3eae"
+        },
+        {
+          "phrase": 5,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 1638336,
+          "endSample": 1794432,
+          "start": 68.264,
+          "end": 74.768,
+          "pcmSha256": "a3cff793b0e2c6c66c7631b784936fdeaa7d551adec5403caa464e0e9cc8491d"
+        },
+        {
+          "phrase": 5,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 1794432,
+          "endSample": 1914432,
+          "start": 74.768,
+          "end": 79.768,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 1914432,
+          "endSample": 2038272,
+          "start": 79.768,
+          "end": 84.928,
+          "pcmSha256": "93e0c515acea0c9b494613c186297911dcdcc6435f1bfa6fc40b8d0881878190"
+        },
+        {
+          "phrase": 5,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 2038272,
+          "endSample": 2162112,
+          "start": 84.928,
+          "end": 90.088,
+          "pcmSha256": "93e0c515acea0c9b494613c186297911dcdcc6435f1bfa6fc40b8d0881878190"
+        },
+        {
+          "phrase": 6,
+          "kind": "japanese",
+          "repetition": null,
+          "startSample": 2162112,
+          "endSample": 2354496,
+          "start": 90.088,
+          "end": 98.104,
+          "pcmSha256": "f2538b6216cc56b68b91351e95f24fb8fde2be15b3f44c066adc134272a00363"
+        },
+        {
+          "phrase": 6,
+          "kind": "recall",
+          "repetition": null,
+          "startSample": 2354496,
+          "endSample": 2474496,
+          "start": 98.104,
+          "end": 103.104,
+          "pcmSha256": "dd046ccaee01de364ee5306b48d1dde4b8d06ba484eb66c2123f92f1211c30ad"
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 1,
+          "startSample": 2474496,
+          "endSample": 2588544,
+          "start": 103.104,
+          "end": 107.856,
+          "pcmSha256": "0a6e6dec1744afeae618873c2c9c59203a6aed36368843ee74d79bae7ec81139"
+        },
+        {
+          "phrase": 6,
+          "kind": "english",
+          "repetition": 2,
+          "startSample": 2588544,
+          "endSample": 2702592,
+          "start": 107.856,
+          "end": 112.608,
+          "pcmSha256": "0a6e6dec1744afeae618873c2c9c59203a6aed36368843ee74d79bae7ec81139"
+        }
+      ],
+      "decodedDuration": 112.608,
+      "mp3ContainerDuration": 112.608,
+      "totalSamples": 2702592,
+      "sourcePins": [
+        {
+          "path": "web/public/lessons/etcl-12-expressing-opinions/lesson.mp3",
+          "size": 413613,
+          "sha256": "6c6e56f9f2f73c1738cf8d801f50abc9fef1e806ec0846f38fd25a1c72445bda"
+        },
+        {
+          "path": "web/public/lessons/etcl-12-expressing-opinions/metadata.json",
+          "size": 334,
+          "sha256": "845c137848b5d22a8b03a1064c6f0e50f49a8479fd7edc3693ecd1e9b7ceb767"
+        },
+        {
+          "path": "web/src/etcl-lessons-v2.json",
+          "size": 13345,
+          "sha256": "3c48295b5da31f34a99f2ab1c8e87584895e608001a4f410bc9d4d3cc3b5ce5c",
+          "normalization": "lf"
+        },
+        {
+          "path": "web/public/lessons/etcl-12-expressing-opinions/japanese-cues-v2/phrase-001.mp3",
+          "size": 73728,
+          "sha256": "1921dff0c5d060d388d1f34a8b4af7663ba6a033bcf7c169c943a55edb5b4c91"
+        },
+        {
+          "path": "web/public/lessons/etcl-12-expressing-opinions/japanese-cues-v2/phrase-002.mp3",
+          "size": 90624,
+          "sha256": "31b22e400fe0ff35adf0d0db899c36d3da4e597c6115551a45f61efd96dad1f5"
+        },
+        {
+          "path": "web/public/lessons/etcl-12-expressing-opinions/japanese-cues-v2/phrase-003.mp3",
+          "size": 72960,
+          "sha256": "f131d3fcaa14c6e6c813065524192c410f7bcc8402842f39cfb5bad898776321"
+        },
+        {
+          "path": "web/public/lessons/etcl-12-expressing-opinions/japanese-cues-v2/phrase-004.mp3",
+          "size": 79488,
+          "sha256": "75006adfbcc335873877c99d7647c9f1c4898907b4f21d5bd89f110b0e52b4ef"
+        },
+        {
+          "path": "web/public/lessons/etcl-12-expressing-opinions/japanese-cues-v2/phrase-005.mp3",
+          "size": 104064,
+          "sha256": "8298dc6119cd46aee9b8ae19fc6e42d499ce5b56af4924bc038d36dfb7e90b3b"
+        },
+        {
+          "path": "web/public/lessons/etcl-12-expressing-opinions/japanese-cues-v2/phrase-006.mp3",
+          "size": 128256,
+          "sha256": "d29030086bb630ffef7cc48460cedebd3ebb5e79fa33754ddb3b6447fd76994c"
+        }
+      ],
+      "output": {
+        "path": "web/public/lessons/etcl-12-expressing-opinions/recall-concatenated-v1.mp3",
+        "size": 668997,
+        "sha256": "4ce6c64ebf097ae7863a4cf1c8321a9ae2b4b079afa63161c5c8fe43e780f38a"
+      },
+      "verification": {
+        "status": "PASS",
+        "sourceUnchanged": true,
+        "japaneseCues": 6,
+        "recallSeconds": 5,
+        "englishRepetitions": 2,
+        "englishSegments": 12,
+        "gapsOrOverlaps": false,
+        "decodedSamplesExact": true,
+        "checks": [
+          {
+            "phrase": 1,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9989620421803753
+          },
+          {
+            "phrase": 1,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9997898804112134
+          },
+          {
+            "phrase": 1,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9997898804019849
+          },
+          {
+            "phrase": 2,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9994477885327092
+          },
+          {
+            "phrase": 2,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9996216731775235
+          },
+          {
+            "phrase": 2,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9996216732732989
+          },
+          {
+            "phrase": 3,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.999476507898194
+          },
+          {
+            "phrase": 3,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9997862607241539
+          },
+          {
+            "phrase": 3,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9997861578324623
+          },
+          {
+            "phrase": 4,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9987235141029418
+          },
+          {
+            "phrase": 4,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.999693566332388
+          },
+          {
+            "phrase": 4,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9996935649509755
+          },
+          {
+            "phrase": 5,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9995214716536579
+          },
+          {
+            "phrase": 5,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9995801153792403
+          },
+          {
+            "phrase": 5,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9995801113523343
+          },
+          {
+            "phrase": 6,
+            "kind": "japanese",
+            "repetition": null,
+            "roundTripCorrelation": 0.9993745079374732
+          },
+          {
+            "phrase": 6,
+            "kind": "recall",
+            "seconds": 5,
+            "interiorRmsDbfs": -270.3089986991943
+          },
+          {
+            "phrase": 6,
+            "kind": "english",
+            "repetition": 1,
+            "roundTripCorrelation": 0.9998679655330873
+          },
+          {
+            "phrase": 6,
+            "kind": "english",
+            "repetition": 2,
+            "roundTripCorrelation": 0.9998679544793037
+          }
+        ]
+      },
+      "scope": "Concatenated Lesson Recall v1. Fixed order, English twice, stop at lesson end. No new storage."
+    }
+  ]
+}
